@@ -1,12 +1,12 @@
 # Gatsby-portfolio
 
-Quick personal website to present some notes and myself to the world.
+Quick personal website to present some notes and myself to the world :earth_americas:.
 
 ![](https://media1.tenor.com/images/6eaab0d39bd1afa7be8985eb7ac2d28b/tenor.gif?itemid=4108687)
 
- :construction: The site is still under construction :construction:
+ :hammer: :construction: The site is still under construction :construction: :hammer:
 
-## Tech-stack
+## Tech Stack 
 
 Frontend development with [GatsbyJs](https://www.gatsbyjs.org/), a [React](https://reactjs.org/)-based, GraphQL powered, static site generator.
 
