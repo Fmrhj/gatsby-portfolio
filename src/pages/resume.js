@@ -4,13 +4,11 @@ import '../../styles/styles.scss'
 // import components
 
 import Header from "../components/header"
-import Banner from "../components/banner"
 
-const IndexPage = () => (
+const ResumePage = () => (
   <div>
-    <Header />
-    <Banner />
+    <Header />    
   </div>
 )
 
-export default IndexPage
+export default ResumePage
