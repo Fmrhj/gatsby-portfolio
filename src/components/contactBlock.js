@@ -38,14 +38,14 @@ const ContactBlock = () => (
     <div className="container">
         <div className="contactList">
             <table>
-                <tr><th><GitHubLogo>s</GitHubLogo></th></tr>
-                <tr><th><LinkedinLogo></LinkedinLogo> </th></tr>
+                <tr><th><GitHubLogo></GitHubLogo></th></tr>
+                <tr><th><LinkedinLogo></LinkedinLogo></th></tr>
                 <tr><th><EmailLogo></EmailLogo></th></tr>
             </table>
             <div className="contact-text">
                 <h3>Contact me!</h3>
                 <p>Just drop me a message or send me a PM.
-                Happy to connect in social media.
+                I am always happy to connect in social media and to hear from you.
                 </p>
             </div>
         </div>

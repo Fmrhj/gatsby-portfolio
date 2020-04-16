@@ -13,6 +13,14 @@ $purpleThird: #624185;
 $orange: #ffa345;
 $secondOrange: #f2ad73;
 
+//color-combo
+$comboPurple: #660F57;	
+$comboPurpleLight: #663366;
+$comboBlue: #003366;
+$comboWhite: #E7EBF0;
+$comboGrey: #B1BDCD;
+$comboDarkGrey: #5B7290;
+
 //Define body
 html,
 body {
@@ -131,7 +139,7 @@ header {
         padding: 0 50px;
         h3 {
             width: 1440px;
-            color: $orange;
+            color: $comboBlue;
         }
         p {
             width: 1000px;
@@ -165,7 +173,7 @@ header {
         padding: 50px 0;
         h3 {
             width: 1440px;
-            color: $orange;
+            color: $comboBlue;
         }
         p {
             width: 1000px;
