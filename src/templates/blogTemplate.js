@@ -6,7 +6,7 @@ import '../../styles/styles.scss';
 
 // import components 
 import Header from '../components/header'
-import SEO from '../components/SEO'
+import SEO from '../components/seo'
 
 // main template
 export default function Template({
@@ -15,7 +15,12 @@ export default function Template({
   const { markdownRemark: post } = data // data.markdownRemark holds your post data
   return (
     <div className="wrapper">
-      <SEO />
+      <SEO
+          title={post.frontmatter.title}
+          description={post.frontmatter.description || post.excerpt}
+          //image={image}
+          pathname={this.props.location.pathname}
+        />
       <Header />
       <div className="container">
         <div className="blog-post-container">
