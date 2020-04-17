@@ -48,7 +48,7 @@ Thesis: "Predicting bankrutpy of Chilean enterprises with artificial neural netw
 - Airline Group of the International Federation of Operational Research Societies (**<span class="colored-text_1">AGIFORS 2019</span>**) - Panama 2019  
 Revenue Management SG [yearly meeting](https://agifors.org/rm-2019)
 
-- Speaker at the International Conference on Operations Research (**<span class="colored-text_1">OR 2017</span>)**- Berlin 2017 [Presentation](https://www.dropbox.com/s/h7vtkc215zh3r43/OR_2017.pdf?dl=0) | [Program](https://www.euro-online.org/conf/admin/tmp/program-gor2017.pdf)
+- Speaker at the International Conference on Operations Research (**<span class="colored-text_1">OR 2017</span>)** - Berlin 2017 [Presentation](https://www.dropbox.com/s/h7vtkc215zh3r43/OR_2017.pdf?dl=0) | [Program](https://www.euro-online.org/conf/admin/tmp/program-gor2017.pdf)
 
 
 ### Certifications 
@@ -61,16 +61,16 @@ Revenue Management SG [yearly meeting](https://agifors.org/rm-2019)
 
 ### Frameworks & Tools 
 
-|  |         | 
-|------------|---------------|
-|**<span class="colored-text_1">Cloud</span>**     | Google Cloud Platform, AWS, Heroku, DigitalOcean, Netlify|
-|**<span class="colored-text_1">DevOps</span>**      | CI/CD, Gerrit, Jenkins, Traivs, Build & Test automation    |
-|**<span class="colored-text_1">Container</span>**  | Docker, Docker Hub, Kubernetes, Google Container Registry|
-|**<span class="colored-text_1">Databases</span>** | MySQL, PosgreSQL, Google Google BigQuery, Oracle DB, MongoDB, TeradataSQL, AWS RDS|
-|**<span class="colored-text_1">ETL/Reporting</span>** | Apache Kafka, Hive, Apache Spark, Google Dataflow, Airflow, R Shiny Apps, Dash, Tableau, Jupyter Notebooks|
-|**<span class="colored-text_1">Machine Learning</span>** | TensorFlow, Keras, H20, scikit-learn, R caret|
-|**<span class="colored-text_1">Programming</span>**  | Python, R, Bash, Groovy | 
-| **<span class="colored-text_1">Other tools</span>** | Jira, Confluence, Agile Development | 
+|                                                          |                                                                                                            |
+|----------------------------------------------------------|------------------------------------------------------------------------------------------------------------|
+| **<span class="colored-text_1">Cloud</span>**            | Google Cloud Platform, AWS, Heroku, DigitalOcean, Netlify                                                  |
+| **<span class="colored-text_1">DevOps</span>**           | CI/CD, Gerrit, Jenkins, Traivs, Build & Test automation                                                    |
+| **<span class="colored-text_1">Container</span>**        | Docker, Docker Hub, Kubernetes, Google Container Registry                                                  |
+| **<span class="colored-text_1">Databases</span>**        | MySQL, PosgreSQL, Google Google BigQuery, Oracle DB, MongoDB, TeradataSQL, AWS RDS                         |
+| **<span class="colored-text_1">ETL/Reporting</span>**    | Apache Kafka, Hive, Apache Spark, Google Dataflow, Airflow, R Shiny Apps, Dash, Tableau, Jupyter Notebooks |
+| **<span class="colored-text_1">Machine Learning</span>** | TensorFlow, Keras, H20, scikit-learn, R caret                                                              |
+| **<span class="colored-text_1">Programming</span>**      | Python, R, Bash, Groovy                                                                                    |
+| **<span class="colored-text_1">Other tools</span>**      | Jira, Confluence, Agile Development                                                                        |
 
 
 ### Personal Projects 
