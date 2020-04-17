@@ -4,7 +4,8 @@ import React from "react"
 import '../../styles/styles.scss'
 
 const activeStyle = {
-  color: "#660f57"
+  color: "#660f57",
+  fontWeight: 'bold'
 }
 
 // The header has container with a navigation bar

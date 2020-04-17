@@ -43,7 +43,7 @@ const ContactBlock = () => (
                 <tr><th><EmailLogo></EmailLogo></th></tr>
             </table>
             <div className="contact-text">
-                <h3>Contact me!</h3>
+                <h2>Contact me!</h2>
                 <p>Just drop me a message or send me a PM.
                 I am always happy to connect in social media and to hear from you.
                 <br></br>
