@@ -107,6 +107,15 @@ header {
             }
         }
     }
+    @media (max-width: 360px) {
+        width: 250px;
+        min-width: 250px;
+    }
+    /* #### Mobile Phones Portrait or Landscape #### */
+    @media screen and (max-device-width: 250px){
+        width: 200px;
+        min-width: 250px;
+  }
 }
 
 //Banner
@@ -115,9 +124,9 @@ header {
     align-items: center;
     background-color: $white;
     position: relative;
-    height: 100vh;
+    height: 50vh;
     .row {
-        position: relative;
+        position: absolute;
         .main-text {
             font-size: 2rem;
             text-transform: uppercase;
@@ -139,12 +148,15 @@ header {
 
         }
         .main-image {
-            width: 200px;
-            height: 100px;
-            position: relative;
+            width: 1440px;
+            position: absolute;
+            @media (max-width: 1920px) {
+                width: 1280px;
+                min-width: 1280px;
+            }
             @media (max-width: 1440px) {
-                width: 768px;
-                min-width: 768px;
+                width: 1280px;
+                min-width: 1280px;
             }
             @media (max-width: 1280px) {
                 width: 480px;
@@ -170,12 +182,11 @@ header {
 .contactList {
     background: $white;
     padding: 100px 0px;
-    align-items: left;
+    align-items: center;
     background-color: $white;
     position: relative;
     // use flex boxes
     display: flex;
-    padding-right: 20px;
     .contact-text {
         padding: 0 50px;
         h2 {

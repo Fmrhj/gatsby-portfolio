@@ -36,19 +36,19 @@ Database management and QA software testing.
 - Managed internal databases and BI tools 
 
 ### Education 
--  **Industrial Engineering (M.Sc.)** - [Technical University of Berlin](https://www.tu-berlin.de/menue/home/)  
+-  **<span class="colored-text_1">Industrial Engineering (M.Sc.)</span>** - [Technical University of Berlin](https://www.tu-berlin.de/menue/home/)  
 Master thesis: "A stochastic dynamic pricing model"
 
--  **Industrial Engineering (Dipl.)** - 
+-  **<span class="colored-text_1">Industrial Engineering (Dipl.)</span>** - 
 [Universidad Técnica Federico Santa María](https://www.usm.cl/)  
 Thesis: "Predicting bankrutpy of Chilean enterprises with artificial neural networks"
 
 ### Talks and Conferences 
 
-- Airline Group of the International Federation of Operational Research Societies (AGIFORS) - Panama 2019  
+- Airline Group of the International Federation of Operational Research Societies (**<span class="colored-text_1">AGIFORS 2019</span>**) - Panama 2019  
 Revenue Management SG [yearly meeting](https://agifors.org/rm-2019)
 
-- Speaker at the International Conference on Operations Research - Berlin 2017 [Presentation](https://www.dropbox.com/s/h7vtkc215zh3r43/OR_2017.pdf?dl=0) | [Program](https://www.euro-online.org/conf/admin/tmp/program-gor2017.pdf)
+- Speaker at the International Conference on Operations Research (**<span class="colored-text_1">OR 2017</span>)**- Berlin 2017 [Presentation](https://www.dropbox.com/s/h7vtkc215zh3r43/OR_2017.pdf?dl=0) | [Program](https://www.euro-online.org/conf/admin/tmp/program-gor2017.pdf)
 
 
 ### Certifications 
@@ -75,4 +75,4 @@ Revenue Management SG [yearly meeting](https://agifors.org/rm-2019)
 
 ### Personal Projects 
 
-- [chilean-newsreader](https://github.com/Fmrhj/chile-newsreader): Scrapping newspapers after the [Chilean social outburst](https://www.google.com/search?q=Chilean+social+outburst) of November 2019. Integrations of daily jobs with Jenkins, scrapping with Python. 
+- **[chilean-newsreader](https://github.com/Fmrhj/chile-newsreader)**: Scrapping newspapers after the [Chilean social outburst](https://www.google.com/search?q=Chilean+social+outburst) of November 2019. Integrations of daily jobs with Jenkins, scrapping with Python. 
