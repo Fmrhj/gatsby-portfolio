@@ -8,7 +8,7 @@ import Banner from "../components/banner"
 
 const IndexPage = () => (
   <div>
-    <MetaData/>
+    <MetaData />
     <Header />
     <Banner />
   </div>

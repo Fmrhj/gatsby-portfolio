@@ -32,6 +32,7 @@ body {
     width: 1440px;
     min-width: 1440px;
     //auto margins
+    padding-left: 10px;
     margin: 0 auto;
     @media (max-width: 1440px) {
         width: 1280px;
@@ -62,7 +63,7 @@ header {
     width: 100%;
     position: absolute;
     top: 0px;
-    z-index: 1000;
+    z-index: 10;
     .inner-header {
         display: flex;
         align-items: center;
@@ -159,7 +160,7 @@ header {
     padding: 100px 0px;
     align-items: left;
     background-color: $white;
-    position: absolute;
+    position: relative;
     // use flex boxes
     display: flex;
     padding-right: 20px;
@@ -169,6 +170,12 @@ header {
             color: $comboPurple;
         }
         p {
+        }
+        a:link {
+            color: $black;
+        }
+        a:visited {
+            color: $black;
         }
     }
 }
@@ -185,25 +192,6 @@ header {
 .social-logo:hover {
     color: $orange;
     text-decoration: none;
-}
-
-// About block
-.about-content {
-    padding: 100px 0px;
-    display: flex;
-    align-items: left;
-    background-color: $white;
-    position: absolute;
-    .about-text {
-        padding: 50px 0;
-        h3 {
-            width: 1440px;
-            color: $comboPurple;
-        }
-        p {
-            width: 500px;
-        }
-    }
 }
 
 a:hover {
@@ -237,6 +225,12 @@ a:hover {
             }
             a:visited {
                 color: $black;
+            }
+            .colored-text_1 {
+                color: $comboBlue
+            }
+            .colored-text_2 {
+                color: $orange
             }
         }
     }

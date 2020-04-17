@@ -4,7 +4,7 @@ import React from "react"
 import '../../styles/styles.scss'
 
 const activeStyle = {
-  color: "purple"
+  color: "#660f57"
 }
 
 // The header has container with a navigation bar

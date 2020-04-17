@@ -63,14 +63,14 @@ Revenue Management SG [yearly meeting](https://agifors.org/rm-2019)
 
 |  |         | 
 |------------|---------------|
-|**Cloud**       | Google Cloud Platform, AWS, Heroku, DigitalOcean, Netlify|
-|**DevOps**      | CI/CD, Gerrit, Jenkins, Traivs, Build & Test automation    |
-|**Container**  | Docker, Docker Hub, Kubernetes, Google Container Registry|
-|**Databases** | MySQL, PosgreSQL, Google Google BigQuery, Oracle DB, MongoDB, TeradataSQL, AWS RDS|
-|**ETL/Reporting** | Apache Kafka, Hive, Apache Spark, Google Dataflow, Airflow, R Shiny Apps, Dash, Tableau, Jupyter Notebooks|
-|**Machine Learning** | TensorFlow, Keras, H20, scikit-learn, R caret|
-|**Programming**  | Python, R, Bash, Groovy | 
-| **Other Tools** | Jira, Confluence, Agile Development | 
+|**<span class="colored-text_1">Cloud</span>**     | Google Cloud Platform, AWS, Heroku, DigitalOcean, Netlify|
+|**<span class="colored-text_1">DevOps</span>**      | CI/CD, Gerrit, Jenkins, Traivs, Build & Test automation    |
+|**<span class="colored-text_1">Container</span>**  | Docker, Docker Hub, Kubernetes, Google Container Registry|
+|**<span class="colored-text_1">Databases</span>** | MySQL, PosgreSQL, Google Google BigQuery, Oracle DB, MongoDB, TeradataSQL, AWS RDS|
+|**<span class="colored-text_1">ETL/Reporting</span>** | Apache Kafka, Hive, Apache Spark, Google Dataflow, Airflow, R Shiny Apps, Dash, Tableau, Jupyter Notebooks|
+|**<span class="colored-text_1">Machine Learning</span>** | TensorFlow, Keras, H20, scikit-learn, R caret|
+|**<span class="colored-text_1">Programming</span>**  | Python, R, Bash, Groovy | 
+| **<span class="colored-text_1">Other tools</span>** | Jira, Confluence, Agile Development | 
 
 
 ### Personal Projects 
