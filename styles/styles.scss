@@ -55,6 +55,11 @@ body {
         width: 300px;
         min-width: 300px;
     }
+    // thin Mobile screens
+    @media (max-width: 360px) {
+        width: 296px;
+        min-width: 296px;
+    }
 }
 
 //Header
