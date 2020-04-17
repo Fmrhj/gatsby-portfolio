@@ -33,6 +33,10 @@ body {
     min-width: 1440px;
     //auto margins
     margin: 0 auto;
+    @media (max-width: 1440px) {
+        width: 1280px;
+        min-width: 1280px    ;
+    }
     @media (max-width: 1280px) {
         width: 976px;
         min-width: 976px;
@@ -54,11 +58,11 @@ body {
 
 //Header
 header {
-    height: 80px;
+    height: 100px;
     width: 100%;
     position: absolute;
     top: 0px;
-    z-index: 10;
+    z-index: 1000;
     .inner-header {
         display: flex;
         align-items: center;
@@ -83,8 +87,9 @@ header {
                 text-transform: uppercase;
                 font-size: 0.75rem;
                 color: $black;
+                // add some margin to last element of the nav bar
                 &:last-child {
-                    margin-right: 0px;
+                    margin-right: 20px;
                 }
             }
         }
@@ -118,13 +123,31 @@ header {
                 font-size: 1.5rem;
                 letter-spacing: 36px;
             }
+
         }
         .main-image {
             width: 200px;
             height: 100px;
-            position: absolute;
+            position: relative;
             @media (max-width: 1440px) {
-                width: 436px;
+                width: 768px;
+                min-width: 768px;
+            }
+            @media (max-width: 1280px) {
+                width: 480px;
+                min-width: 480px;
+            }
+            @media (max-width: 976px) {
+                width: 768px;
+                min-width: 768px;
+            }
+            @media (max-width: 768px) {
+                width: 468px;
+                min-width: 468px;
+            }
+            @media (max-width: 468px) {
+                width: 360px;
+                min-width: 360px;
             }
         }
     }
@@ -142,7 +165,6 @@ header {
     padding-right: 20px;
     .contact-text {
         padding: 0 50px;
-        max-width: 800px;
         h3 {
             color: $comboPurple;
         }
