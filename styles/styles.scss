@@ -50,23 +50,10 @@ body {
         width: 468px;
         min-width: 468px;
     }
-
     @media (max-width: 468px) {
-        width: 300px;
-        min-width: 300px;
+        width: 380px;
+        min-width: 380px;
     }
-    // thin Mobile screens
-    @media (max-width: 250px) {
-        width: 150px;
-        min-width: 150px;
-        padding: 10%;
-        padding-right: 10px;
-
-    }
-    /* #### Mobile Phones Portrait or Landscape #### */
-    @media screen and (max-device-width: 640px){
-        width: 200px
-  }
 }
 
 //Header
@@ -75,12 +62,13 @@ header {
     width: 100%;
     position: absolute;
     top: 0px;
-    z-index: 10;
+    left: 0px;
+    z-index: 40;
     .inner-header {
         display: flex;
         align-items: center;
         justify-content: space-between;
-        height: 80px;
+        height: 120px;
         .logo {
             a {
                 font-weight: 700;
@@ -113,9 +101,13 @@ header {
     }
     /* #### Mobile Phones Portrait or Landscape #### */
     @media screen and (max-device-width: 250px){
-        width: 200px;
+        width: 250px;
         min-width: 250px;
-  }
+    }
+    @media (max-width: 468px) {
+        width: 468px;
+        min-width: 468px;
+    }
 }
 
 //Banner
