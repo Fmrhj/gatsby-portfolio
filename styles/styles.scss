@@ -36,7 +36,7 @@ body {
     margin: 0 auto;
     @media (max-width: 1440px) {
         width: 1280px;
-        min-width: 1280px    ;
+        min-width: 1280px;
     }
     @media (max-width: 1280px) {
         width: 976px;
@@ -53,6 +53,10 @@ body {
     @media (max-width: 468px) {
         width: 380px;
         min-width: 380px;
+    }
+    @media (max-width: 360px) {
+        width: 300px;
+        min-width: 300px;
     }
 }
 
@@ -100,13 +104,39 @@ header {
         min-width: 250px;
     }
     /* #### Mobile Phones Portrait or Landscape #### */
-    @media screen and (max-device-width: 250px){
+    @media screen and (max-device-width: 250px) {
         width: 250px;
         min-width: 250px;
     }
     @media (max-width: 468px) {
         width: 468px;
         min-width: 468px;
+    }
+    @media (max-width: 360px) {
+        width: 150px;
+        min-width: 150px;
+        .navigation {
+            nav{
+                transition: 0.3s;
+                a{
+                    float:none;
+                    width: auto;
+                    display:block;
+                    padding:3px;
+                }
+            }
+        }
+        .inner-header {
+            display: flex;
+            align-items: left;
+            justify-content: space-between;
+            padding-left: 25px;
+            .logo {
+                a {
+
+                }
+            }
+        }
     }
 }
 
@@ -137,7 +167,6 @@ header {
                 font-size: 1.5rem;
                 letter-spacing: 36px;
             }
-
         }
         .main-image {
             width: 1440px;
@@ -165,6 +194,10 @@ header {
             @media (max-width: 468px) {
                 width: 360px;
                 min-width: 360px;
+            }
+            @media (max-width: 360px) {
+                width: 300px;
+                min-width: 300px;
             }
         }
     }
@@ -229,10 +262,10 @@ a:hover {
             h4 {
                 color: $comboBlue;
                 a:link {
-                    color: $comboBlue
+                    color: $comboBlue;
                 }
                 a:visited {
-                    color: $comboBlue
+                    color: $comboBlue;
                 }
             }
             a:link {
@@ -242,10 +275,10 @@ a:hover {
                 color: $black;
             }
             .colored-text_1 {
-                color: $comboBlue
+                color: $comboBlue;
             }
             .colored-text_2 {
-                color: $orange
+                color: $orange;
             }
         }
     }
