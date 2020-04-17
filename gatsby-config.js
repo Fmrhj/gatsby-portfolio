@@ -1,8 +1,10 @@
 module.exports = {
   siteMetadata: {
     title: `Fernando Zepeda`,
-    description: `Personal website`,
-    author: `Fernando Zepeda`
+    description: `Data Scientist and Cloud Engineer. Curious and relentless learner`,
+    author: `Fernando Zepeda`,
+    siteUrl: `https://www.fernandozepeda.io`,
+    baseUrl: ''
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
