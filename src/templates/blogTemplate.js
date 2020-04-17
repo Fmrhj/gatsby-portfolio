@@ -6,6 +6,7 @@ import '../../styles/styles.scss';
 
 // import components 
 import Header from '../components/header'
+import SEO from '../components/SEO'
 
 // main template
 export default function Template({
@@ -14,6 +15,7 @@ export default function Template({
   const { markdownRemark: post } = data // data.markdownRemark holds your post data
   return (
     <div className="wrapper">
+      <SEO />
       <Header />
       <div className="container">
         <div className="blog-post-container">
