@@ -51,12 +51,12 @@ body {
         min-width: 468px;
     }
     @media (max-width: 468px) {
-        width: 380px;
-        min-width: 380px;
+        width: 350px;
+        min-width: 350px;
     }
     @media (max-width: 360px) {
-        width: 300px;
-        min-width: 300px;
+        width: 320px;
+        min-width: 320px;
     }
 }
 
@@ -108,11 +108,11 @@ header {
         width: 250px;
         min-width: 250px;
     }
-    @media (max-width: 468px) {
+    @media (max-width: 570px) {
         width: 468px;
         min-width: 468px;
     }
-    @media (max-width: 360px) {
+    @media (max-width: 460px) {
         width: 150px;
         min-width: 150px;
         .navigation {
@@ -130,7 +130,7 @@ header {
             display: flex;
             align-items: left;
             justify-content: space-between;
-            padding-left: 25px;
+            padding-left: 9px;
             .logo {
                 a {
 
@@ -191,9 +191,13 @@ header {
                 width: 468px;
                 min-width: 468px;
             }
-            @media (max-width: 468px) {
+            @media (max-width: 570) {
                 width: 360px;
                 min-width: 360px;
+            }
+            @media (max-width: 460px) {
+                width: 340px;
+                min-width: 340px;
             }
             @media (max-width: 360px) {
                 width: 300px;
