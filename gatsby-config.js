@@ -3,10 +3,21 @@ module.exports = {
     title: `Fernando Zepeda`,
     description: `Data Scientist and Cloud Engineer. Curious and relentless learner`,
     author: `Fernando Zepeda`,
-    siteUrl: `https://www.fernandozepeda.io`,
-    baseUrl: ''
+    siteUrl: `https://www.fernandozepeda.io/`,
   },
   plugins: [
+    {
+      resolve: 'gatsby-plugin-next-seo',
+      options: {
+        openGraph: {
+          type: 'website',
+          locale: 'en_US',
+          url: 'https://www.fernandozepeda.io/',
+          site_name: 'Fernando Zepeda',
+          description: 'Data Scientist and Cloud Engineer. Curious and relentless learner.',
+        },
+      },
+    },
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,
