@@ -45,6 +45,11 @@ body {
         width: 468px;
         min-width: 468px;
     }
+
+    @media (max-width: 468px) {
+        width: 360px;
+        min-width: 360px;
+    }
 }
 
 //Header
@@ -142,18 +147,6 @@ header {
             color: $comboPurple;
         }
         p {
-        }
-        @media (max-width: 1280px) {
-            width: 976px;
-            min-width: 976px;
-        }
-        @media (max-width: 976px) {
-            width: 768px;
-            min-width: 768px;
-        }
-        @media (max-width: 768px) {
-            width: 468px;
-            min-width: 468px;
         }
     }
 }

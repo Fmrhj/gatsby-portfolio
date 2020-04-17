@@ -4,7 +4,7 @@ date: "2020-04-17"
 title: "Resume"
 ---
 
-Data Scientist and Cloud engineer. Curious and motivated learner.
+Data Scientist and Cloud Engineer. Curious and motivated learner.
 
 [`fernando.zepeda@pm.me`](fernando.zepeda@pm.me)
 
