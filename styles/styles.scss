@@ -6,7 +6,6 @@ $font: "Helvetica Neue", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, 
 $white: #fff;
 $black: #000;
 $off-white: #f2f4f5;
-$blue: blue;
 $purple: #3b2747;
 $purpleSecond: #472151;
 $purpleThird: #624185;
@@ -14,12 +13,12 @@ $orange: #ffa345;
 $secondOrange: #f2ad73;
 
 //color-combo 210
-$comboPurple: #660F57;	
+$comboPurple: #660f57;
 $comboPurpleLight: #663366;
 $comboBlue: #003366;
-$comboWhite: #E7EBF0;
-$comboGrey: #B1BDCD;
-$comboDarkGrey: #5B7290;
+$comboWhite: #e7ebf0;
+$comboGrey: #b1bdcd;
+$comboDarkGrey: #5b7290;
 
 //Define body
 html,
@@ -135,15 +134,26 @@ header {
     position: absolute;
     // use flex boxes
     display: flex;
+    padding-right: 20px;
     .contact-text {
         padding: 0 50px;
+        max-width: 800px;
         h3 {
-            width: 1440px;
-            color: $comboBlue;
+            color: $comboPurple;
         }
         p {
-            width: 1000px;
-            height: 100px;
+        }
+        @media (max-width: 1280px) {
+            width: 976px;
+            min-width: 976px;
+        }
+        @media (max-width: 976px) {
+            width: 768px;
+            min-width: 768px;
+        }
+        @media (max-width: 768px) {
+            width: 468px;
+            min-width: 468px;
         }
     }
 }
@@ -164,21 +174,55 @@ header {
 
 // About block
 .about-content {
-    padding: 100px 25px;
+    padding: 100px 0px;
     display: flex;
     align-items: left;
     background-color: $white;
     position: absolute;
-    .about-text{
+    .about-text {
         padding: 50px 0;
         h3 {
             width: 1440px;
-            color: $comboBlue;
+            color: $comboPurple;
         }
         p {
-            width: 1000px;
-            height: 100px;
+            width: 500px;
         }
     }
-        
+}
+
+a:hover {
+    background-color: $off-white;
+}
+
+//blog-container
+.blog-post-container {
+    padding: 100px 0;
+    display: flex;
+    .blog-post {
+        h2 {
+            color: $comboPurple;
+        }
+        .blog-post-content {
+            color: $black;
+            h3 {
+                color: $orange;
+            }
+            h4 {
+                color: $comboBlue;
+                a:link {
+                    color: $comboBlue
+                }
+                a:visited {
+                    color: $comboBlue
+                }
+            }
+            a:link {
+                color: $black;
+            }
+            a:visited {
+                color: $black;
+            }
+        }
+    }
 }

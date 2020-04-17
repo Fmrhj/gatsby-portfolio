@@ -46,6 +46,9 @@ const ContactBlock = () => (
                 <h3>Contact me!</h3>
                 <p>Just drop me a message or send me a PM.
                 I am always happy to connect in social media and to hear from you.
+                <br></br>
+                <br></br>
+                <a href="mailto:fernando.zepeda@pm.me">Email me!</a>
                 </p>
             </div>
         </div>
