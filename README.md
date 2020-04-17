@@ -1,4 +1,4 @@
-# Gatsby-portfolio
+# Gatsby-portfolio [![Netlify Status](https://api.netlify.com/api/v1/badges/72f94f3e-cedc-42f9-a2ad-c37a91e78c70/deploy-status)](https://app.netlify.com/sites/reverent-turing-e9ef76/deploys)
 
 Quick personal website to present some notes and myself to the world :earth_americas:.
 
