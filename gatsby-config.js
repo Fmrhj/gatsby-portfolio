@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Fernando Zepeda`,
-    description: `Data Scientist and Cloud Engineer. Curious and relentless learner`,
+    description: `Data Scientist and Cloud Engineer. Curious about AI and rapid deployment of applications`,
     author: `Fernando Zepeda`,
     siteUrl: `https://www.fernandozepeda.io/`,
   },
@@ -14,11 +14,10 @@ module.exports = {
           locale: 'en_US',
           url: 'https://www.fernandozepeda.io/',
           site_name: 'Fernando Zepeda',
-          description: 'Data Scientist and Cloud Engineer. Curious and relentless learner.',
+          description: 'Data Scientist and Cloud Engineer. Curious about AI and rapid deployment of applications',
         },
       },
     },
-    `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -46,11 +45,12 @@ module.exports = {
       options: {
         "name": "Fernando Zepeda",
         "short_name": "Fernando Zepeda",
+        "description": `Data Scientist and Cloud Engineer. Curious about AI and rapid deployment of applications`,
         "theme_color": "#101823",
         "background_color": "#101823",
         "display": "standalone",
         "orientation": "portrait",
-        "start_url": "./about",
+        "start_url": "/",
         "icon": "static/favicons/favicon-32x32.png",
         "icons": [
           {
@@ -82,6 +82,12 @@ module.exports = {
         "splash_pages": null
       },
     },
+    {
+      resolve: `gatsby-plugin-react-helmet-canonical-urls`,
+      options: {
+        siteUrl: `https://www.fernandozepeda.io`,
+      },
+    },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     `gatsby-plugin-offline`,
@@ -89,6 +95,7 @@ module.exports = {
     'gatsby-plugin-sass',
     'gatsby-transformer-remark',
     'gatsby-plugin-netlify',
+    `gatsby-plugin-react-helmet`,
     // alow gatsby-emoticons
     {
       resolve: 'gatsby-remark-emojis',
