@@ -116,13 +116,13 @@ header {
         width: 150px;
         min-width: 150px;
         .navigation {
-            nav{
+            nav {
                 transition: 0.3s;
-                a{
-                    float:none;
+                a {
+                    float: none;
                     width: auto;
-                    display:block;
-                    padding:3px;
+                    display: block;
+                    padding: 3px;
                 }
             }
         }
@@ -133,7 +133,6 @@ header {
             padding-left: 9px;
             .logo {
                 a {
-
                 }
             }
         }
@@ -171,10 +170,6 @@ header {
         .main-image {
             width: 1440px;
             position: absolute;
-            @media (max-width: 1920px) {
-                width: 1280px;
-                min-width: 1280px;
-            }
             @media (max-width: 1440px) {
                 width: 1280px;
                 min-width: 1280px;
@@ -285,5 +280,19 @@ a:hover {
                 color: $orange;
             }
         }
+    }
+}
+
+// 404
+.not-found-block {
+    padding: 15%;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    display: block;
+    h1 {
+        color: $comboPurple;
+    }
+    p {
     }
 }

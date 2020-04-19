@@ -10,8 +10,10 @@ module.exports = {
       resolve: 'gatsby-plugin-next-seo',
       options: {
         openGraph: {
+          // og:<tag>
           type: 'website',
           locale: 'en_US',
+          title: 'Fernando Zepeda',
           url: 'https://www.fernandozepeda.io/',
           site_name: 'Fernando Zepeda',
           description: 'Data Scientist and Cloud Engineer. Curious about AI and rapid deployment of applications',
