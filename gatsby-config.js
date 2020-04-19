@@ -1,10 +1,4 @@
 module.exports = {
-  siteMetadata: {
-    title: `Fernando Zepeda`,
-    description: `Data Scientist and Cloud Engineer. Curious about AI and rapid deployment of applications`,
-    author: `Fernando Zepeda`,
-    siteUrl: `https://www.fernandozepeda.io/`,
-  },
   plugins: [
     {
       resolve: 'gatsby-plugin-next-seo',
@@ -96,39 +90,50 @@ module.exports = {
         siteUrl: `https://www.fernandozepeda.io`,
       },
     },
+    // add further plugins 
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     `gatsby-plugin-offline`,
-    // add further plugins 
     'gatsby-plugin-sass',
-    'gatsby-transformer-remark',
-    'gatsby-plugin-netlify',
-    `gatsby-plugin-react-helmet`,
-    // alow gatsby-emoticons
     {
-      resolve: 'gatsby-remark-emojis',
+      resolve: 'gatsby-transformer-remark',
       options: {
-        // Deactivate the plugin globally (default: true)
-        active: true,
-        // Add a custom css class
-        class: 'emoji-icon',
-        // In order to avoid pattern mismatch you can specify
-        // an escape character which will be prepended to the
-        // actual pattern (e.g. `#:poop:`).
-        escapeCharacter: '', // (default: '')
-        // Select the size (available size: 16, 24, 32, 64)
-        size: 64,
-        // Add custom styles
-        styles: {
-          display: 'inline',
-          margin: '0',
-          'margin-top': '1px',
-          position: 'relative',
-          top: '5px',
-          width: '25px'
-        }
+        plugins: [
+          {
+            resolve: `gatsby-remark-images`,
+            options: {
+              maxWidth: 1080,
+            },
+          },
+          {
+            // alow gatsby-emoticons
+            resolve: 'gatsby-remark-emojis',
+            options: {
+              // Deactivate the plugin globally (default: true)
+              active: true,
+              // Add a custom css class
+              class: 'emoji-icon',
+              // In order to avoid pattern mismatch you can specify
+              // an escape character which will be prepended to the
+              // actual pattern (e.g. `#:poop:`).
+              escapeCharacter: '', // (default: '')
+              // Select the size (available size: 16, 24, 32, 64)
+              size: 64,
+              // Add custom styles
+              styles: {
+                display: 'inline',
+                margin: '0',
+                'margin-top': '1px',
+                position: 'relative',
+                top: '5px',
+                width: '25px'
+              }
+            }
+          }
+        ]
       }
-    }
-
+    },
+    'gatsby-plugin-netlify',
+    `gatsby-plugin-react-helmet`
   ],
 }
