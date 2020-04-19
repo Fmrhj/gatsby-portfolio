@@ -6,7 +6,7 @@ title: "Resume"
 
 Data Scientist and Cloud Engineer. Curious and relentless learner.
 
-[`fernando.zepeda@pm.me`](fernando.zepeda@pm.me)
+:email: [`fernando.zepeda@pm.me`](fernando.zepeda@pm.me)
 
 ### Experience 
 
