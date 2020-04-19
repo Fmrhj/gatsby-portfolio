@@ -90,11 +90,6 @@ module.exports = {
         siteUrl: `https://www.fernandozepeda.io`,
       },
     },
-    // add further plugins 
-    `gatsby-transformer-sharp`,
-    `gatsby-plugin-sharp`,
-    `gatsby-plugin-offline`,
-    'gatsby-plugin-sass',
     {
       resolve: 'gatsby-transformer-remark',
       options: {
@@ -133,7 +128,20 @@ module.exports = {
         ]
       }
     },
+    {
+      resolve: 'gatsby-plugin-robots-txt',
+      options: {
+        host: 'https://www.example.com',
+        sitemap: 'https://www.example.com/sitemap.xml',
+        policy: [{ userAgent: '*', allow: '/' }]
+      }
+    },
     'gatsby-plugin-netlify',
-    `gatsby-plugin-react-helmet`
+    `gatsby-plugin-react-helmet`,
+    // add further plugins 
+    `gatsby-transformer-sharp`,
+    `gatsby-plugin-sharp`,
+    `gatsby-plugin-offline`,
+    'gatsby-plugin-sass'
   ],
 }
