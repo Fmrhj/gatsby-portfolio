@@ -55,9 +55,10 @@ Revenue Management SG [yearly meeting](https://agifors.org/rm-2019)
 
 *Selected*
 
-- Essential Cloud Infrastructure: Foundations | Coursera, 04/2020
+- [Essential Google Cloud Infrastructure: Core Services by Google Cloud on Coursera](https://www.coursera.org/account/accomplishments/records/W2ZTKPJ8QG4D) | 04/2020
+- [Essential Google Cloud Infrastructure: Foundation by Google Cloud on Coursera](https://www.coursera.org/account/accomplishments/records/N7W6UZCUCHY6) | 04/2020
 - Google Cloud Fundamentals: Big Data & Machine Learning | Jellyfish, 03/2020
-- Intro to TensorFlow in the Google Cloud | Coursera, 03/2020
+- [Intro to TensorFlow by Google Cloud on Coursera](https://www.coursera.org/account/accomplishments/records/B7SLNSP8BY9U) | 04/2020
 
 ### Frameworks & Tools 
 
