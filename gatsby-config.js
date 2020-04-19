@@ -131,8 +131,9 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-robots-txt',
       options: {
-        host: 'https://www.example.com',
-        sitemap: 'https://www.example.com/sitemap.xml',
+        host: 'https://fernandozepeda.io/',
+        //sitemap: 'https://www.example.com/sitemap.xml',
+        sitemap: null,
         policy: [{ userAgent: '*', allow: '/' }]
       }
     },
