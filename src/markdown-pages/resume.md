@@ -21,7 +21,7 @@ Integration of a grandsolver for all operation modules to support the integrated
  Prediction of stranded passengers for hotel demand in Frankfurt and Munich hubs 
 - Modelling and rapid prototyping dynamic bundling and pricing of flight ancillaries with machine learning classifiers 
 
-#### Student assistant and Masterand at [Lufthansa Systems](https://www.lhsystems.com/), 2017/08 - 2016/09, Berlin
+#### Student Assistant and Masterand at [Lufthansa Systems](https://www.lhsystems.com/), 2017/08 - 2016/09, Berlin
 
 Data Science and Rapid Prototyping in Revenue Management & Pricing
 
@@ -29,7 +29,7 @@ Data Science and Rapid Prototyping in Revenue Management & Pricing
 - Passenger demand estimation with machine learning algorithms and dynamic pricing for direct flights
 
 
-#### Student assistant at [Wintershall](https://wintershalldea.com/en), 09/2015 - 04/2014, Berlin
+#### Student Assistant at [Wintershall](https://wintershalldea.com/en), 09/2015 - 04/2014, Berlin
 
 Database management and QA software testing. 
 
