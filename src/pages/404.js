@@ -10,8 +10,8 @@ const NotFoundPage = () => {
       <MetaData />
       <div className="container">
         <div className="not-found-block">
-          <h1>404</h1>
-          <h2>Page not found</h2>
+          <h1>404 | Page not found</h1>
+          <h2>Oops, something went wrong...</h2>
         </div>
       </div>
     </div>

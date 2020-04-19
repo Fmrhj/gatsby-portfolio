@@ -285,11 +285,11 @@ a:hover {
 
 // 404
 .not-found-block {
-    padding: 15%;
-    width: 200px;
-    display: flex;
-    align-items: center;
+    top: 50%;
     display: block;
+    align-items: center;
+    position: absolute;
+    transform: translate(0, -80%); 
     h1 {
         color: $comboPurple;
     }

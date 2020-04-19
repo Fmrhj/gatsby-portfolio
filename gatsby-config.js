@@ -1,3 +1,5 @@
+
+
 module.exports = {
   plugins: [
     {
@@ -10,7 +12,8 @@ module.exports = {
           title: 'Fernando Zepeda',
           url: 'https://www.fernandozepeda.io/',
           site_name: 'Fernando Zepeda',
-          description: 'Data Scientist and Cloud Engineer. Curious about AI and rapid deployment of applications',
+          description: 'Data Scientist self-learning cloud engineering. Curious about AI and rapid deployment of applications',
+
         },
       },
     },
@@ -47,7 +50,7 @@ module.exports = {
       options: {
         "name": "Fernando Zepeda",
         "short_name": "Fernando Zepeda",
-        "description": `Data Scientist and Cloud Engineer. Curious about AI and rapid deployment of applications`,
+        "description": `Data Scientist self-learning cloud engineering. Curious about AI and rapid deployment of applications`,
         "theme_color": "#101823",
         "background_color": "#101823",
         "display": "standalone",
@@ -137,9 +140,9 @@ module.exports = {
         policy: [{ userAgent: '*', allow: '/' }]
       }
     },
+    // add further plugins 
     'gatsby-plugin-netlify',
     `gatsby-plugin-react-helmet`,
-    // add further plugins 
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     `gatsby-plugin-offline`,
