@@ -25,7 +25,6 @@ const Banner = () => {
         <div className="banner">
             <div className="container">
                 <div className="row">
-                    <div className="main-text"></div>
                     <div className="main-image">
                     <Img fluid={data.firstPic.childImageSharp.fluid} />
                     </div>

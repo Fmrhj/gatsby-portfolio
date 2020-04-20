@@ -30,18 +30,14 @@ body {
 }
 
 .container {
-    width: 976px;
-    max-width: 976px;
+    width: 800px;
+    max-width: 800px;
     //auto margins
     padding-left: 10px;
     margin: 0 auto;
-    @media (max-width: 1440px) {
-        width: 976px;
-        min-width: 976px;
-    }
     @media (max-width: 1280px) {
-        width: 976px;
-        min-width: 976px;
+        width: 800px;
+        min-width: 800px;
     }
     @media (max-width: 976px) {
         width: 520px;
@@ -120,7 +116,10 @@ header {
                     float: none;
                     width: auto;
                     display: block;
-                    padding: 3px;
+                    padding: 3px 0;
+                    &:last-child {
+                        margin-right: 5px;
+                    }
                 }
             }
         }
@@ -128,9 +127,10 @@ header {
             display: flex;
             align-items: left;
             justify-content: space-between;
-            padding-left: 16px;
+            padding-left: 24px;
             .logo {
                 a {
+                    
                 }
             }
         }
@@ -139,47 +139,16 @@ header {
 
 //Banner
 .banner {
-    display: flex;
-    align-items: center;
     background-color: $white;
-    position: relative;
-    height: 50vh;
+    padding: 150px 0 40px 0;
+    display: flex;
     .row {
-        position: absolute;
-        .main-text {
-            font-size: 2rem;
-            text-transform: uppercase;
-            letter-spacing: 36px;
-            font-weight: 700;
-            color: $white;
-            position: absolute;
-            width: 100%;
-            left: 0;
-            top: 50%;
-            transform: translateY(-50%);
-            text-align: center;
-            mix-blend-mode: difference;
-            z-index: 9;
-            @media (max-width: 1440px) {
-                font-size: 1.5rem;
-                letter-spacing: 36px;
-            }
-        }
         .main-image {
-            width: 500px;
             position: relative;
-            @media (max-width: 1440px) {
-                width: 500px;
-                min-width: 500px;
-            }
-            @media (max-width: 460px) {
-                width: 350px;
-                min-width: 350px;
-            }
-            @media (max-width: 360px) {
-                width: 295px;
-                min-width: 295px;
-            }
+            min-width: 280px;
+        }
+        @media (max-width: 350px) {
+            width: 150px;
         }
     }
 }
