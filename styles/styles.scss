@@ -26,25 +26,26 @@ body {
     font-family: $font;
     font-size: 18px;
     background: $white;
+    line-height: 1.5;
 }
 
 .container {
-    width: 1440px;
-    min-width: 1440px;
+    width: 976px;
+    max-width: 976px;
     //auto margins
     padding-left: 10px;
     margin: 0 auto;
     @media (max-width: 1440px) {
-        width: 1280px;
-        min-width: 1280px;
+        width: 976px;
+        min-width: 976px;
     }
     @media (max-width: 1280px) {
         width: 976px;
         min-width: 976px;
     }
     @media (max-width: 976px) {
-        width: 768px;
-        min-width: 768px;
+        width: 520px;
+        min-width: 520px;
     }
     @media (max-width: 768px) {
         width: 468px;
@@ -55,16 +56,17 @@ body {
         min-width: 350px;
     }
     @media (max-width: 360px) {
-        width: 320px;
-        min-width: 320px;
+        width: 280px;
+        min-width: 280px;
     }
 }
 
 //Header
 header {
-    height: 100px;
     width: 100%;
     position: absolute;
+    // when to big, it hides the whole background, 100px is enough
+    height: 100px;
     top: 0px;
     left: 0px;
     z-index: 40;
@@ -105,19 +107,15 @@ header {
     }
     /* #### Mobile Phones Portrait or Landscape #### */
     @media screen and (max-device-width: 250px) {
-        width: 250px;
-        min-width: 250px;
-    }
-    @media (max-width: 570px) {
-        width: 468px;
-        min-width: 468px;
+        width: 100px;
+        min-width: 100px;
     }
     @media (max-width: 460px) {
-        width: 150px;
-        min-width: 150px;
+        width: 290px;
+        min-width: 290px;
         .navigation {
             nav {
-                transition: 0.3s;
+                transition: 0.4s;
                 a {
                     float: none;
                     width: auto;
@@ -130,7 +128,7 @@ header {
             display: flex;
             align-items: left;
             justify-content: space-between;
-            padding-left: 9px;
+            padding-left: 16px;
             .logo {
                 a {
                 }
@@ -168,35 +166,19 @@ header {
             }
         }
         .main-image {
-            width: 1440px;
-            position: absolute;
+            width: 500px;
+            position: relative;
             @media (max-width: 1440px) {
-                width: 1280px;
-                min-width: 1280px;
-            }
-            @media (max-width: 1280px) {
-                width: 480px;
-                min-width: 480px;
-            }
-            @media (max-width: 976px) {
-                width: 768px;
-                min-width: 768px;
-            }
-            @media (max-width: 768px) {
-                width: 468px;
-                min-width: 468px;
-            }
-            @media (max-width: 570) {
-                width: 360px;
-                min-width: 360px;
+                width: 500px;
+                min-width: 500px;
             }
             @media (max-width: 460px) {
-                width: 340px;
-                min-width: 340px;
+                width: 350px;
+                min-width: 350px;
             }
             @media (max-width: 360px) {
-                width: 300px;
-                min-width: 300px;
+                width: 295px;
+                min-width: 295px;
             }
         }
     }
@@ -205,19 +187,14 @@ header {
 // Contact block
 .contactList {
     background: $white;
-    padding: 100px 0px;
+    padding: 120px 0px;
     align-items: center;
     background-color: $white;
     position: relative;
     // use flex boxes
     display: flex;
     .contact-text {
-        padding: 0 50px;
-        h2 {
-            color: $comboPurple;
-        }
-        p {
-        }
+        padding: 0 45px;
         a:link {
             color: $black;
         }
@@ -231,7 +208,6 @@ header {
     text-decoration: none;
     color: $black;
 }
-
 .social-logo:visited {
     color: $black;
 }
@@ -245,20 +221,21 @@ a:hover {
     background-color: $off-white;
 }
 
+h1 {
+    color: $comboPurple;
+}
+
 //blog-container
 .blog-post-container {
     padding: 100px 0;
     display: flex;
     .blog-post {
         h2 {
-            color: $comboPurple;
+            color: $orange;
         }
         .blog-post-content {
             color: $black;
             h3 {
-                color: $orange;
-            }
-            h4 {
                 color: $comboBlue;
                 a:link {
                     color: $comboBlue;
@@ -275,9 +252,14 @@ a:hover {
             }
             .colored-text_1 {
                 color: $comboBlue;
+                font-weight: bold;
             }
             .colored-text_2 {
                 color: $orange;
+            }
+            .colored-text_3 {
+                color: $comboDarkGrey;
+                font-weight: bold;
             }
         }
     }
@@ -289,10 +271,8 @@ a:hover {
     display: block;
     align-items: center;
     position: absolute;
-    transform: translate(0, -80%); 
+    transform: translate(0, -80%);
     h1 {
         color: $comboPurple;
-    }
-    p {
     }
 }
