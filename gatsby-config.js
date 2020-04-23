@@ -55,17 +55,16 @@ module.exports = {
         "background_color": "#101823",
         "display": "standalone",
         "orientation": "portrait",
-        "start_url": "/",
         "icon": "static/favicons/favicon-32x32.png",
         "icons": [
           {
-            "src": "static/favicons/favicon-16x16.png",
-            "sizes": "16x16",
+            "src": "static/favicons/favicon-32x32.png",
+            "sizes": "32x32",
             "type": "image/png"
           },
           {
-            "src": "static/favicons/favicon-32x32.png",
-            "sizes": "32x32",
+            "src": "static/favicons/favicon-16x16.png",
+            "sizes": "16x16",
             "type": "image/png"
           },
           {
@@ -76,11 +75,6 @@ module.exports = {
           {
             "src": "static/favicons/android-chrome-512x512.png",
             "sizes": "512x512",
-            "type": "image/png"
-          },
-          {
-            "src": "static/favicons/apple-touch-icon.png",
-            "sizes": "16x16",
             "type": "image/png"
           }
         ],
