@@ -4,7 +4,7 @@ date: "2019-05-04"
 title: "Hello"
 --- 
 
-## Nice too meet you! 
+## Nice to meet you! 
 
 I am <span class="colored-text_1">Fernando</span>, a Data Scientist self-learning cloud engineering having fun solving challenging problems in a practical and efficient way. I currently live in <span class="colored-text_1">Berlin</span>. 
 
