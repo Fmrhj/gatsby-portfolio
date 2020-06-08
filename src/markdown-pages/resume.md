@@ -71,7 +71,7 @@ Revenue Management SG [yearly meeting](https://agifors.org/rm-2019)
 | <span class="colored-text_1">ETL/Reporting</span>    | Apache Kafka, Hive, Apache Spark, Google Dataflow, Airflow, R Shiny Apps, Dash, Tableau, Jupyter Notebooks |
 | <span class="colored-text_1">Machine Learning</span> | TensorFlow, Keras, H20, scikit-learn, R caret                                                          |
 | <span class="colored-text_1">Other tools</span>      | Jira, Confluence, Agile Development                                                                    |
-| <span class="colored-text_1">Programming</span>      | Python, R, Bash, Groovy                                                                                 |
+| <span class="colored-text_1">Programming</span>      | Python, R, Bash, React                                                                                 |
 
 
 ## Personal Projects 

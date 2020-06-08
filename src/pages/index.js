@@ -3,14 +3,14 @@ import '../../styles/styles.scss'
 
 // import components
 import MetaData from "../components/metaData"
-import Header from "../components/header"
-import Banner from "../components/banner"
+import Header from "../components/header_without_logo"
+import IndexWelcome from "../components/indexWelcome"
 
 const IndexPage = () => (
   <div>
     <MetaData />
     <Header />
-    <Banner />
+    <IndexWelcome />
   </div>
 )
 

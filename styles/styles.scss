@@ -130,7 +130,6 @@ header {
             padding-left: 24px;
             .logo {
                 a {
-                    
                 }
             }
         }
@@ -170,15 +169,18 @@ header {
         a:visited {
             color: $black;
         }
+        p {
+            padding-bottom: 3cm;
+        }
     }
 }
 
 .social-logo {
     text-decoration: none;
-    color: $black;
+    color: $comboBlue;
 }
 .social-logo:visited {
-    color: $black;
+    color: $comboBlue
 }
 
 .social-logo:hover {
@@ -186,9 +188,6 @@ header {
     text-decoration: none;
 }
 
-a:hover {
-    background-color: $off-white;
-}
 
 h1 {
     color: $comboPurple;
@@ -213,6 +212,10 @@ h1 {
                     color: $comboBlue;
                 }
             }
+            a:hover {
+                background-color: $off-white;
+            }
+            
             a:link {
                 color: $black;
             }
@@ -243,5 +246,34 @@ h1 {
     transform: translate(0, -80%);
     h1 {
         color: $comboPurple;
+    }
+}
+
+//circle icons
+.email {
+    display: inline-block;
+    box-shadow: 0px 0px 0px 0px;
+    padding: 0.6em 0.6em;
+}
+
+.email:hover{
+        color: $orange;
+        text-decoration: none;
+        transform: scale(1.5); 
+}
+
+// index
+.index-block {
+    padding: 100px 0;
+    display: flex;
+    h1 {
+        color: $comboPurple;
+    }
+    .highlight {
+        color: $comboBlue;
+        font-weight: bold;
+    }
+    p {
+        text-align: left;
     }
 }
