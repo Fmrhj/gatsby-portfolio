@@ -1,0 +1,28 @@
+version: "3.7"
+
+services:
+
+  gatsby:
+    build: ./
+    working_dir: /app
+    command: ./entrypoint.sh
+    volumes:
+      - .:/app
+      - /app/node_modules/
+    networks:
+      - webnet
+    ports:
+      - "8000:8000"
+
+  nginx:
+    build: ./nginx-container
+    restart: "always"
+    networks:
+      - webnet
+    expose:
+      - "8080"
+    ports:
+      - "80:8080"
+
+networks:
+  webnet:

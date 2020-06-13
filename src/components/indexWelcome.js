@@ -6,9 +6,6 @@ import { Link } from "gatsby"
 import { FiMail } from "react-icons/fi";
 import { MdKeyboardArrowRight } from "react-icons/md";
 
-// images
-import circleFoto from '../images/avatar.jpg'; // with import
-
 class LeftArrows extends React.Component {
     render() {
         return (
