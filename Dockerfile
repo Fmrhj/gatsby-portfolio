@@ -1,6 +1,12 @@
 FROM node:12-alpine as builder
 # Get the necessary build tools
-RUN apk update && apk add build-base autoconf automake libtool pkgconfig nasm
+RUN apk update && \
+    apk add build-base \
+            autoconf \
+             automake \ 
+             libtool \
+             pkgconfig \
+             nasm
 
 # Add the package.json file and build the node_modules folder
 WORKDIR /app

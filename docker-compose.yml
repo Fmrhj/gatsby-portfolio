@@ -12,17 +12,18 @@ services:
     networks:
       - webnet
     ports:
-      - "8000:8000"
+      - "8000-8010:8000"
 
   nginx:
     build: ./nginx-container
     restart: "always"
     networks:
       - webnet
-    expose:
-      - "8080"
     ports:
       - "80:8080"
+      - "443:443"
+    volumes:
+      - ./nginx-container/data/certs/:/etc/nginx/ssl/
 
 networks:
   webnet:

@@ -1,3 +1,6 @@
+# Data
+/data/certs
+
 # Logs
 logs
 *.log
