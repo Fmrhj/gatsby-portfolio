@@ -35,10 +35,10 @@ const IndexWelcome = () => (
                     <h1>Hello!</h1>
                     <p>I am <span class="highlight">Fernando</span>, nice to meet you!
                     <br />
-                    Here you will find some information about me and channels where we can stay in touch.
+                    Here you will find some information about me and different channels where we can stay in touch.
                     <br />
                     <br />
-                    In shortly I will be also posting a series of articles documenting my latest learnings.
+                    I am building a small blog and will be posting soon a series of articles documenting my latest learnings.
                     </p>
                     <div className="social-logo"><LeftArrows /></div>
                 </div>
