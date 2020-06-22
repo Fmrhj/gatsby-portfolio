@@ -10,7 +10,7 @@ Data Scientist and Cloud Engineer. Curious and persistent learner.
 
 ## Experience 
 
-### Data Scientist and Methods Specialist at [Lufthansa Systems](https://www.lhsystems.com/), present - 2017/09, Berlin
+### Data Scientist and Methods Specialist at [Lufthansa Systems](https://www.lhsystems.com/), 2020/06 - 2017/09, Berlin
 
 Working as Data Scientist and Data Engineer for different projects in Flight & Ground Ops, Revenue Management and Pricing   
 
@@ -27,7 +27,6 @@ Data Science and Rapid Prototyping in Revenue Management & Pricing
 
 - Optimal price calculation for single-flights with Reinforcement Learning 
 - Passenger demand estimation with machine learning algorithms and dynamic pricing for direct flights
-
 
 ### Student Assistant at [Wintershall](https://wintershalldea.com/en), 09/2015 - 04/2014, Berlin
 
@@ -65,13 +64,13 @@ Revenue Management SG [yearly meeting](https://agifors.org/rm-2019)
 |                                                      |                                                                                                        |
 |------------------------------------------------------|--------------------------------------------------------------------------------------------------------|
 | <span class="colored-text_1">Cloud</span>            | Google Cloud Platform, Azure, AWS, Heroku, DigitalOcean, Netlify                                       |
-| <span class="colored-text_1">Container</span>        | Docker, Docker Hub, Kubernetes, Google Container Registry                                              |
+| <span class="colored-text_1">Container</span>        | Docker, Kubernetes, Cloud Container Registry                                              |
 | <span class="colored-text_1">Databases</span>        | MySQL, PosgreSQL, Google Google BigQuery, Oracle DB, MongoDB, TeradataSQL, AWS RDS                     |
 | <span class="colored-text_1">DevOps</span>           | CI/CD, Gerrit, Jenkins, Travis, Build & Test automation                                                |
-| <span class="colored-text_1">ETL/Reporting</span>    | Apache Kafka, Hive, Apache Spark, Google Dataflow, Airflow, R Shiny Apps, Dash, Tableau, Jupyter Notebooks |
+| <span class="colored-text_1">ETL/Reporting</span>    | Apache Kafka, Hive, Apache Spark, Databricks, Google Dataflow, Airflow, R Shiny Apps, Dash, Tableau, Jupyter Notebooks |
 | <span class="colored-text_1">Machine Learning</span> | TensorFlow, Keras, H20, scikit-learn, R caret                                                          |
 | <span class="colored-text_1">Other tools</span>      | Jira, Confluence, Agile Development                                                                    |
-| <span class="colored-text_1">Programming</span>      | Python, R, Bash, React                                                                                 |
+| <span class="colored-text_1">Programming</span>      | Python, R, Bash, React JS                                                                                 |
 
 
 ## Personal Projects 
