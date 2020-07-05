@@ -1,29 +1,30 @@
 backend:
   name: github
-  repo: gatsby-portfolio
+  repo: Fmrhj/gatsby-portfolio
   branch: master
 
 publish_mode: editorial_workflow
 
 media_folder: static/img
 public_folder: /img
-site_url: http://www.fernandozepeda.io
 
 logo_url: https://www.designtagebuch.de/wp-content/uploads/mediathek//2019/11/microsoft-edge-logo-700x513.jpg
 
 collections:
   - name: 'blog'
     label: 'Blog'
-    folder: 'content/blog'
+    folder: '_content/blog'
     create: true
-    slug: 'index'
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     media_folder: ''
     public_folder: ''
     path: '{{title}}/index'
     editor:
       preview: false
     fields:
+      - { label: "Entry Path", name: "path", widget: "string", default: "/blog/{{title}}"}
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
       - { label: 'Description', name: 'description', widget: 'string' }
       - { label: 'Body', name: 'body', widget: 'markdown' }
+      - { label: "Layout", name: "layout", widget: "hidden", default: "blog" }
