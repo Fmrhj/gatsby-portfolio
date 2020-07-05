@@ -6,7 +6,8 @@ RUN apk update && \
              automake \ 
              libtool \
              pkgconfig \
-             nasm
+             nasm \
+             python 
 
 # Add the package.json file and build the node_modules folder
 WORKDIR /app

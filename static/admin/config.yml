@@ -9,6 +9,8 @@ media_folder: static/img
 public_folder: /img
 site_url: http://www.fernandozepeda.io
 
+logo_url: https://www.designtagebuch.de/wp-content/uploads/mediathek//2019/11/microsoft-edge-logo-700x513.jpg
+
 collections:
   - name: 'blog'
     label: 'Blog'
