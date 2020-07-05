@@ -1,9 +1,13 @@
 backend:
-  name: git-gateway
+  name: github
+  repo: gatsby-portfolio
   branch: master
+
+publish_mode: editorial_workflow
 
 media_folder: static/img
 public_folder: /img
+site_url: http://www.fernandozepeda.io
 
 collections:
   - name: 'blog'
