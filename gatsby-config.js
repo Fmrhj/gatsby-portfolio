@@ -141,6 +141,8 @@ module.exports = {
     `gatsby-plugin-sharp`,
     `gatsby-plugin-offline`,
     'gatsby-plugin-sass',
-    'gatsby-plugin-netlify-identity-widget'
+    'gatsby-plugin-netlify-identity-widget',
+    // Content-manager-system
+    'gatsby-plugin-netlify-cms'
   ],
 }
