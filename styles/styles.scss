@@ -95,6 +95,16 @@ header {
                     margin-right: 20px;
                 }
             }
+
+            a:hover {
+                color: #000;
+            }
+
+
+            a:hover::before {
+                visibility: visible;
+                transform: scaleX(1);
+            }
         }
     }
     @media (max-width: 360px) {
@@ -177,17 +187,16 @@ header {
 
 .social-logo {
     text-decoration: none;
-    color: $comboBlue;
+    color: $black;
 }
 .social-logo:visited {
-    color: $comboBlue
+    color: $black;
 }
 
 .social-logo:hover {
     color: $orange;
     text-decoration: none;
 }
-
 
 h1 {
     color: $comboPurple;
@@ -215,7 +224,7 @@ h1 {
             a:hover {
                 background-color: $off-white;
             }
-            
+
             a:link {
                 color: $black;
             }
@@ -256,10 +265,10 @@ h1 {
     padding: 0.6em 0.6em;
 }
 
-.email:hover{
-        color: $orange;
-        text-decoration: none;
-        transform: scale(1.5); 
+.email:hover {
+    color: $orange;
+    text-decoration: none;
+    transform: scale(1.5);
 }
 
 // index
