@@ -13,7 +13,7 @@ Data Scientist and Cloud Engineer. Curious and persistent learner.
 ### Senior Consultant Cloud and Data Analytics at [Pexon Consulting](https://pexon-consulting.de/), 2020/07 - present, Berlin
 
 *Selected projects*:
-- Automation of price adjustments for a big German utility with [Azure](https://azure.microsoft.com/en-us/).  
+- Automation of price adjustments for a main German utility company with [Azure](https://azure.microsoft.com/en-us/).  
 
 ### Data Scientist and Methods Specialist at [Lufthansa Systems](https://www.lhsystems.com/), 2020/06 - 2017/09, Berlin
 
