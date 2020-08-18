@@ -5,22 +5,20 @@ backend:
 
 publish_mode: editorial_workflow
 
-media_folder: static/img
-public_folder: /img
+media_folder: static/assets
+public_folder: /assets
 
-logo_url: https://www.designtagebuch.de/wp-content/uploads/mediathek//2019/11/microsoft-edge-logo-700x513.jpg
+logo_url: https://avatars3.githubusercontent.com/oa/1329721?s=240&u=62f3c3c059f2250f92432a624948436ce36626da&v=4
 
 collections:
-  - name: 'blog'
-    label: 'Blog'
-    folder: '_content/blog'
+  - name: blog
+    label: Blog
+    folder: blog
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
-    media_folder: ''
-    public_folder: ''
     path: '{{title}}/index'
     editor:
-      preview: false
+      preview: true
     fields:
       - { label: "Entry Path", name: "path", widget: "string", default: "/blog/{{title}}"}
       - { label: 'Title', name: 'title', widget: 'string' }

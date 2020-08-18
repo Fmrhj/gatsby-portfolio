@@ -5,30 +5,34 @@
   "version": "0.0.1",
   "author": "Fernando Zepeda <fernando.zepeda@pm.me>",
   "dependencies": {
+    "@emotion/core": "^10.0.35",
+    "@mdx-js/react": "^1.6.16",
     "babel": "^6.23.0",
     "babel-preset-react": "^6.24.1",
-    "gatsby": "^2.20.12",
+    "gatsby": "^2.24.47",
     "gatsby-image": "^2.3.1",
     "gatsby-plugin-google-analytics": "^2.2.4",
     "gatsby-plugin-manifest": "^2.3.4",
     "gatsby-plugin-netlify": "^2.2.2",
-    "gatsby-plugin-netlify-cms": "^4.3.10",
+    "gatsby-plugin-netlify-cms": "^4.3.11",
     "gatsby-plugin-netlify-identity-widget": "^1.1.1",
     "gatsby-plugin-next-seo": "^1.4.0",
     "gatsby-plugin-offline": "^3.1.2",
     "gatsby-plugin-react-helmet": "^3.2.1",
     "gatsby-plugin-react-helmet-canonical-urls": "^1.4.0",
-    "gatsby-plugin-robots-txt": "^1.5.0",
+    "gatsby-plugin-robots-txt": "^1.5.1",
     "gatsby-plugin-sass": "^2.2.1",
     "gatsby-plugin-sharp": "^2.5.3",
+    "gatsby-plugin-theme-ui": "^0.3.0",
     "gatsby-remark-emojis": "^0.4.2",
     "gatsby-remark-images": "^3.2.4",
-    "gatsby-source-filesystem": "^2.2.3",
+    "gatsby-source-filesystem": "^2.3.24",
+    "gatsby-theme-blog": "^2.0.1",
     "gatsby-transformer-remark": "^2.7.2",
     "gatsby-transformer-sharp": "^2.4.3",
     "gsap": "^3.2.6",
-    "netlify-cms-app": "^2.12.16",
-    "node-sass": "^4.13.1",
+    "netlify-cms-app": "^2.12.19",
+    "node-sass": "^4.14.1",
     "prop-types": "^15.7.2",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
@@ -36,7 +40,8 @@
     "react-helmet-async": "^1.0.5",
     "react-icons": "^3.9.0",
     "react-native": "^0.62.2",
-    "smooth-scrollbar": "^8.5.2"
+    "smooth-scrollbar": "^8.5.2",
+    "theme-ui": "0.4.0-rc.1"
   },
   "devDependencies": {
     "prettier": "^1.19.1"
@@ -52,7 +57,8 @@
     "start": "npm run develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
+    "preinstall": "npx npm-force-resolutions"
   },
   "repository": {
     "type": "git",
@@ -60,5 +66,10 @@
   },
   "bugs": {
     "url": "https://github.com/gatsbyjs/gatsby/issues"
+  },
+  "resolutions": {
+    "@theme-ui/core": "0.4.0-rc.1",
+    "@theme-ui/css": "0.4.0-rc.1",
+    "@theme-ui/mdx": "0.4.0-rc.1"
   }
 }

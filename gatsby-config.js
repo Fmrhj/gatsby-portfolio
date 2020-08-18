@@ -33,8 +33,8 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        name: `blog content`,
-        path: `${__dirname}/_content/blog/`
+        name: `markdown-pages`,
+        path: `${__dirname}/content/posts/blog`
       },
     },
     {
@@ -50,6 +50,13 @@ module.exports = {
         name: `images`,
         path: `${__dirname}/src/images/`,
         ignore: [`**/\.*`], // ignore files starting with a dot
+      },
+    },
+    {
+      resolve: `gatsby-theme-blog`,
+      options: {
+        // basePath defaults to `/`
+        basePath: `/blog`,
       },
     },
     {
@@ -150,6 +157,7 @@ module.exports = {
     'gatsby-plugin-sass',
     'gatsby-plugin-netlify-identity-widget',
     // Content-manager-system
-    'gatsby-plugin-netlify-cms'
+    'gatsby-plugin-netlify-cms',
+    'gatsby-plugin-theme-ui'
   ],
 }
