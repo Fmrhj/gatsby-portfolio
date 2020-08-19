@@ -23,11 +23,9 @@
     "gatsby-plugin-robots-txt": "^1.5.1",
     "gatsby-plugin-sass": "^2.2.1",
     "gatsby-plugin-sharp": "^2.5.3",
-    "gatsby-plugin-theme-ui": "^0.3.0",
     "gatsby-remark-emojis": "^0.4.2",
     "gatsby-remark-images": "^3.2.4",
     "gatsby-source-filesystem": "^2.3.24",
-    "gatsby-theme-blog": "^2.0.1",
     "gatsby-transformer-remark": "^2.7.2",
     "gatsby-transformer-sharp": "^2.4.3",
     "gsap": "^3.2.6",
@@ -40,8 +38,7 @@
     "react-helmet-async": "^1.0.5",
     "react-icons": "^3.9.0",
     "react-native": "^0.62.2",
-    "smooth-scrollbar": "^8.5.2",
-    "theme-ui": "0.4.0-rc.1"
+    "smooth-scrollbar": "^8.5.2"
   },
   "devDependencies": {
     "prettier": "^1.19.1"
@@ -66,10 +63,5 @@
   },
   "bugs": {
     "url": "https://github.com/gatsbyjs/gatsby/issues"
-  },
-  "resolutions": {
-    "@theme-ui/core": "0.4.0-rc.1",
-    "@theme-ui/css": "0.4.0-rc.1",
-    "@theme-ui/mdx": "0.4.0-rc.1"
   }
 }
