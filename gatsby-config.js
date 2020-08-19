@@ -33,7 +33,7 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        name: `markdown-pages`,
+        name: `blog-content`,
         path: `${__dirname}/content/posts/`
       },
     },
@@ -150,6 +150,6 @@ module.exports = {
     'gatsby-plugin-sass',
     'gatsby-plugin-netlify-identity-widget',
     // Content-manager-system
-    'gatsby-plugin-netlify-cms',
-  ],
+     "gatsby-plugin-netlify-cms" 
+  ]
 }
