@@ -2,6 +2,7 @@
 path: "/about"
 date: "2019-06-22"
 title: "About me"
+template: "main-template"
 ---
 
 I am a Data Scientist self-learning Cloud Engineering having fun developing systems. I currently live in <span class="colored-text_1">Berlin</span>.

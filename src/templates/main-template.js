@@ -24,7 +24,10 @@ export default function Template({
             <div
               className="blog-post-content"
               dangerouslySetInnerHTML={{ __html: post.html }}
+              
             />
+            <h3>{post.frontmatter.description}</h3>
+
           </div>
         </div>
       </div>
@@ -34,9 +37,9 @@ export default function Template({
 }
 
 // query Markdown pages
-export const pageQuery = graphql`
-  query BlogPostByPath($path: String!) {
-    markdownRemark(frontmatter: { path: { eq: $path } }) {
+export const query = graphql`
+  query ($slug: String!) {
+    markdownRemark(fields: { slug: { eq: $slug } }) {
       html
       frontmatter {
         path

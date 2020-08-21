@@ -2,6 +2,7 @@
 path: "/resume"
 date: "2020-04-17"
 title: "Resume"
+template: "main-template"
 ---
 
 Data Scientist and Cloud Engineer. Curious and persistent learner.

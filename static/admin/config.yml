@@ -12,12 +12,13 @@ logo_url: https://avatars3.githubusercontent.com/oa/1329721?s=240&u=62f3c3c059f2
 
 collections:
   - name: blog
-    label: Blog
-    folder: blog
+    label: Blog 
+    folder: _content/blog
     create: true
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}/index" # Filename template, e.g., YYYY-MM-DD-title/index.md
     editor:
-      preview: true
+      preview: false
+    path: "/blog/{{slug}}"
     fields:
       - { label: "Entry Path", name: "path", widget: "string"}
       - { label: 'Title', name: 'title', widget: 'string' }
