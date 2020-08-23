@@ -20,243 +20,52 @@ $comboWhite: #e7ebf0;
 $comboGrey: #b1bdcd;
 $comboDarkGrey: #5b7290;
 
-//Define body
+//General definitions
+html {
+    position: relative;
+    min-height: 100%;
+}
+
 html,
 body {
     font-family: $font;
     font-size: 18px;
     background: $white;
     line-height: 1.5;
+    margin: 0;
+    padding: 0;
 }
 
-.container {
-    width: 800px;
-    max-width: 800px;
-    //auto margins
-    padding-left: 10px;
-    margin: 0 auto;
-    @media (max-width: 1280px) {
-        width: 800px;
-        min-width: 800px;
-    }
-    @media (max-width: 976px) {
-        width: 520px;
-        min-width: 520px;
-    }
-    @media (max-width: 768px) {
-        width: 468px;
-        min-width: 468px;
-    }
-    @media (max-width: 468px) {
-        width: 350px;
-        min-width: 350px;
-    }
-    @media (max-width: 360px) {
-        width: 280px;
-        min-width: 280px;
-    }
-}
-
-//Header
-header {
-    width: 100%;
-    position: absolute;
-    // when to big, it hides the whole background, 100px is enough
-    height: 100px;
-    top: 0px;
-    left: 0px;
-    z-index: 40;
-    .inner-header {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        height: 120px;
-        .logo {
-            a {
-                font-weight: 700;
-                letter-spacing: 1.5px;
-                color: $black;
-                text-decoration: none;
-            }
-        }
-    }
-    .navigation {
-        nav {
-            a {
-                margin: 0 20px;
-                font-weight: 400;
-                text-decoration: none;
-                letter-spacing: 1.75px;
-                text-transform: uppercase;
-                font-size: 0.75rem;
-                color: $black;
-                // add some margin to last element of the nav bar
-                &:last-child {
-                    margin-right: 20px;
-                }
-            }
-
-            a:hover {
-                color: #000;
-            }
-
-
-            a:hover::before {
-                visibility: visible;
-                transform: scaleX(1);
-            }
-        }
-    }
-    @media (max-width: 360px) {
-        width: 250px;
-        min-width: 250px;
-    }
-    /* #### Mobile Phones Portrait or Landscape #### */
-    @media screen and (max-device-width: 250px) {
-        width: 100px;
-        min-width: 100px;
-    }
-    @media (max-width: 460px) {
-        width: 290px;
-        min-width: 290px;
-        .navigation {
-            nav {
-                transition: 0.4s;
-                a {
-                    float: none;
-                    width: auto;
-                    display: block;
-                    padding: 3px 0;
-                    &:last-child {
-                        margin-right: 5px;
-                    }
-                }
-            }
-        }
-        .inner-header {
-            display: flex;
-            align-items: left;
-            justify-content: space-between;
-            padding-left: 24px;
-            .logo {
-                a {
-                }
-            }
-        }
-    }
-}
-
-//Banner
-.banner {
-    background-color: $white;
-    padding: 150px 0 40px 0;
-    display: flex;
-    .row {
-        .main-image {
-            position: relative;
-            min-width: 280px;
-        }
-        @media (max-width: 350px) {
-            width: 150px;
-        }
-    }
-}
-
-// Contact block
-.contactList {
-    background: $white;
-    padding: 120px 0px;
-    align-items: center;
-    background-color: $white;
-    position: relative;
-    // use flex boxes
-    display: flex;
-    .contact-text {
-        padding: 0 45px;
-        a:link {
-            color: $black;
-        }
-        a:visited {
-            color: $black;
-        }
-        p {
-            padding-bottom: 3cm;
-        }
-    }
-}
-
-.social-logo {
-    text-decoration: none;
-    color: $black;
-}
-.social-logo:visited {
-    color: $black;
-}
-
-.social-logo:hover {
-    color: $orange;
-    text-decoration: none;
+.pageContentWrapper {
+    margin-bottom: 290px; /* Height of footer*/
 }
 
 h1 {
     color: $comboPurple;
 }
+// main div container for different margins
+@import "container";
+
+//Header
+@import "header";
+
+//Footer
+@import "footer";
+
+// Contact block
+@import "contact-block";
+
+// social logo icons
+@import "social-links";
+
+//blog posts lists
+@import "posts";
 
 //blog-container
-.blog-post-container {
-    padding: 100px 0;
-    display: flex;
-    .blog-post {
-        h2 {
-            color: $orange;
-        }
-        .blog-post-content {
-            color: $black;
-            h3 {
-                color: $comboBlue;
-                a:link {
-                    color: $comboBlue;
-                }
-                a:visited {
-                    color: $comboBlue;
-                }
-            }
-            a:hover {
-                background-color: $off-white;
-            }
-
-            a:link {
-                color: $black;
-            }
-            a:visited {
-                color: $black;
-            }
-            .colored-text_1 {
-                color: $comboBlue;
-                font-weight: bold;
-            }
-            .colored-text_2 {
-                color: $orange;
-            }
-            .colored-text_3 {
-                color: $comboDarkGrey;
-                font-weight: bold;
-            }
-        }
-    }
-}
+@import "blog-post-container";
 
 // 404
-.not-found-block {
-    top: 50%;
-    display: block;
-    align-items: center;
-    position: absolute;
-    transform: translate(0, -80%);
-    h1 {
-        color: $comboPurple;
-    }
-}
+@import "404";
 
 //circle icons
 .email {
@@ -272,17 +81,4 @@ h1 {
 }
 
 // index
-.index-block {
-    padding: 100px 0;
-    display: flex;
-    h1 {
-        color: $comboPurple;
-    }
-    .highlight {
-        color: $comboBlue;
-        font-weight: bold;
-    }
-    p {
-        text-align: left;
-    }
-}
+@import "_index-block";

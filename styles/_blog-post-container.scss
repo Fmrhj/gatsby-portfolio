@@ -1,0 +1,43 @@
+
+.blog-post-container {
+    padding: 100px 0;
+    display: flex;
+    .blog-post {
+        h2 {
+            color: $orange;
+        }
+        .blog-post-content {
+            color: $black;
+            h3 {
+                color: $comboBlue;
+                a:link {
+                    color: $comboBlue;
+                }
+                a:visited {
+                    color: $comboBlue;
+                }
+            }
+            a:hover {
+                background-color: $off-white;
+            }
+
+            a:link {
+                color: $black;
+            }
+            a:visited {
+                color: $black;
+            }
+            .colored-text_1 {
+                color: $comboBlue;
+                font-weight: bold;
+            }
+            .colored-text_2 {
+                color: $orange;
+            }
+            .colored-text_3 {
+                color: $comboDarkGrey;
+                font-weight: bold;
+            }
+        }
+    }
+}
