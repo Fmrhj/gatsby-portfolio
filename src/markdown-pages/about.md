@@ -1,6 +1,6 @@
 ---
 path: "/about"
-date: "2019-06-22"
+date: "2020-06-22"
 title: "About me"
 template: "main-template"
 thumbnail: ""
