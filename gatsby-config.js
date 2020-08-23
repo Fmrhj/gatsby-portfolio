@@ -151,6 +151,5 @@ module.exports = {
     'gatsby-plugin-netlify-identity-widget',
     // Content-manager-system
      'gatsby-plugin-netlify-cms',
-     'gatsby-transformer-remark'
   ]
 }

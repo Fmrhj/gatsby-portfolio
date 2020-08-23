@@ -4,5 +4,6 @@ title: first-try
 date: 2020-08-19T06:04:18.935Z
 description: "Trying hard"
 template: "main-template"
+thumbnail: ""
 ---
 Let's see what comes out

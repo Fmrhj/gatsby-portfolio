@@ -1,7 +1,7 @@
-import React from "react"
-
 import '../../styles/styles.scss'
+
 import MetaData from "../components/metaData"
+import React from "react"
 
 const NotFoundPage = () => {
 

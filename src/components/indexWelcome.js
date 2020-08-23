@@ -1,14 +1,12 @@
-import React from "react"
 import { Link } from "gatsby"
-
-// icons 
 import { MdKeyboardArrowRight } from "react-icons/md";
+import React from "react"
 
 class LeftArrows extends React.Component {
-    render() {
+render() {
         return (
             <h2>
-                <Link to="/about"><a><MdKeyboardArrowRight /></a></Link>
+                <Link to="/about"><MdKeyboardArrowRight /></Link>
             </h2>
         )
     }

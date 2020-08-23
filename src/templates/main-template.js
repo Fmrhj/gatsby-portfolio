@@ -1,12 +1,11 @@
-import React from "react"
-import { Helmet } from "react-helmet"
-import {graphql} from "gatsby"
-
 // style
-import '../../styles/styles.scss'; 
+import '../../styles/styles.scss';
 
-// import components 
+import Footer from "../components/footer"
 import Header from '../components/header'
+import { Helmet } from "react-helmet"
+import React from "react"
+import { graphql } from "gatsby"
 
 // main template
 export default function Template({
@@ -24,13 +23,16 @@ export default function Template({
             <div
               className="blog-post-content"
               dangerouslySetInnerHTML={{ __html: post.html }}
-              
+
             />
             <h3>{post.frontmatter.description}</h3>
 
           </div>
+          <div class="push"></div>
         </div>
+
       </div>
+      <Footer />
     </div>
 
   )

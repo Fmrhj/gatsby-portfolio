@@ -1,16 +1,18 @@
-import React from "react"
 import '../../styles/styles.scss'
 
+import ContactBlock from "../components/contactBlock"
+import Footer from "../components/footer"
+import Header from "../components/header"
 // import components
 import MetaData from "../components/metaData"
-import Header from "../components/header"
-import ContactBlock from "../components/contactBlock"
+import React from "react"
 
 const ContactPage = () => (
     <div className="wrapper">
         <MetaData />
         <Header />
         <ContactBlock />
+        <Footer />
     </div>
 )
 
