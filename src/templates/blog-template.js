@@ -5,7 +5,6 @@ import Footer from "../components/footer"
 import Header from '../components/header'
 import { Helmet } from "react-helmet"
 import React from "react"
-import StickyFooter from "../components/stickyFooter"
 import { graphql } from "gatsby"
 
 // main template
@@ -33,7 +32,7 @@ export default function Template({
         </div>
 
       </div>
-      <StickyFooter />
+      <Footer />
     </div>
 
   )
