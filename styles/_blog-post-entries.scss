@@ -1,7 +1,10 @@
-.blog-post-container {
+.blog-post-entries {
     padding: 100px 0;
     display: flex;
     .blog-post {
+        h1 {
+            color: $black;
+        }
         h2 {
             color: $orange;
         }

@@ -1,10 +1,9 @@
-
 header {
     width: 100%;
     position: absolute;
-    // when to big, it hides the whole background, 100px is enough
+    // when too big, it hides the whole background, 100px is enough
     height: 100px;
-    top: 0px;
+    top: 10px;
     left: 0px;
     z-index: 40;
     .inner-header {
@@ -40,7 +39,6 @@ header {
             a:hover {
                 color: #000;
             }
-
 
             a:hover::before {
                 visibility: visible;

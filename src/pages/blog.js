@@ -4,7 +4,6 @@ import { Link, graphql } from "gatsby"
 
 import Footer from "../components/footer"
 import Header from "../components/header"
-import Img from 'gatsby-image';
 import MetaData from "../components/metaData"
 import PostLink from "../components/post-link"
 import React from "react"
@@ -28,6 +27,7 @@ const BlogIndexPage = ({
             <div className="blog-container">
               <h1>Blog Posts </h1>
               {Posts}
+              <div class="push"></div>
             </div>
           </div>
         </div>
@@ -42,7 +42,10 @@ export default BlogIndexPage
 
 export const pageQuery = graphql`
   query {
-    allMarkdownRemark(sort: { order: DESC, fields: [frontmatter___date] }) {
+    allMarkdownRemark(sort: { order: DESC, 
+                      fields: [frontmatter___date] }
+                      filter: { fileAbsolutePath: { glob: "**/**/_content/blog/**/*.md" } }
+                      ) {
       edges {
         node {
           id

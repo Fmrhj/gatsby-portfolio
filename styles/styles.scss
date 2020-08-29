@@ -21,11 +21,6 @@ $comboGrey: #b1bdcd;
 $comboDarkGrey: #5b7290;
 
 //General definitions
-html {
-    position: relative;
-    min-height: 100%;
-}
-
 html,
 body {
     font-family: $font;
@@ -34,10 +29,8 @@ body {
     line-height: 1.5;
     margin: 0;
     padding: 0;
-}
-
-.pageContentWrapper {
-    margin-bottom: 290px; /* Height of footer*/
+    height: 100%;
+    position: relative;
 }
 
 h1 {
@@ -63,6 +56,9 @@ h1 {
 
 //blog-container
 @import "blog-post-container";
+
+//blog-post-entries
+@import "blog-post-entries";
 
 // 404
 @import "404";

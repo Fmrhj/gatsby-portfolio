@@ -3,7 +3,7 @@ path: "/resume"
 date: "2020-04-17"
 title: "Resume"
 template: "main-template"
-thumbnal: ""
+thumbnail: ""
 ---
 
 Data Scientist and Cloud Engineer. Curious and persistent learner.
@@ -68,16 +68,16 @@ Revenue Management SG [yearly meeting](https://agifors.org/rm-2019)
 
 ## Frameworks & Tools 
 
-|                                                      |                                                                                                        |
-|------------------------------------------------------|--------------------------------------------------------------------------------------------------------|
-| <span class="colored-text_1">Cloud</span>            | Google Cloud Platform, Azure, AWS, Heroku, DigitalOcean, Netlify                                       |
-| <span class="colored-text_1">Container</span>        | Docker, Kubernetes, Cloud Container Registry                                              |
-| <span class="colored-text_1">Databases</span>        | MySQL, PosgreSQL, Google Google BigQuery, Oracle DB, MongoDB, TeradataSQL, AWS RDS                     |
-| <span class="colored-text_1">DevOps</span>           | CI/CD, Gerrit, Jenkins, Travis, Build & Test automation                                                |
+|                                                      |                                                                                                                        |
+|------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------|
+| <span class="colored-text_1">Cloud</span>            | Google Cloud Platform, Azure, AWS, Heroku, DigitalOcean, Netlify                                                       |
+| <span class="colored-text_1">Container</span>        | Docker, Kubernetes, Cloud Container Registry                                                                           |
+| <span class="colored-text_1">Databases</span>        | MySQL, PosgreSQL, Google Google BigQuery, Oracle DB, MongoDB, TeradataSQL, AWS RDS                                     |
+| <span class="colored-text_1">DevOps</span>           | CI/CD, Gerrit, Jenkins, Travis, Build & Test automation                                                                |
 | <span class="colored-text_1">ETL/Reporting</span>    | Apache Kafka, Hive, Apache Spark, Databricks, Google Dataflow, Airflow, R Shiny Apps, Dash, Tableau, Jupyter Notebooks |
-| <span class="colored-text_1">Machine Learning</span> | TensorFlow, Keras, H20, scikit-learn, R caret                                                          |
-| <span class="colored-text_1">Other tools</span>      | Jira, Confluence, Agile Development                                                                    |
-| <span class="colored-text_1">Programming</span>      | Python, R, Bash, React JS                                                                                 |
+| <span class="colored-text_1">Machine Learning</span> | TensorFlow, Keras, H20, scikit-learn, R caret                                                                          |
+| <span class="colored-text_1">Other tools</span>      | Jira, Confluence, Agile Development                                                                                    |
+| <span class="colored-text_1">Programming</span>      | Python, R, Bash, React JS                                                                                              |
 
 
 ## Personal Projects 

@@ -1,22 +1,24 @@
 import '../../styles/styles.scss'
 
-import { Link } from "gatsby"
+import Link from '@material-ui/core/Link';
 import React from "react"
 
 // The header has container with a navigation bar
 const Footer = ({ siteTitle }) => {
-    var CurrentYear = new Date().getFullYear()
 
     return (
-        <div>
-            <div class="pageContentWrapper">
+        <body>
+            <div class="wrapper-footer">
+                <div class="push"></div>
             </div>
             <footer>
                 <div className="site-footer">
                     <div class="container">
                         <div className="footer-content">
                             <div >
-                                <a>Fernando Zepeda &copy; {CurrentYear}</a>
+                                <a><Link color="inherit" href="https://fernandozepeda.io/">
+                                    Fernando Zepeda
+      </Link> &copy; {new Date().getFullYear()}</a>
                             </div>
                             <div >
                                 <nav class="site-footer-nav">
@@ -26,7 +28,7 @@ const Footer = ({ siteTitle }) => {
                     </div>
                 </div>
             </footer>
-        </div>
+        </body>
 
     )
 }

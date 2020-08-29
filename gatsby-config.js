@@ -27,28 +27,28 @@ module.exports = {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `markdown-pages`,
-        path: `${__dirname}/src/markdown-pages/`
+        path: `${__dirname}/src/markdown-pages`
       },
     },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `blog-content`,
-        path: `${__dirname}/_content/blog/`
+        path: `${__dirname}/_content/blog`
       },
     },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `pages`,
-        path: `${__dirname}/src/pages/`,
+        path: `${__dirname}/src/pages`,
       },
     },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `images`,
-        path: `${__dirname}/src/images/`,
+        path: `${__dirname}/src/images`,
         ignore: [`**/\.*`], // ignore files starting with a dot
       },
     },
@@ -98,10 +98,15 @@ module.exports = {
       resolve: 'gatsby-transformer-remark',
       options: {
         plugins: [
+          // gatsby-remark-relative-images-v2 must
+          // go before gatsby-remark-images
+          {
+            resolve: `gatsby-remark-relative-images-v2`,
+          },
           {
             resolve: `gatsby-remark-images`,
             options: {
-              maxWidth: 1080,
+              maxWidth: 590,
             },
           },
           {
@@ -150,6 +155,6 @@ module.exports = {
     'gatsby-plugin-sass',
     'gatsby-plugin-netlify-identity-widget',
     // Content-manager-system
-     'gatsby-plugin-netlify-cms',
+    'gatsby-plugin-netlify-cms',
   ]
 }

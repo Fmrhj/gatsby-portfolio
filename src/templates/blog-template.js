@@ -17,10 +17,12 @@ export default function Template({
     <div className="wrapper">
       <Header />
       <div className="container">
-        <div className="blog-post-container">
+        <div className="blog-post-entries">
           <Helmet title={`Fernando Zepeda - ${post.frontmatter.title}`} />
           <div className="blog-post">
             <h1>{post.frontmatter.title}</h1>
+            {post.timeToRead} min. read
+            <h3>{post.frontmatter.description}</h3>
             <div
               className="blog-post-content"
               dangerouslySetInnerHTML={{ __html: post.html }}
@@ -31,7 +33,7 @@ export default function Template({
         </div>
 
       </div>
-      <Footer />
+      <StickyFooter />
     </div>
 
   )
@@ -48,6 +50,7 @@ export const query = graphql`
         title
         description
       }
+      timeToRead
     }
 }
 `
