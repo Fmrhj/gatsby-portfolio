@@ -1,7 +1,5 @@
 import '../../styles/styles.scss'
 
-import { Link, graphql } from "gatsby"
-
 import Footer from "../components/footer"
 import Header from "../components/header"
 import MetaData from "../components/metaData"
@@ -54,6 +52,9 @@ export const pageQuery = graphql`
             date(formatString: "MMMM DD, YYYY")
             title
             path
+            description
+            thumbnail
+            tags
           }
         }
       }

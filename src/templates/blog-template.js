@@ -4,10 +4,10 @@ import '../../styles/styles.scss';
 import Footer from "../components/footer"
 import Header from '../components/header'
 import { Helmet } from "react-helmet"
+import { Img } from 'gatsby-image'
 import React from "react"
 import Tags from '../components/tags'
 import Typography from '@material-ui/core/Typography';
-import { graphql } from 'gatsby'
 
 // main template
 export default function Template({

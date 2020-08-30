@@ -1,13 +1,56 @@
+import { StaticQuery, graphql } from "gatsby";
+
 import Img from 'gatsby-image';
 import { Link } from "gatsby"
 import React from "react"
+import { Tags } from "../components/tags"
 
-const PostLink = ({ post }) => (
-  <div>
+const PostLink = ({ post, query_data }) => (
+
+  < div className="index-blog-posts-container" >
     <Link to={post.frontmatter.path}>
-      {post.frontmatter.title} ({post.frontmatter.date})
+      <div className="thumbnail">
+        <Image />
+      </div>
+      <div className="content">
+        <h3>{post.frontmatter.title}</h3>
+        <small>{post.frontmatter.date}</small>
+        <p>{post.frontmatter.description} </p>
+        <div className="more">(read more)</div>
+      </div>
+
     </Link>
-  </div>
+  </div >
 )
 
 export default PostLink
+
+
+const Image = () => (
+  <StaticQuery
+    query={graphql`
+      query {
+        placeholderImage: file(relativePath: { eq: "pipes.jpg" }) {
+          childImageSharp {
+            fluid(maxWidth: 300) {
+              src
+        srcSet
+        srcSetWebp
+        aspectRatio
+        base64
+        tracedSVG
+        sizes
+        originalImg
+        originalName
+            }
+          }
+        }
+       }
+    `}
+    render={data => (
+      <>
+        <Img fluid={data.placeholderImage.childImageSharp.fluid} />
+      </>
+    )}
+  />
+)
