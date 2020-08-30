@@ -7,7 +7,7 @@ template: blog-template
 tags: parallel computing, python, OpenCL, CUDA
 thumbnail: /pexels-544917.jpg
 ---
-To start a blog is not an easy task. It requires discipline, dedication and time. However, it is fun! To take a look on the latest stand of a subject it, to condense an idea and to write about it, is an interesting endeavour, regardless of the subject. Following the principles of the great explainer Richard Feynmann and his [well-renowned technique](https://www.youtube.com/watch?v=GD-_fcpylcE), I would like to review concepts in plain and simple language.  
+To start a blog was not as easy as I thought. It requires discipline, dedication and time. However, it is fun! To take a look on the latest stand of a subject, to condense an idea and to write about it, is an interesting endeavour, regardless of the subject. Following the principles of the great explainer Richard Feynmann and his [well-renowned technique](https://www.youtube.com/watch?v=GD-_fcpylcE), I would like to review concepts in plain and simple language.  
 
 I have been reading and working lately around parallel computing. So let's start with that. 
 

@@ -5,9 +5,9 @@ import { Link } from "gatsby"
 import React from "react"
 import { Tags } from "../components/tags"
 
-const PostLink = ({ post, query_data }) => (
+const PostLink = ({ post }) => (
 
-  < div className="index-blog-posts-container" >
+  < div className="block-blog-posts-container" >
     <Link to={post.frontmatter.path}>
       <div className="thumbnail">
         <Image />
@@ -25,9 +25,8 @@ const PostLink = ({ post, query_data }) => (
 
 export default PostLink
 
-
-const Image = () => (
-  <StaticQuery
+const Image = ({ post }) => (
+  < StaticQuery
     query={graphql`
       query {
         placeholderImage: file(relativePath: { eq: "pipes.jpg" }) {
