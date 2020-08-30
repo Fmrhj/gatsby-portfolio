@@ -7,7 +7,7 @@ import React from "react"
 const Footer = ({ siteTitle }) => {
 
     return (
-        <body>
+        <div>
             <div class="wrapper-footer">
                 <div class="push"></div>
             </div>
@@ -28,7 +28,7 @@ const Footer = ({ siteTitle }) => {
                     </div>
                 </div>
             </footer>
-        </body>
+        </div>
 
     )
 }

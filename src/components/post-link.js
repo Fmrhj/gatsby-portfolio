@@ -10,30 +10,4 @@ const PostLink = ({ post }) => (
   </div>
 )
 
-const PostLinkImage = ({ data }) => (
-  <div>
-    <Img fixed={data.file.childImageSharp.fixed}
-      objectFit="cover"
-      objectPosition="50% 50%"
-      alt="" />
-  </div>
-)
-
-
 export default PostLink
-
-export const query = graphql`
-  query {
-    placeholderImage: file(relativePath: { eq: "pattern.jpeg" }) {
-      childImageSharp {
-        fluid(maxWidth: 300) {
-          base64
-          aspectRatio
-          src
-          srcSet
-          sizes
-        }
-      }
-    }
-  }
-`
