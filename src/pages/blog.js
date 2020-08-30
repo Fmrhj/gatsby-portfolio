@@ -21,17 +21,19 @@ const BlogIndexPage = ({
         <MetaData />
         <Header />
         <div className="blog-post-container">
-          <br />
-
-          <h1>Posts </h1>
-          <div >
+          <div className="block-blog-post-wrapper">
+            <h1>Blog Posts</h1>
             {Posts}
-          </div >
+            <br />
+            <br />
+            <br />
+          </div>
         </div>
-        <div class="push"></div>
       </div>
+      <div class="push"></div>
       <Footer />
     </div >
+
 
   return IndexPage
 }
@@ -40,16 +42,16 @@ export default BlogIndexPage
 
 export const pageQuery = graphql`
   query {
-          allMarkdownRemark(sort: {order: DESC,
+        allMarkdownRemark(sort: {order: DESC,
                       fields: [frontmatter___date] }
                       filter: {fileAbsolutePath: {glob: "**/**/_content/blog/**/*.md" } }
                       ) {
-          edges {
-          node {
-          id
+        edges {
+        node {
+        id
           excerpt(pruneLength: 250)
           frontmatter {
-          date(formatString: "MMMM DD, YYYY")
+        date(formatString: "MMMM DD, YYYY")
             title
             path
             description
