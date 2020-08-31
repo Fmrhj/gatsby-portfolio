@@ -20,26 +20,29 @@ const Tags = ({ pageContext, data }) => {
             <MetaData />
             <Header />
             <div className="container">
-                <br></br>
-                <br></br>
-                <br></br>
-                <Helmet title={`Fernando Zepeda - ${tagHeader}`} />
-                <h1>{tagHeader}</h1>
-                <ul>
-                    {edges.map(({ node }) => {
-                        const { title, date } = node.frontmatter;
-                        const { slug } = node.fields;
-                        return (
-                            <li key={slug}>
-                                <Link to={node.frontmatter.path}>
-                                    {title} ({date}) </Link>
-                            </li>
-                        );
-                    })}
-                </ul>
-                <Link to="/tags">All tags</Link>
+                <div className="blog-post-container">
+                    <div className="block-blog-post-wrapper">
+                        <Helmet title={`Fernando Zepeda - ${tagHeader}`} />
+                        <h1>{tagHeader}</h1>
+                        <ul>
+                            {edges.map(({ node }) => {
+                                const { title, date } = node.frontmatter;
+                                const { slug } = node.fields;
+                                return (
+                                    <li key={slug}>
+                                        <Link to={node.frontmatter.path}>
+                                            {title} ({date}) </Link>
+                                    </li>
+                                );
+                            })}
+                        </ul>
+                        <br />
+                        <Link to="/tags">All tags</Link>
+
+                    </div>
+                </div>
             </div>
-            <br></br>
+            <div className="push" />
             <Footer />
         </div >
     );
