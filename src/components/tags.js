@@ -2,25 +2,29 @@ import { Link, graphql } from 'gatsby';
 
 import React from "react"
 import { kebabCase } from 'lodash';
+import styles from '../../styles/styles.scss'
 
 const Tags = ({ children }) =>
+
     children && (
-        <ul style={{ marginBottom: 0, marginLeft: "-35px", display: "inline-flex" }}>
-            {children.split(", ").map(t => (
+        <ul style={{ display: 'inline-flex', marginRight: '-55px' }}>
+            {children.map(t => (
                 <li
                     key={t}
                     style={{
-                        borderRadius: `5px`,
                         border: `1px grey`,
-                        padding: `2px 6px`,
-                        marginRight: `5px`,
+                        padding: `0px 10px`,
                         fontSize: `70%`,
-                        backgroundColor: "#D8CACA",
-                        color: "white",
+                        textDecoration: "none",
                         listStyle: "none",
-                        textDecoration: "none"
+                        backgroundColor: "#D8CACA",
+                        borderRadius: "5px",
+                        marginRight: "2px",
+                        ":hover": {
+                            border: "2px dashed darkred"
+                        }
                     }}>
-                    <Link style={{ textDecoration: 'none' }} to={`/tags/${kebabCase(children)}/`}>{t}</Link>
+                    <Link style={{ textDecoration: 'none' }} to={`/tags/${kebabCase(t)}/`}>{t}</Link>
                 </li>
             ))}
         </ul >

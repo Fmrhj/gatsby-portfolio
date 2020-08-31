@@ -3,7 +3,6 @@ import { StaticQuery, graphql } from "gatsby";
 import Img from 'gatsby-image';
 import { Link } from "gatsby"
 import React from "react"
-import { Tags } from "../components/tags"
 
 const PostLink = ({ post }) => (
 

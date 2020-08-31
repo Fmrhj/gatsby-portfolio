@@ -4,7 +4,7 @@ title: First blog post
 date: 2020-08-29T23:26:30.825Z
 description: "First entry of a series about readings on parallel computation APIs. "
 template: blog-template
-tags: parallel computing, python, OpenCL, CUDA
+tags: ["parallel computing", "python", "OpenCL", "CUDA"]
 thumbnail: /pexels-544917.jpg
 ---
 To start a blog was not as easy as I thought. It requires discipline, dedication and time. However, it is fun! To take a look on the latest stand of a subject, to condense an idea and to write about it, is an interesting endeavour, regardless of the subject. Following the principles of the great explainer Richard Feynmann and his [well-renowned technique](https://www.youtube.com/watch?v=GD-_fcpylcE), I would like to review concepts in plain and simple language.  
