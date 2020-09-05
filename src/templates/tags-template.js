@@ -39,12 +39,11 @@ const Tags = ({ pageContext, data }) => {
                             </ul>
                             <br />
                             <Link to="/tags">All tags</Link>
-
                         </div>
                     </div>
                 </div>
-                <Footer />
             </div >
+            <Footer />
         </body>
     );
 };
