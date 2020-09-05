@@ -13,26 +13,26 @@ export default function Template({
 }) {
   const { markdownRemark: post } = data // data.markdownRemark holds your post data
   return (
-    <div className="wrapper">
-      <Header />
-      <div className="container">
-        <div className="blog-post-container">
-          <Helmet title={`Fernando Zepeda - ${post.frontmatter.title}`} />
-          <div className="blog-post">
-            <h1>{post.frontmatter.title}</h1>
-            <div
-              className="blog-post-content"
-              dangerouslySetInnerHTML={{ __html: post.html }}
+    <body>
+      <div className="wrapper">
+        <Header />
+        <div className="container">
+          <div className="blog-post-container">
+            <Helmet title={`Fernando Zepeda - ${post.frontmatter.title}`} />
+            <div className="blog-post">
+              <h1>{post.frontmatter.title}</h1>
+              <div
+                className="blog-post-content"
+                dangerouslySetInnerHTML={{ __html: post.html }}
 
-            />
+              />
+            </div>
           </div>
-          <div class="push"></div>
         </div>
-
+        <div class="push"></div>
       </div>
       <Footer />
-    </div>
-
+    </body>
   )
 }
 

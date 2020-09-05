@@ -16,35 +16,37 @@ const Tags = ({ pageContext, data }) => {
         totalCount === 1 ? '' : 's'
         } tagged with "${tag}"`;
     return (
-        <div className="wrapper">
-            <MetaData />
-            <Header />
-            <div className="container">
-                <div className="blog-post-container">
-                    <div className="block-blog-post-wrapper">
-                        <Helmet title={`Fernando Zepeda - ${tagHeader}`} />
-                        <h1>{tagHeader}</h1>
-                        <ul>
-                            {edges.map(({ node }) => {
-                                const { title, date } = node.frontmatter;
-                                const { slug } = node.fields;
-                                return (
-                                    <li key={slug}>
-                                        <Link to={node.frontmatter.path}>
-                                            {title} ({date}) </Link>
-                                    </li>
-                                );
-                            })}
-                        </ul>
-                        <br />
-                        <Link to="/tags">All tags</Link>
+        <body>
+            <div className="wrapper">
+                <MetaData />
+                <Header />
+                <div className="container">
+                    <div className="blog-post-container">
+                        <div className="block-blog-post-wrapper">
+                            <Helmet title={`Fernando Zepeda - ${tagHeader}`} />
+                            <h1>{tagHeader}</h1>
+                            <ul>
+                                {edges.map(({ node }) => {
+                                    const { title, date } = node.frontmatter;
+                                    const { slug } = node.fields;
+                                    return (
+                                        <li key={slug}>
+                                            <Link to={node.frontmatter.path}>
+                                                {title} ({date}) </Link>
+                                        </li>
+                                    );
+                                })}
+                            </ul>
+                            <br />
+                            <Link to="/tags">All tags</Link>
 
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div className="push" />
-            <Footer />
-        </div >
+                <div className="push" />
+                <Footer />
+            </div >
+        </body>
     );
 };
 

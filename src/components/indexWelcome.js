@@ -14,24 +14,26 @@ class LeftArrows extends React.Component {
 
 // The header has container with a navigation bar
 const IndexWelcome = () => (
-    <div className="wrapper">
-        <div className="container">
-            <div className="index-block">
-                <div container>
-                    <h1>Hello!</h1>
-                    <p>I am <span class="highlight">Fernando</span>, nice to meet you!
+    <body>
+        <div className="wrapper">
+            <div className="container">
+                <div className="index-block">
+                    <div container>
+                        <h1>Hello!</h1>
+                        <p>I am <span class="highlight">Fernando</span>, nice to meet you!
                     <br />
                     Here you will find some information about me and different channels where we can stay in touch.
                     <br />
-                        <br />
+                            <br />
                     I am building a small blog and will be posting soon a series of articles documenting my latest learnings.
                     </p>
-                    <div className="social-logo"><LeftArrows /></div>
+                        <div className="social-logo"><LeftArrows /></div>
+                    </div>
                 </div>
             </div>
+            <div className="push"> </div>
         </div>
-        <div className="push"> </div>
-    </div>
+    </body>
 )
 
 export default IndexWelcome

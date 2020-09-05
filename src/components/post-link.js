@@ -5,7 +5,6 @@ import { Link } from "gatsby"
 import React from "react"
 
 const PostLink = ({ post }) => (
-
   < div className="block-blog-posts-container" >
     <Link to={post.frontmatter.path}>
       <div className="thumbnail">
@@ -17,7 +16,6 @@ const PostLink = ({ post }) => (
         <p>{post.frontmatter.description} </p>
         <div className="more">(read more)</div>
       </div>
-
     </Link>
   </div >
 )

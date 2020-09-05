@@ -16,24 +16,22 @@ const BlogIndexPage = ({
     .map(edge => <PostLink key={edge.node.id} post={edge.node} />)
 
   const IndexPage =
-    <div className="wrapper">
-      <div className="container">
-        <MetaData />
-        <Header />
-        <div className="blog-post-container">
-          <div className="block-blog-post-wrapper">
-            <h1>Blog Posts</h1>
-            {Posts}
-            <br />
-            <br />
-            <br />
+    <body>
+      <div class="wrapper">
+        <div className="container">
+          <Header />
+          <MetaData />
+          <div className="blog-post-container">
+            <div className="block-blog-post-wrapper">
+              <h1>Blog Posts</h1>
+              {Posts}
+            </div>
           </div>
         </div>
-      </div>
-      <div class="push"></div>
+        <div className="push"></div>
+      </div >
       <Footer />
-    </div >
-
+    </body >
 
   return IndexPage
 }

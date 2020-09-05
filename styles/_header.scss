@@ -35,14 +35,8 @@ header {
                     margin-right: 20px;
                 }
             }
-
             a:hover {
-                color: #000;
-            }
-
-            a:hover::before {
-                visibility: visible;
-                transform: scaleX(1);
+                color: $comboDarkGrey;
             }
         }
     }

@@ -13,30 +13,30 @@ const TagsPage = ({ data }) => {
   const allTags = data.allMarkdownRemark.group;
 
   return (
-    <div className="wrapper">
-      <div className="container">
-        <MetaData />
-        <Header />
-        <div className="blog-post-container">
-          <div className="block-blog-post-wrapper">
-            <Helmet title={`Fernando Zepeda - tags`} />
-            <h1>Tags</h1>
-            <ul>
-              {allTags.map(tag => (
-                <li key={tag.fieldValue}>
-                  <Link to={`/tags/${kebabCase(tag.fieldValue)}/`}>
-                    {tag.fieldValue} ({tag.totalCount})</Link>
-                </li>
-              ))}
-            </ul>
-            <br />
-            <br />
-            <div class="push"></div>
+    <body>
+      <div className="wrapper">
+        <div className="container">
+          <MetaData />
+          <Header />
+          <div className="blog-post-container">
+            <div className="block-blog-post-wrapper">
+              <Helmet title={`Fernando Zepeda - tags`} />
+              <h1>Tags</h1>
+              <ul>
+                {allTags.map(tag => (
+                  <li key={tag.fieldValue}>
+                    <Link to={`/tags/${kebabCase(tag.fieldValue)}/`}>
+                      {tag.fieldValue} ({tag.totalCount})</Link>
+                  </li>
+                ))}
+              </ul>
+            </div>
           </div>
         </div>
+        <div class="push"></div>
       </div>
       <Footer />
-    </div>
+    </body>
   );
 };
 

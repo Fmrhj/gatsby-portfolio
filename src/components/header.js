@@ -4,7 +4,7 @@ import { Link } from "gatsby"
 import React from "react"
 
 const activeStyle = {
-  color: "#660f57",
+  color: '#521f6f',
   fontWeight: 'bold'
 }
 

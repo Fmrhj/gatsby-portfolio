@@ -1,9 +1,8 @@
-import React from "react"
-
-// icons 
-import { GoMarkGithub } from "react-icons/go";
 import { FaLinkedinIn } from "react-icons/fa";
 import { FiMessageSquare } from "react-icons/fi";
+// icons 
+import { GoMarkGithub } from "react-icons/go";
+import React from "react"
 
 class GitHubLogo extends React.Component {
     render() {
@@ -33,7 +32,6 @@ class EmailLogo extends React.Component {
 }
 
 const ContactBlock = () => (
-
     <div className="container">
         <div className="contactList">
             <table>

@@ -6,14 +6,9 @@ $font: "Helvetica Neue", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, 
 $white: #fff;
 $black: #000;
 $off-white: #f2f4f5;
-$purple: #3b2747;
-$purpleSecond: #472151;
-$purpleThird: #624185;
-$orange: #ffa345;
-$secondOrange: #f2ad73;
 
 //color-combo 210
-$comboPurple: #660f57;
+$comboPurple: #521f6f;
 $comboPurpleLight: #663366;
 $comboBlue: #003366;
 $comboWhite: #e7ebf0;
@@ -31,11 +26,37 @@ body {
     line-height: 1.5;
     margin: 0;
     padding: 0;
+}
+
+.wrapper {
     height: 100%;
 }
 
+.push {
+    height: 550px;
+    @media (max-width: 1280px) {
+        height: 610px;
+    }
+    @media (max-width: 976px) {
+        height: 575px;
+    }
+    @media (max-width: 768px) {
+        height: 475px;
+    }
+    @media (max-width: 468px) {
+        height: 375px;
+    }
+    @media (max-width: 360px) {
+        height: 205px;
+    }
+}
+
 h1 {
-    color: $comboPurple;
+    color: $black;
+}
+
+h2 {
+    color: $black;
 }
 // main div container for different margins
 @import "container";
@@ -69,19 +90,6 @@ h1 {
 
 // index
 @import "index-block";
-
-//circle icons
-.email {
-    display: inline-block;
-    box-shadow: 0px 0px 0px 0px;
-    padding: 0.6em 0.6em;
-}
-
-.email:hover {
-    color: $orange;
-    text-decoration: none;
-    transform: scale(1.5);
-}
 
 // index of blog posts
 @import "block-blog-posts";

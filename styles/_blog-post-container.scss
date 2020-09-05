@@ -2,36 +2,37 @@
     padding-top: 150px;
     padding-bottom: 20px;
     .blog-post {
-        h2 {
-            color: $orange;
-        }
         .blog-post-content {
             color: $black;
             h3 {
-                color: $comboBlue;
+                color: $comboDarkGrey;
                 a:link {
-                    color: $comboBlue;
+                    color: $comboDarkGrey;
+                    text-decoration: none;
                 }
-                a:visited {
-                    color: $comboBlue;
+                a:hover {
+                    color: $black;
                 }
             }
-            a:hover {
-                background-color: $off-white;
-            }
-
             a:link {
+                color: $comboDarkGrey;
+                text-decoration: none;
+            }
+            a:link:hover {
                 color: $black;
             }
             a:visited {
-                color: $black;
+                color: $comboDarkGrey;
             }
             .colored-text_1 {
                 color: $comboBlue;
                 font-weight: bold;
+                a:link:hover {
+                    color: $black;
+                }
             }
             .colored-text_2 {
-                color: $orange;
+                color: $comboDarkGrey;
             }
             .colored-text_3 {
                 color: $comboDarkGrey;

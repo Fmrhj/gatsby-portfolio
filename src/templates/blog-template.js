@@ -6,7 +6,6 @@ import Header from '../components/header'
 import { Helmet } from "react-helmet"
 import React from "react"
 import Tags from '../components/tags'
-import Typography from '@material-ui/core/Typography';
 
 // main template
 export default function Template({
@@ -15,27 +14,30 @@ export default function Template({
   const { markdownRemark: post } = data // data.markdownRemark holds your post data
   const tags = post.frontmatter.tags
   return (
-    <div className="wrapper">
-      <Header />
-      <div className="container">
-        <div className="blog-post-entries">
-          <Helmet title={`Fernando Zepeda - ${post.frontmatter.title}`} />
-          <div className="blog-post">
-            <h1>{post.frontmatter.title}</h1>
-            <Typography variant="subtitle1" color="secondary">
-              {post.frontmatter.date} &middot; {post.timeToRead} {'min. read'} &middot;
-              {tags ? (<Tags>{tags}</Tags>) : null}
-            </Typography>
-            <h3>{post.frontmatter.description}</h3>
-            <div
-              className="blog-post-content"
-              dangerouslySetInnerHTML={{ __html: post.html }}
-            />
+    <body>
+      <div className="wrapper">
+        <Header />
+        <div className="container">
+          <div className="blog-post-entries">
+            <Helmet title={`Fernando Zepeda - ${post.frontmatter.title}`} />
+            <div className="blog-post">
+              <div className="blog-post-header">
+                <h1>{post.frontmatter.title}</h1>
+                <div className="tags">
+                  <div className="date-time">{post.frontmatter.date} &middot; {post.timeToRead} {'min. read'} &middot;</div>{tags ? (<Tags>{tags}</Tags>) : null}</div>
+              </div>
+              <h3>{post.frontmatter.description}</h3>
+              <div
+                className="blog-post-content"
+                dangerouslySetInnerHTML={{ __html: post.html }}
+              />
+            </div>
           </div>
         </div>
-      </div>
+        <div className="push"></div>
+      </div >
       <Footer />
-    </div >
+    </body>
   )
 }
 

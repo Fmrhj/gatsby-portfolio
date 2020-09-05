@@ -1,46 +1,31 @@
-.footer,
-.push {
-    margin-top: auto;
-    @media (max-width: 2500px) {
-        height: 350px;
-    }
-    @media (max-width: 1280px) {
-        height: 360px;
-    }
-    @media (max-width: 976px) {
-        height: 330px;
-    }
-    @media (max-width: 768px) {
-        height: 330px;
-    }
-    @media (max-width: 468px) {
-        height: 450px;
-    }
-    @media (max-width: 360px) {
-        height: 120px;
-    }
-}
-
-.site-footer {
-    background: #090a0b;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    color: #fff;
-    bottom: 0;
-    left: 0;
+.footer {
+    position: flex;
     width: 100%;
-    font-size: 0.8rem;
-    .footer-content {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        align-items: center;
-        margin: 0 auto;
+    bottom: 0;
+    padding-top: 10px;
+    height: 100%;
+    .site-footer {
+        background: #090a0b;
+        padding: 0rem;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: #fff;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        font-size: 0.8rem;
+        .footer-content {
+            display: flex;
+            margin: 0 auto;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: center;
+            a {
+                text-decoration: none;
+            }
+            a:hover {
+                color: $comboDarkGrey;
+            }
+        }
     }
-}
-
-.wrapper-footer {
-    min-height: 100%;
-    /* Equal to height of footer */
-    /* But also accounting for potential margin-bottom of last child */
 }

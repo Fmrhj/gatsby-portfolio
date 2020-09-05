@@ -6,15 +6,18 @@ import React from "react"
 const NotFoundPage = () => {
 
   return (
-    <div className="wrapper">
-      <MetaData />
-      <div className="container">
-        <div className="not-found-block">
-          <h1>404 | Page not found</h1>
-          <h2>Oops, something went wrong...</h2>
+    <body>
+      <div className="wrapper">
+        <MetaData />
+        <div className="container">
+          <div className="not-found-block">
+            <h1>404 | Page not found</h1>
+            <h2>Oops, something went wrong...</h2>
+          </div>
         </div>
       </div>
-    </div>
+      <div className="push"></div>
+    </body>
   )
 }
 
