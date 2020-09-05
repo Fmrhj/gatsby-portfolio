@@ -18,6 +18,7 @@ $comboDarkGrey: #5b7290;
 //General definitions
 html {
     position: relative;
+    height: 100%;
 }
 body {
     font-family: $font;
@@ -26,29 +27,13 @@ body {
     line-height: 1.5;
     margin: 0;
     padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 .wrapper {
-    height: 100%;
-}
-
-.push {
-    height: 550px;
-    @media (max-width: 1280px) {
-        height: 610px;
-    }
-    @media (max-width: 976px) {
-        height: 575px;
-    }
-    @media (max-width: 768px) {
-        height: 475px;
-    }
-    @media (max-width: 468px) {
-        height: 375px;
-    }
-    @media (max-width: 360px) {
-        height: 205px;
-    }
+    flex-grow: 1;
 }
 
 h1 {

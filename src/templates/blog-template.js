@@ -34,7 +34,6 @@ export default function Template({
             </div>
           </div>
         </div>
-        <div className="push"></div>
       </div >
       <Footer />
     </body>

@@ -13,7 +13,6 @@ const ContactPage = () => (
             <MetaData />
             <Header />
             <ContactBlock />
-            <div className="push"></div>
         </div>
         <Footer />
     </body>

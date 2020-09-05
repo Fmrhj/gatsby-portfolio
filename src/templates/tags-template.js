@@ -43,7 +43,6 @@ const Tags = ({ pageContext, data }) => {
                         </div>
                     </div>
                 </div>
-                <div className="push" />
                 <Footer />
             </div >
         </body>

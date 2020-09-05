@@ -28,10 +28,10 @@ const BlogIndexPage = ({
             </div>
           </div>
         </div>
-        <div className="push"></div>
       </div >
       <Footer />
     </body >
+
 
   return IndexPage
 }

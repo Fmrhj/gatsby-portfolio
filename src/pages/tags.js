@@ -33,9 +33,8 @@ const TagsPage = ({ data }) => {
             </div>
           </div>
         </div>
-        <div class="push"></div>
+        <Footer />
       </div>
-      <Footer />
     </body>
   );
 };

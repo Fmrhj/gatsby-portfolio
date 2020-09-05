@@ -12,7 +12,6 @@ const IndexPage = () => (
       <MetaData />
       <Header />
       <IndexWelcome />
-      <div className="push"></div>
     </div>
     <Footer />
   </body>

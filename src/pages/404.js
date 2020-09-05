@@ -16,7 +16,6 @@ const NotFoundPage = () => {
           </div>
         </div>
       </div>
-      <div className="push"></div>
     </body>
   )
 }
