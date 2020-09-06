@@ -1,8 +1,8 @@
 import { StaticQuery, graphql } from "gatsby";
 
 import Img from 'gatsby-image';
-import { Link } from "gatsby"
-import React from "react"
+import { Link } from "gatsby";
+import React from "react";
 
 const PostLink = ({ post }) => (
   < div className="block-blog-posts-container" >
@@ -26,7 +26,7 @@ const Image = ({ post }) => (
   < StaticQuery
     query={graphql`
       query {
-        placeholderImage: file(relativePath: { eq: "pipes.jpg" }) {
+        placeholderImage: file(relativePath: { eq: "OpenCL_Logo.png" }) {
           childImageSharp {
             fluid(maxWidth: 300) {
               src

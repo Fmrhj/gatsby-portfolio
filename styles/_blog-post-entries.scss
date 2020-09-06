@@ -18,6 +18,7 @@
                         a {
                             color: $comboPurple;
                             text-decoration: none;
+                            text-align: center;
                         }
                         a:hover {
                             color: $comboPurple;
@@ -43,10 +44,7 @@
                     color: $comboBlue;
                 }
             }
-            a:hover {
-                background-color: $off-white;
-            }
-            a:visited {
+            a:link:hover {
                 color: $black;
             }
             .colored-text_1 {
@@ -63,6 +61,7 @@
             img {
                 width: 80%;
                 max-width: 100%;
+                min-width: 0;
                 float: center;
                 opacity: 1;
             }
@@ -71,8 +70,9 @@
             }
 
             pre {
-                background-color: "grey";
-                color: "blue";
+                code {
+                    color: "blue";
+                }
             }
         }
     }
