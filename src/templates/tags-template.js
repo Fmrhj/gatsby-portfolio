@@ -3,11 +3,11 @@ import '../../styles/styles.scss';
 
 import { Link, graphql } from 'gatsby';
 
-import Footer from "../components/footer"
-import Header from '../components/header'
-import { Helmet } from "react-helmet"
-import MetaData from "../components/metaData"
-import React from 'react';
+import Footer from "../components/footer";
+import Header from "../components/header";
+import { Helmet } from "react-helmet";
+import MetaData from "../components/metaData";
+import React from "react";
 
 const Tags = ({ pageContext, data }) => {
     const { tag } = pageContext;

@@ -6,6 +6,7 @@ import Header from '../components/header'
 import { Helmet } from "react-helmet"
 import React from "react"
 import Tags from '../components/tags'
+import { graphql } from "gatsby"
 
 // main template
 export default function Template({
@@ -24,14 +25,16 @@ export default function Template({
               <div className="blog-post-header">
                 <h1>{post.frontmatter.title}</h1>
                 <div className="tags">
-                  <div className="date-time">{post.frontmatter.date} &middot; {post.timeToRead} {'min. read'} &middot;</div>{tags ? (<Tags>{tags}</Tags>) : null}</div>
+                  <div className="date-time">{post.frontmatter.date} &middot; {post.timeToRead} {'min. read'}</div>
+                  <div className="tag-list">{tags ? (<Tags>{tags}</Tags>) : null}</div>
+                </div>
               </div>
-              <h3>{post.frontmatter.description}</h3>
-              <div
-                className="blog-post-content"
-                dangerouslySetInnerHTML={{ __html: post.html }}
-              />
             </div>
+            <h3>{post.frontmatter.description}</h3>
+            <div
+              className="blog-post-content"
+              dangerouslySetInnerHTML={{ __html: post.html }}
+            />
           </div>
         </div>
       </div >

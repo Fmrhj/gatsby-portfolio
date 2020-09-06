@@ -1,33 +1,33 @@
 .blog-post-entries {
     margin-top: 50px;
     padding: 100px 0;
-    display: flex;
     .blog-post {
         .blog-post-header {
             h1 {
                 color: $black;
             }
-
             .tags {
                 .date-time {
                     font-size: 0.8rem;
                 }
-                ul {
+                .tag-list {
+                    ul,
                     li {
-                        display: "inline";
-                        border: "1px grey";
-                        font-size: 1rem;
-                        border-radius: "5px";
-                        padding: "2px 10px";
-                        margin-right: "2px";
                         list-style: none;
+                        list-style-type: none;
                         a {
-                            color: $comboDarkGrey;
+                            color: $comboPurple;
                             text-decoration: none;
                         }
                         a:hover {
-                            color: $black;
+                            color: $comboPurple;
                         }
+                    }
+                    ul li a:hover,
+                    ul li a:focus {
+                        color: $white;
+                        border: "1px";
+                        border-color: black;
                     }
                 }
             }
@@ -45,10 +45,6 @@
             }
             a:hover {
                 background-color: $off-white;
-            }
-
-            a:link {
-                color: $black;
             }
             a:visited {
                 color: $black;
