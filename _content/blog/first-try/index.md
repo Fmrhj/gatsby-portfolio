@@ -13,7 +13,7 @@ I have been reading and working lately around parallel computing. So let's start
 
 ## OpenCL for parallel computing
 
-[![pyOpenCL](http://img.youtube.com/vi/hqieYt9sXPU/0.jpg)](http://www.youtube.com/watch?v=hqieYt9sXPU "pyOpenCL")
+[![pyOpenCL](https://img.youtube.com/vi/hqieYt9sXPU/0.jpg)](http://www.youtube.com/watch?v=hqieYt9sXPU "pyOpenCL")
 *Gordon Inggs talking about PyOpenCL in PyCon South Africa 2018*
 
 
