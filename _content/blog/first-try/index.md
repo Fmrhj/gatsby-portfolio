@@ -1,6 +1,6 @@
 ---
-path: /blog/first-blog-post
-title: First blog post
+path: /blog/on-parallel-computing-and-opencl
+title: On parallel computing and OpenCL 
 date: 2020-08-29T23:26:30.825Z
 description: "About readings on parallel computation APIs and PyOpenCL. "
 template: blog-template
