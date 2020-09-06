@@ -27,7 +27,7 @@
                     ul li a:focus {
                         color: $white;
                         border: "1px";
-                        border-color: black;
+                        border-color: $black;
                     }
                 }
             }
@@ -59,6 +59,20 @@
             .colored-text_3 {
                 color: $comboDarkGrey;
                 font-weight: bold;
+            }
+            img {
+                width: 80%;
+                max-width: 100%;
+                float: center;
+                opacity: 1;
+            }
+            img:hover {
+                opacity: 0.7;
+            }
+
+            pre {
+                background-color: "grey";
+                color: "blue";
             }
         }
     }
