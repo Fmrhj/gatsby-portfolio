@@ -16,12 +16,9 @@
                         list-style: none;
                         list-style-type: none;
                         a {
-                            color: $comboPurple;
+                            color: $comboBlue;
                             text-decoration: none;
                             text-align: center;
-                        }
-                        a:hover {
-                            color: $comboPurple;
                         }
                     }
                     ul li a:hover,
@@ -34,18 +31,20 @@
             }
         }
         .blog-post-content {
-            color: $black;
             h3 {
                 color: $black;
-                a:link {
-                    color: $comboBlue;
-                }
-                a:visited {
-                    color: $comboBlue;
-                }
             }
-            a:link:hover {
+            a {
+                color: $comboDarkGrey;
+                text-decoration: none;
+            }
+            a:link {
+                color: $comboDarkGrey;
+                text-decoration: none;
+            }
+            a:hover {
                 color: $black;
+                text-decoration: underline;
             }
             .colored-text_1 {
                 color: $comboBlue;
@@ -62,17 +61,12 @@
                 width: 80%;
                 max-width: 100%;
                 min-width: 0;
-                float: center;
+                margin-left: auto;
+                margin-right: auto;
                 opacity: 1;
             }
             img:hover {
                 opacity: 0.7;
-            }
-
-            pre {
-                code {
-                    color: "blue";
-                }
             }
         }
     }

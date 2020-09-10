@@ -29,12 +29,12 @@ export default function Template({
                   <div className="tag-list">{tags ? (<Tags>{tags}</Tags>) : null}</div>
                 </div>
               </div>
+              <h3>{post.frontmatter.description}</h3>
+              <div
+                className="blog-post-content"
+                dangerouslySetInnerHTML={{ __html: post.html }}
+              />
             </div>
-            <h3>{post.frontmatter.description}</h3>
-            <div
-              className="blog-post-content"
-              dangerouslySetInnerHTML={{ __html: post.html }}
-            />
           </div>
         </div>
       </div >
