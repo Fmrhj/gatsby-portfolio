@@ -98,6 +98,7 @@ module.exports = {
       resolve: 'gatsby-transformer-remark',
       options: {
         plugins: [
+          `gatsby-remark-prismjs`,
           // gatsby-remark-relative-images-v2 must
           // go before gatsby-remark-images
           {

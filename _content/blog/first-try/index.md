@@ -28,12 +28,16 @@ Wait a minute.
 
 ## PyOpenCL
 
-```python
+```python{numberLines: false}
 import pyopencl
 import numpy
 
 # Get OpenCL system plaftforms 
 print(platform.name for _ in pyopencl_getplatforms())
+```
+
+```shell{promptHost: dev.localhost}
+echo $command
 ```
 
 ## Links
