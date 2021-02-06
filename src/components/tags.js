@@ -1,6 +1,5 @@
 import { Link } from 'gatsby';
 import React from "react"
-import { black } from 'material-ui/styles/colors';
 import { kebabCase } from 'lodash';
 
 const Tags = ({ children }) =>

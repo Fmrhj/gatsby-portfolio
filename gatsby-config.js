@@ -101,6 +101,7 @@ module.exports = {
           `gatsby-remark-prismjs`,
           // gatsby-remark-relative-images-v2 must
           // go before gatsby-remark-images
+          `gatsby-remark-katex`,
           {
             resolve: `gatsby-remark-relative-images-v2`,
           },
@@ -153,9 +154,9 @@ module.exports = {
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     `gatsby-plugin-offline`,
-    'gatsby-plugin-sass',
-    'gatsby-plugin-netlify-identity-widget',
+    `gatsby-plugin-sass`,
+    `gatsby-plugin-netlify-identity-widget`,
     // Content-manager-system
-    'gatsby-plugin-netlify-cms',
+    `gatsby-plugin-netlify-cms`
   ]
 }

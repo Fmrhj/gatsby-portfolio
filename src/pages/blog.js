@@ -5,6 +5,7 @@ import Header from "../components/header"
 import MetaData from "../components/metaData"
 import PostLink from "../components/post-link"
 import React from "react"
+import { graphql } from 'gatsby'
 
 const BlogIndexPage = ({
   data: {

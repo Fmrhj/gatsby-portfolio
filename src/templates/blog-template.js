@@ -1,5 +1,6 @@
 // style
 import '../../styles/styles.scss';
+import "katex/dist/katex.min.css"
 
 import Footer from "../components/footer"
 import Header from '../components/header'
@@ -29,7 +30,6 @@ export default function Template({
                   <div className="tag-list">{tags ? (<Tags>{tags}</Tags>) : null}</div>
                 </div>
               </div>
-              <h3>{post.frontmatter.description}</h3>
               <div
                 className="blog-post-content"
                 dangerouslySetInnerHTML={{ __html: post.html }}
