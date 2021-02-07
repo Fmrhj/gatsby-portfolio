@@ -1,5 +1,4 @@
 
-
 module.exports = {
   plugins: [
     {
@@ -9,29 +8,28 @@ module.exports = {
           // og:<tag>
           type: 'website',
           locale: 'en_US',
-          title: 'Fernando Zepeda',
-          url: 'https://www.fernandozepeda.io/',
-          site_name: 'Fernando Zepeda',
-          description: 'Data Scientist self-learning cloud engineering. Curious about AI and rapid deployment of applications',
-
+          title: process.env.SITE_NAME,
+          url: process.env.SITE_URL,
+          site_name: process.env.SITE_NAME,
+          description: process.env.SITE_DESCRIPTION
         },
       },
     },
     {
       resolve: 'gatsby-plugin-google-analytics',
       options: {
-        trackingId: process.env.GOOGLE_ANALYTICS_TRACKING_ID || "none",
+        trackingId: process.env.GOOGLE_ANALYTICS_TRACKING_ID || 'none',
       }
     },
     {
-      resolve: `gatsby-source-filesystem`,
+      resolve: 'gatsby-source-filesystem',
       options: {
-        name: `markdown-pages`,
+        name: 'markdown-pages',
         path: `${__dirname}/src/markdown-pages`
       },
     },
     {
-      resolve: `gatsby-source-filesystem`,
+      resolve: 'gatsby-source-filesystem',
       options: {
         name: `blog-content`,
         path: `${__dirname}/_content/blog`
@@ -55,11 +53,11 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        "name": "Fernando Zepeda",
-        "short_name": "Fernando Zepeda",
-        "description": `Data Scientist self-learning cloud engineering. Curious about AI and rapid deployment of applications`,
-        "theme_color": "#101823",
-        "background_color": "#101823",
+        "name": process.env.SITE_NAME,
+        "short_name": process.env.SITE_NAME,
+        "description": process.env.SITE_DESCRIPTION,
+        "theme_color": process.env.SITE_THEME_COLOR,
+        "background_color": process.env.SITE_THEME_COLOR,
         "display": "standalone",
         "orientation": "portrait",
         "icon": "static/favicons/favicon-32x32.png",
@@ -91,7 +89,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-react-helmet-canonical-urls`,
       options: {
-        siteUrl: `https://www.fernandozepeda.io`,
+        siteUrl: process.env.SITE_URL,
       },
     },
     {
@@ -112,20 +110,12 @@ module.exports = {
             },
           },
           {
-            // alow gatsby-emoticons
             resolve: 'gatsby-remark-emojis',
             options: {
-              // Deactivate the plugin globally (default: true)
               active: true,
-              // Add a custom css class
               class: 'emoji-icon',
-              // In order to avoid pattern mismatch you can specify
-              // an escape character which will be prepended to the
-              // actual pattern (e.g. `#:poop:`).
               escapeCharacter: '', // (default: '')
-              // Select the size (available size: 16, 24, 32, 64)
               size: 64,
-              // Add custom styles
               styles: {
                 display: 'inline',
                 margin: '0',
@@ -142,10 +132,15 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-robots-txt',
       options: {
-        host: 'https://fernandozepeda.io/',
-        //sitemap: 'https://www.example.com/sitemap.xml',
+        host: process.env.SITE_URL,
         sitemap: null,
         policy: [{ userAgent: '*', allow: '/' }]
+      }
+    },
+    {
+      resolve: 'gatsby-plugin-disqus',
+      options: {
+        shortname: process.env.DISQUS_ID
       }
     },
     // add further plugins 

@@ -1,14 +1,12 @@
-import { FaLinkedinIn } from "react-icons/fa";
-import { FiMessageSquare } from "react-icons/fi";
-// icons 
-import { GoMarkGithub } from "react-icons/go";
-import React from "react"
+import { FaLinkedinIn } from 'react-icons/fa';
+import { FiMessageSquare } from 'react-icons/fi';
+import { GoMarkGithub } from 'react-icons/go';
+import React from 'react'
 
 class GitHubLogo extends React.Component {
     render() {
         return (<h2>
-            <a href="https://github.com/Fmrhj" class="social-logo">
-                <GoMarkGithub /> </a>
+            <a href={`${process.env.GITHUB}`} class='social-logo'><GoMarkGithub /> </a>
         </h2>)
     }
 }
@@ -16,17 +14,14 @@ class GitHubLogo extends React.Component {
 class LinkedinLogo extends React.Component {
     render() {
         return (<h2>
-            <a href="https://www.linkedin.com/in/fernando-zepeda-4b83073a/"
-                class="social-logo">
-                <FaLinkedinIn /> </a>
-        </h2>)
+            <a href={`${process.env.LINKEDIN}`} class='social-logo'> <FaLinkedinIn /> </a> </h2 >)
     }
 }
 
 class EmailLogo extends React.Component {
     render() {
         return (<h2>
-            <a href="mailto:fernando.zepeda@pm.me" class="social-logo"><FiMessageSquare />
+            <a href={`mailto:${process.env.EMAIL}`} class='social-logo'><FiMessageSquare />
             </a></h2>)
     }
 }

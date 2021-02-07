@@ -2,6 +2,7 @@
 import '../../styles/styles.scss';
 import "katex/dist/katex.min.css"
 
+import CommentSection from "../components/commentSection"
 import Footer from "../components/footer"
 import Header from '../components/header'
 import { Helmet } from "react-helmet"
@@ -35,6 +36,7 @@ export default function Template({
                 dangerouslySetInnerHTML={{ __html: post.html }}
               />
             </div>
+            <CommentSection postInfo={post} />
           </div>
         </div>
       </div >
@@ -55,6 +57,7 @@ export const query = graphql`
           description
           tags
       }
+      id
       timeToRead
     }
 }

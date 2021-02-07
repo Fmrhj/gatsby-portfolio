@@ -1,19 +1,24 @@
-const _ = require('lodash');
-const path = require(`path`);
+const _ = require('lodash')
+const path = require('path')
 
-const { createFilePath } = require(`gatsby-source-filesystem`);
-const { fmImagesToRelative } = require(`gatsby-remark-relative-images-v2`);
+// load env variables
+require('dotenv').config({
+  path: `.env.${process.env.NODE_ENV}`,
+})
+
+const { createFilePath } = require('gatsby-source-filesystem');
+const { fmImagesToRelative } = require('gatsby-remark-relative-images-v2');
 
 exports.onCreateNode = ({ node, getNode, actions }) => {
   const { createNodeField } = actions;
 
 
-  if (node.internal.type === `MarkdownRemark`) {
-    const slug = createFilePath({ node, getNode, basePath: `pages` })
+  if (node.internal.type === 'MarkdownRemark') {
+    const slug = createFilePath({ node, getNode, basePath: 'pages' })
     fmImagesToRelative(node);
     createNodeField({
       node,
-      name: `slug`,
+      name: 'slug',
       value: slug,
     })
   };
@@ -21,7 +26,7 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
 
 exports.createPages = async ({ graphql, actions }) => {
 
-  const tagsTemplate = path.resolve(`src/templates/tags-template.js`)
+  const tagsTemplate = path.resolve('src/templates/tags-template.js')
 
   const { createPage } = actions
   const result = await graphql(`
