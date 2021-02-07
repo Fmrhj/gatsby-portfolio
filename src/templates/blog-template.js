@@ -1,14 +1,14 @@
 // style
-import '../../styles/styles.scss';
-import "katex/dist/katex.min.css"
+import '../../styles/styles.scss'
+import 'katex/dist/katex.min.css'
 
-import CommentSection from "../components/commentSection"
-import Footer from "../components/footer"
+import CommentSection from '../components/commentSection'
+import Footer from '../components/footer'
 import Header from '../components/header'
 import { Helmet } from "react-helmet"
-import React from "react"
+import React from 'react'
 import Tags from '../components/tags'
-import { graphql } from "gatsby"
+import { graphql } from 'gatsby'
 
 // main template
 export default function Template({
@@ -22,7 +22,7 @@ export default function Template({
         <Header />
         <div className="container">
           <div className="blog-post-entries">
-            <Helmet title={`Fernando Zepeda - ${post.frontmatter.title}`} />
+            <Helmet title={`${process.env.SITE_NAME} - ${post.frontmatter.title}`} />
             <div className="blog-post">
               <div className="blog-post-header">
                 <h1>{post.frontmatter.title}</h1>

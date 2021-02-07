@@ -7,11 +7,11 @@ import { makeStyles } from '@material-ui/core/styles';
 
 function Copyright() {
     return (
-        <Typography variant="body2" color="white">
+        <Typography variant='body2' color='white'>
 
-            <Link color="inherit" href="https://fernandozepeda.io/">
-                Fernando Zepeda
-      </Link>{' © '}
+            <Link color='inherit' href={`${process.env.SITE_URL}`}>
+                {process.env.SITE_NAME}
+            </Link>{' © '}
             {new Date().getFullYear()}
             {'.'}
         </Typography>
@@ -27,7 +27,7 @@ const useStyles = makeStyles((theme) => ({
     footer: {
         left: '100px',
         marginTop: 'auto',
-        backgroundColor: "#090a0b",
+        backgroundColor: '#090a0b',
 
     },
     footer_content: {
@@ -41,7 +41,7 @@ export default function StickyFooter() {
 
     return (
         <footer className={classes.footer}>
-            <div className="container">
+            <div className='container'>
                 <div className={classes.root}>
                     <div className={classes.footer_content}>
                         <Copyright />

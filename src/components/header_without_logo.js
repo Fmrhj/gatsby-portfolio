@@ -1,29 +1,27 @@
-import { Link } from "gatsby"
-import React from "react"
-
 import '../../styles/styles.scss'
 
+import { Link } from 'gatsby'
+import React from 'react'
+
 const activeStyle = {
-  color: "#660f57",
+  color: '#660f57',
   fontWeight: 'bold'
 }
 
-// The header has container with a navigation bar
 const Header = ({ siteTitle }) => {
-
   return (
     <header>
-      <div className="container">
-        <div className="inner-header">
-          <div className="logo">
-            <Link to="/"></Link>
+      <div className='container'>
+        <div className='inner-header'>
+          <div className='logo'>
+            <Link to='/'></Link>
           </div>
-          <div className="navigation">
+          <div className='navigation'>
             <nav>
-              <Link to="/about" activeStyle={ activeStyle }>About</Link>
-              <Link to="/resume" activeStyle={ activeStyle }>Resume</Link>
-              <Link to="/blog" activeStyle={ activeStyle }>Blog</Link>
-              <Link to="/contact" activeStyle={ activeStyle }>Contact</Link>
+              <Link to='/about' activeStyle={activeStyle}>About</Link>
+              <Link to='/resume' activeStyle={activeStyle}>Resume</Link>
+              <Link to='/blog' activeStyle={activeStyle}>Blog</Link>
+              <Link to='/contact' activeStyle={activeStyle}>Contact</Link>
             </nav>
           </div>
         </div>

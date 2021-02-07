@@ -18,7 +18,7 @@ export default function Template({
         <Header />
         <div className="container">
           <div className="blog-post-container">
-            <Helmet title={`Fernando Zepeda - ${post.frontmatter.title}`} />
+            <Helmet title={`${process.env.SITE_NAME} - ${post.frontmatter.title}`} />
             <div className="blog-post">
               <h1>{post.frontmatter.title}</h1>
               <div
