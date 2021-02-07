@@ -3,7 +3,7 @@ const path = require('path')
 
 // load env variables
 require('dotenv').config({
-  path: `.env.${process.env.NODE_ENV}`,
+  path: `.env.${process.env.GATSBY_NODE_ENV}`,
 })
 
 const { createFilePath } = require('gatsby-source-filesystem');

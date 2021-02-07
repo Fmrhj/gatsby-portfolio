@@ -12,8 +12,8 @@ const Footer = () => {
                 <div class='container'>
                     <div className='footer-content'>
                         <div>
-                            <a><Link color='inherit' href={`${process.env.SITE_URL}`}>
-                                {process.env.SITE_NAME} </Link> &copy; {new Date().getFullYear()}</a></div>
+                            <a><Link color='inherit' href={`${process.env.GATSBY_SITE_URL}`}>
+                                {process.env.GATSBY_SITE_NAME} </Link> &copy; {new Date().getFullYear()}</a></div>
                     </div>
                 </div>
             </div>

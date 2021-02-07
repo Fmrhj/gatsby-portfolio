@@ -7,17 +7,17 @@ module.exports = {
           // og:<tag>
           type: 'website',
           locale: 'en_US',
-          title: process.env.SITE_NAME,
-          url: process.env.SITE_URL,
-          site_name: process.env.SITE_NAME,
-          description: process.env.SITE_DESCRIPTION
+          title: process.env.GATSBY_SITE_NAME,
+          url: process.env.GATSBY_SITE_URL,
+          site_name: process.env.GATSBY_SITE_NAME,
+          description: process.env.GATSBY_SITE_DESCRIPTION
         },
       },
     },
     {
       resolve: 'gatsby-plugin-google-analytics',
       options: {
-        trackingId: process.env.GOOGLE_ANALYTICS_TRACKING_ID || 'none',
+        trackingId: process.env.GATSBY_GOOGLE_ANALYTICS_TRACKING_ID || 'none',
       }
     },
     {
@@ -52,11 +52,11 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        "name": process.env.SITE_NAME,
-        "short_name": process.env.SITE_NAME,
-        "description": process.env.SITE_DESCRIPTION,
-        "theme_color": process.env.SITE_THEME_COLOR,
-        "background_color": process.env.SITE_THEME_COLOR,
+        "name": process.env.GATSBY_SITE_NAME,
+        "short_name": process.env.GATSBY_SITE_NAME,
+        "description": process.env.GATSBY_SITE_DESCRIPTION,
+        "theme_color": process.env.GATSBY_SITE_THEME_COLOR,
+        "background_color": process.env.GATSBY_SITE_THEME_COLOR,
         "display": "standalone",
         "orientation": "portrait",
         "icon": "static/favicons/favicon-32x32.png",
@@ -88,7 +88,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-react-helmet-canonical-urls`,
       options: {
-        siteUrl: process.env.SITE_URL,
+        siteUrl: process.env.GATSBY_SITE_URL,
       },
     },
     {
@@ -131,7 +131,7 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-robots-txt',
       options: {
-        host: process.env.SITE_URL,
+        host: process.env.GATSBY_SITE_URL,
         sitemap: null,
         policy: [{ userAgent: '*', allow: '/' }]
       }
@@ -139,7 +139,7 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-disqus',
       options: {
-        shortname: process.env.DISQUS_ID
+        shortname: process.env.GATSBY_DISQUS_ID
       }
     },
     // add further plugins 

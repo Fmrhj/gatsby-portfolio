@@ -6,7 +6,7 @@ const CommentSection = ({ postInfo }) => (
         <Disqus
             identifier={postInfo.id}
             title={postInfo.frontmatter.title}
-            url={`${process.env.SITE_URL}${postInfo.frontmatter.path}`}
+            url={`${process.env.GATSBY_SITE_URL}${postInfo.frontmatter.path}`}
         />
     </div>
 )

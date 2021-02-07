@@ -9,8 +9,8 @@ function Copyright() {
     return (
         <Typography variant='body2' color='white'>
 
-            <Link color='inherit' href={`${process.env.SITE_URL}`}>
-                {process.env.SITE_NAME}
+            <Link color='inherit' href={`${process.env.GATSBY_SITE_URL}`}>
+                {process.env.GATSBY_SITE_NAME}
             </Link>{' © '}
             {new Date().getFullYear()}
             {'.'}

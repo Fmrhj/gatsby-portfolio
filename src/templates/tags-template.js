@@ -22,7 +22,7 @@ const Tags = ({ pageContext, data }) => {
                 <div className="container">
                     <div className="blog-post-container">
                         <div className="block-blog-post-wrapper">
-                            <Helmet title={`${process.env.SITE_NAME} - ${tagHeader}`} />
+                            <Helmet title={`${process.env.GATSBY_SITE_NAME} - ${tagHeader}`} />
                             <h1>{tagHeader}</h1>
                             <ul>
                                 {edges.map(({ node }) => {

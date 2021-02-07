@@ -6,7 +6,7 @@ import React from 'react'
 class GitHubLogo extends React.Component {
     render() {
         return (<h2>
-            <a href={`${process.env.GITHUB}`} class='social-logo'><GoMarkGithub /> </a>
+            <a href={`${process.env.GATSBY_GITHUB}`} class='social-logo'><GoMarkGithub /> </a>
         </h2>)
     }
 }
@@ -14,14 +14,14 @@ class GitHubLogo extends React.Component {
 class LinkedinLogo extends React.Component {
     render() {
         return (<h2>
-            <a href={`${process.env.LINKEDIN}`} class='social-logo'> <FaLinkedinIn /> </a> </h2 >)
+            <a href={`${process.env.GATSBY_LINKEDIN}`} class='social-logo'> <FaLinkedinIn /> </a> </h2 >)
     }
 }
 
 class EmailLogo extends React.Component {
     render() {
         return (<h2>
-            <a href={`mailto:${process.env.EMAIL}`} class='social-logo'><FiMessageSquare />
+            <a href={`mailto:${process.env.GATSBY_EMAIL}`} class='social-logo'><FiMessageSquare />
             </a></h2>)
     }
 }
