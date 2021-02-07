@@ -6,8 +6,8 @@ template: "main-template"
 thumbnail: ""
 ---
 
-I am a Data Scientist self-learning Cloud Engineering having fun developing systems. I currently live in <span class="colored-text_1">Berlin</span>.
+I am a Data Scientist having fun developing Cloud native applications. I currently live in <span class="colored-text_1">Berlin</span>.
 
-I am system developer enthusiast, specially interested in <span class="colored-text_3">Machine Learning</span> and Rapid Deployment of <span class="colored-text_3">AI applications</span>.
+I like to design systems, specially interested in <span class="colored-text_3">Machine Learning</span> and <span class="colored-text_3">Rapid Deployment of AI applications</span>.
 
-I really enjoy learning new concepts and the way along finding solutions to interesting problems.
+I really enjoy learning new concepts and applying these practically to solve real problems.

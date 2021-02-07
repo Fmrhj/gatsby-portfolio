@@ -6,8 +6,8 @@ template: "main-template"
 thumbnail: ""
 ---
 
-Data Scientist and Cloud Engineer. Curious and persistent learner.
-
+Data Scientist and Data Engineer.
+<small>*last updated: 03/02/2021*</small>
 :email: <fernando.zepeda@pm.me>
 
 ## Experience 
@@ -15,7 +15,10 @@ Data Scientist and Cloud Engineer. Curious and persistent learner.
 ### Senior Consultant Cloud and Data Analytics at [Pexon Consulting](https://pexon-consulting.de/), 2020/07 - present, Berlin
 
 *Selected projects*:
-- Automation of price adjustments for a main German utility company with [Azure](https://azure.microsoft.com/en-us/).  
+- Development of an application for price adjustments for a main German utility:
+     *Stack*: [Azure Cloud Stack](https://azure.microsoft.com/en-us/), Snowflake, Python.  
+- Data pipeline optimization for a big German data provider for television companies. 
+    *Stack*: Snowflake, Tableau Server, Python, [Amazon S3](https://aws.amazon.com/s3/?nc2=h_ql_prod_fs_s3).
 
 ### Data Scientist and Methods Specialist at [Lufthansa Systems](https://www.lhsystems.com/), 2020/06 - 2017/09, Berlin
 
@@ -68,18 +71,20 @@ Revenue Management SG [yearly meeting](https://agifors.org/rm-2019)
 
 ## Frameworks & Tools 
 
-|                                                      |                                                                                                                        |
-|------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------|
-| <span class="colored-text_1">Cloud</span>            | Google Cloud Platform, Azure, AWS, Heroku, DigitalOcean, Netlify                                                       |
-| <span class="colored-text_1">Container</span>        | Docker, Kubernetes, Cloud Container Registry                                                                           |
-| <span class="colored-text_1">Databases</span>        | MySQL, PosgreSQL, Google Google BigQuery, Oracle DB, MongoDB, TeradataSQL, AWS RDS                                     |
-| <span class="colored-text_1">DevOps</span>           | CI/CD, Gerrit, Jenkins, Travis, Build & Test automation                                                                |
-| <span class="colored-text_1">ETL/Reporting</span>    | Apache Kafka, Hive, Apache Spark, Databricks, Google Dataflow, Airflow, R Shiny Apps, Dash, Tableau, Jupyter Notebooks |
-| <span class="colored-text_1">Machine Learning</span> | TensorFlow, Keras, H20, scikit-learn, R caret                                                                          |
-| <span class="colored-text_1">Other tools</span>      | Jira, Confluence, Agile Development                                                                                    |
-| <span class="colored-text_1">Programming</span>      | Python, R, Bash, React JS                                                                                              |
+| Area                                                              | Technnologies                                                                                           |
+|-------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------|
+| <span class="colored-text_1">Cloud</span>                         | GCP, Azure, AWS, Heroku, DigitalOcean, Netlify (CMS)                                                    |
+| <span class="colored-text_1">Container</span>                     | Docker, Kubernetes, Azure Container Registry, docker-compose                                            |
+| <span class="colored-text_1">Databases and Data Warehouses</span> | SQL Server, Snowflake, MySQL, PosgreSQL, Google BigQuery, Oracle DB, MongoDB, AWS RDS                   |
+| <span class="colored-text_1">DevOps</span>                        | Azure DevOps, GitLab CI, Gerrit, Jenkins, Travis, CI/CD                                                 |
+| <span class="colored-text_1">Data Engineering</span>              | Apache Kafka, Hive, Apache Spark, Azure Databricks, Google Dataflow, Airflow, Azure Data Factory, Spark |
+| <span class="colored-text_1">Frontend programming</span>          | ReactJS, Typescript, Gatsby JS                                                                          |
+| <span class="colored-text_1">Machine Learning</span>              | TensorFlow, Keras, H20, scikit-learn, R-caret, PyTorch                                                  |
+| <span class="colored-text_1">Other tools</span>                   | Jira, Confluence, Agile Development                                                                     |
+| <span class="colored-text_1">Programming</span>                   | Python, C++, C, R, Bash, Powershell                                                                     |
 
 
 ## Personal Projects 
 
 - **[genetic-algorithm](https://github.com/Fmrhj/genetic-algorithm)**: Implementation of a genetic algorithm optimizer using base Python [numpy](https://numpy.org/). 
+- **[personal-blog](https://www.fernandozepeda.io/blog)**
