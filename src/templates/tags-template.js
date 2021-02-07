@@ -12,8 +12,7 @@ import React from "react";
 const Tags = ({ pageContext, data }) => {
     const { tag } = pageContext;
     const { edges, totalCount } = data.allMarkdownRemark;
-    const tagHeader = `${totalCount} post${
-        totalCount === 1 ? '' : 's'
+    const tagHeader = `${totalCount} post${totalCount === 1 ? '' : 's'
         } tagged with "${tag}"`;
     return (
         <body>
@@ -23,7 +22,7 @@ const Tags = ({ pageContext, data }) => {
                 <div className="container">
                     <div className="blog-post-container">
                         <div className="block-blog-post-wrapper">
-                            <Helmet title={`Fernando Zepeda - ${tagHeader}`} />
+                            <Helmet title={`${process.env.SITE_NAME} - ${tagHeader}`} />
                             <h1>{tagHeader}</h1>
                             <ul>
                                 {edges.map(({ node }) => {
