@@ -17,13 +17,13 @@ const IndexWelcome = () => (
     <div className="container">
         <div className="index-block">
             <div container>
-                <h1>Hello!</h1>
-                <p>I am <span class="highlight">Fernando</span>, nice to meet you!
+                <h1>Hi, welcome!</h1>
+                <p>
+
+                    Here you will find <Link to="contact">some channels</Link> where we can stay in touch.
                     <br />
-                    Here you will find some information about me and different channels where we can stay in touch.
                     <br />
-                    <br />
-                    I am building a small blog and will be posting soon a series of articles documenting my latest learnings.
+                    I like also to take some notes while I am learning a new subject and I will be posting them in the <Link to="blog">blog</Link> section.
                     </p>
                 <div className="social-logo"><LeftArrows /></div>
             </div>

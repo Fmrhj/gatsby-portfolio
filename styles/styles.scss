@@ -22,7 +22,7 @@ html {
 }
 body {
     font-family: $font;
-    font-size: 18px;
+    font-size: 20px;
     background: $white;
     line-height: 1.5;
     margin: 0;
@@ -75,3 +75,6 @@ h2 {
 
 // index of blog posts
 @import "block-blog-posts";
+
+// tables
+@import "tables";

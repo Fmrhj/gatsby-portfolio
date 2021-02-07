@@ -5,9 +5,10 @@ title: "Resume"
 template: "main-template"
 thumbnail: ""
 ---
+<small>*last updated: 03/02/2021*</small>
 
 Data Scientist and Data Engineer.
-<small>*last updated: 03/02/2021*</small>
+
 :email: <fernando.zepeda@pm.me>
 
 ## Experience 
@@ -16,9 +17,9 @@ Data Scientist and Data Engineer.
 
 *Selected projects*:
 - Development of an application for price adjustments for a main German utility:
-     *Stack*: [Azure Cloud Stack](https://azure.microsoft.com/en-us/), Snowflake, Python.  
+    [Azure Cloud Stack](https://azure.microsoft.com/en-us/), Snowflake, Python.  
 - Data pipeline optimization for a big German data provider for television companies. 
-    *Stack*: Snowflake, Tableau Server, Python, [Amazon S3](https://aws.amazon.com/s3/?nc2=h_ql_prod_fs_s3).
+    Snowflake, Tableau Server, Python, [Amazon S3](https://aws.amazon.com/s3/?nc2=h_ql_prod_fs_s3).
 
 ### Data Scientist and Methods Specialist at [Lufthansa Systems](https://www.lhsystems.com/), 2020/06 - 2017/09, Berlin
 
