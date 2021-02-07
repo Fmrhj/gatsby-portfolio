@@ -1,14 +1,18 @@
 ---
 path: /blog/getting-started-with-opencl-and-gpu-computing
-title: Getting started with OpenCL and GPU Computing 
+title: Getting started with OpenCL and GPU Computing
 date: 2021-02-03
-description: "On parallel computation with OpenCL. A beginner's perspective"
+description: On parallel computation with OpenCL. A beginner's perspective
 template: blog-template
-tags: ["parallel computing", "OpenCL", "GPGPU", "open-source"]
+tags:
+  - parallel computing
+  - OpenCL
+  - GPGPU
+  - open-source
 thumbnail: /OpenCL_Logo.png
 ---
 
-I have been experimenting with different ways of computing big data frames for some time now. Normally for these kind of problems, one would think quickly on distributed computing frameworks like [Spark](https://spark.apache.org/), [Flink](https://flink.apache.org/) or others from the Apache ecosystem or even [h20](https://www.h2o.ai/products/h2o/), but I have the impression that one always try to out-scale prematurely something that we could achieve within a single node. Truth is, we can actually profit from parallel computing in our own (single node) hardware if we find the right way of passing the instructions with either an imperative or declarative way. These are some notes from a beginner's perspective on **OpenCL and General-Purpose Computing on Graphical Processing Units (GPGPU)**.
+I have been experimenting with different ways of computing big data frames for some time now. Normally for these kind of problems, one would think quickly on distributed computing frameworks like [Spark](https://spark.apache.org/), [Flink](https://flink.apache.org/) or others from the Apache ecosystem or even [h20](https://www.h2o.ai/products/h2o/), but I have the impression that one always try to out-scale prematurely something that we could achieve within a single node. Truth is, we can actually profit from parallel computing in our own (single node) hardware if we find the right way of passing the instructions with either an imperative or declarative way. These are some notes from a beginner's perspective on **OpenCL and General-Purpose Computing** on **Graphical Processing Units (GPGPU)**.
 
 ## OpenCL for parallel computing
 
@@ -26,7 +30,7 @@ How is it faster? Essentially, it uses the power of the parallelization from the
 
 ## Base problem
 
-Say we want to process a 2048 $\times$ 2048 pixel image. The whole **problem domain** consists of **4,194,304 points**. In a naive formulation, we would loop over all the points in the problem domain. With OpenCL, we can reformulate loops with **kernels** executing at each point which is just another term for functions. In the OpenCL verbose, we process $n$ work-items with work-groups. 
+Say we want to process a 2048 $\times$ 2048 pixel image. The whole **problem domain** consists of **4,194,304 points**. In a naive formulation, we would loop over all the points in the problem domain. With OpenCL, we can reformulate loops with **kernels** executing at each point. In the OpenCL verbose, we process $n$ work-items with work-groups. 
 
 ```c{numberLines:false}
 // Traditional Loop
