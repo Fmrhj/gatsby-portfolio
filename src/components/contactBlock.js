@@ -42,7 +42,8 @@ const ContactBlock = () => (
             <div className="contact-text">
                 <h1>Contact me!</h1>
                 <p>Just drop me a message or send me a PM.
-                I am always happy to connect in social media and to hear from you.</p>
+                <br />
+                I am happy to start a new conversation and exchange ideas.</p>
             </div>
         </div>
     </div >

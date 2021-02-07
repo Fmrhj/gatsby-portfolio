@@ -2,7 +2,7 @@
 path: /blog/getting-started-with-opencl-and-gpu-computing
 title: Getting started with OpenCL and GPU Computing 
 date: 2021-02-03
-description: "On parallel computation with OpenCL. The beginner's perspective"
+description: "On parallel computation with OpenCL. A beginner's perspective"
 template: blog-template
 tags: ["parallel computing", "OpenCL", "GPGPU", "open-source"]
 thumbnail: /OpenCL_Logo.png
