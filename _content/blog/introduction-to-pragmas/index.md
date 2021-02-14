@@ -1,6 +1,6 @@
 ---
 path: /blog/introduction-to-pragmas
-title: Getting started with OpenCL and GPU Computing
+title: Introduction to pragmas
 date: 2021-02-14
 description: An introduction to C compiler directives a.k.a pragmas. Examples with OpenMP.
 template: blog-template
