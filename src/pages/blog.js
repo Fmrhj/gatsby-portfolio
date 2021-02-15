@@ -18,7 +18,7 @@ const BlogIndexPage = ({
 
   const IndexPage =
     <body>
-      <div class="wrapper">
+      <div className="wrapper">
         <div className="container">
           <Header />
           <MetaData />
