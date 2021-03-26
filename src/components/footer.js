@@ -2,6 +2,7 @@ import '../../styles/styles.scss'
 
 import Link from '@material-ui/core/Link';
 import React from 'react'
+import SocialFooter from './socialFooter';
 
 // The header has container with a navigation bar
 const Footer = () => {
@@ -11,9 +12,9 @@ const Footer = () => {
             <div className='site-footer'>
                 <div class='container'>
                     <div className='footer-content'>
-                        <div>
-                            <a><Link color='inherit' href={`${process.env.GATSBY_SITE_URL}`}>
-                                {process.env.GATSBY_SITE_NAME} </Link> &copy; {new Date().getFullYear()}</a></div>
+                        <a><SocialFooter /></a>
+                        <a><Link color='inherit' href={`${process.env.GATSBY_SITE_URL}`}>
+                            {process.env.GATSBY_SITE_NAME} </Link> &copy; {new Date().getFullYear()}</a>
                     </div>
                 </div>
             </div>

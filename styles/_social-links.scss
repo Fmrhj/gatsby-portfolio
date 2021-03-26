@@ -10,3 +10,24 @@
     color: $comboPurple;
     text-decoration: none;
 }
+
+.social-logo-footer {
+    text-decoration: none;
+    color: $white;
+}
+
+.social-logo-footer:hover {
+    color: $comboDarkGrey;
+    text-decoration: none;
+}
+
+.social-logos-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.each-logo {
+    width: 30px;
+    font-size: 1rem;
+}
