@@ -18,9 +18,9 @@ const Header = ({ siteTitle }) => {
           </div>
           <div className='navigation'>
             <nav>
-              <Link to='/about' activeStyle={activeStyle}>About</Link>
+              <Link to='/' activeStyle={activeStyle}>About</Link>
               <Link to='/resume' activeStyle={activeStyle}>Resume</Link>
-              <Link to='/' activeStyle={activeStyle}>Blog</Link>
+              <Link to='/blog' activeStyle={activeStyle}>Blog</Link>
             </nav>
           </div>
         </div>

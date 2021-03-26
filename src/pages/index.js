@@ -7,14 +7,14 @@ import MetaData from "../components/metaData"
 import React from "react"
 
 const IndexPage = () => (
-  <body>
-    <div className="wrapper">
-      <MetaData />
-      <Header />
-      <IndexWelcome />
-    </div>
-    <Footer />
-  </body>
+    <body>
+        <div className="wrapper">
+            <MetaData />
+            <Header />
+            <IndexWelcome />
+        </div>
+        <Footer />
+    </body>
 )
 
 export default IndexPage

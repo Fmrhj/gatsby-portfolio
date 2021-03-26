@@ -6,7 +6,7 @@ class LeftArrows extends React.Component {
     render() {
         return (
             <h2>
-                <Link to='/about'><MdKeyboardArrowRight /></Link>
+                <Link to='/resume'><MdKeyboardArrowRight /></Link>
             </h2>
         )
     }
@@ -17,18 +17,20 @@ const IndexWelcome = () => (
     <div className='container'>
         <div className='index-block'>
             <div container>
-                <h1>Hi, welcome!</h1>
-                <p>
-
-                    Here you will find <Link to='contact'>some channels</Link> where we can stay in touch.
-                    <br />
-                    <br />
-                    I like also to take some notes while I am learning a new subject and I will be posting them in the <Link to='blog'>blog</Link> section.
-                    </p>
-                <div className='social-logo'><LeftArrows /></div>
+                <div className="blog-post-content">
+                    <h1>Welcome!</h1>
+                            I am a Data Scientist/Engineer having fun developing cloud native solutions. I currently live in Berlin.
+                            <br />
+                            I like to design systems, specially interested in Machine Learning, MLOps and Data-Intensive Computing.
+                            <br />
+                            I really enjoy learning and apply new concept practically to solve real problems.
+                            Since Im taking notes constantly while learning a new subject, I will be posting some of them from time to time in the <Link to="/blog">blog</Link> section.
+                            <br />
+                    <div className='social-logo'><LeftArrows /></div>
+                </div>
             </div>
         </div>
-    </div>
+    </div >
 )
 
 export default IndexWelcome
