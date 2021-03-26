@@ -5,9 +5,9 @@
         .blog-post-content {
             color: $black;
             h3 {
-                color: $comboDarkGrey;
+                color: $comboBlue;
                 a:link {
-                    color: $comboDarkGrey;
+                    color: $comboPurple;
                     text-decoration: none;
                 }
                 a:hover {
@@ -15,14 +15,18 @@
                 }
             }
             a:link {
-                color: $comboDarkGrey;
+                color: $comboPurple;
                 text-decoration: none;
+                font-family: sans-serif;
             }
             a:link:hover {
                 color: $black;
             }
             a:visited {
                 color: $comboDarkGrey;
+            }
+            a:hover {
+                color: $black;
             }
             .colored-text_1 {
                 color: $comboBlue;

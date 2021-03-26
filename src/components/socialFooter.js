@@ -18,7 +18,7 @@ class GitHubLogo extends React.Component {
 class LinkedinLogo extends React.Component {
     render() {
         return (
-            <a href={`${process.env.GATSBY_LINKEDIN}`} class='social-logo-footer'>
+            <a href={`${process.env.GATSBY_LINKEDIN}`} className='social-logo-footer'>
                 <FaLinkedinIn />
             </a>)
     }
@@ -27,7 +27,7 @@ class LinkedinLogo extends React.Component {
 class EmailLogo extends React.Component {
     render() {
         return (
-            <a href={`mailto:${process.env.GATSBY_EMAIL}`} class='social-logo-footer'><FiMessageSquare />
+            <a href={`mailto:${process.env.GATSBY_EMAIL}`} className='social-logo-footer'><FiMessageSquare />
             </a>)
     }
 }
@@ -35,10 +35,10 @@ class EmailLogo extends React.Component {
 
 const SocialFooter = () => {
     return (
-        <div class='social-logos-row'>
-            <div class='each-logo'><GitHubLogo /></div>
-            <div class='each-logo'><LinkedinLogo /></div>
-            <div class='each-logo'><EmailLogo /></div>
+        <div className='social-logos-row'>
+            <div className='each-logo'><GitHubLogo /></div>
+            <div className='each-logo'><LinkedinLogo /></div>
+            <div className='each-logo'><EmailLogo /></div>
         </div>
     )
 
