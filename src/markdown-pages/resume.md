@@ -9,7 +9,7 @@ thumbnail: ""
 
 Data Scientist and Data Engineer.
 
-:email: <fernando.zepeda@pm.me>
+:outbox_tray: <fernando.zepeda@pm.me>
 
 ## Experience 
 
@@ -80,7 +80,7 @@ Revenue Management SG [yearly meeting](https://agifors.org/rm-2019)
 | <span class="colored-text_1">Frontend programming</span>          | ReactJS, Typescript, Gatsby JS                                                                          |
 | <span class="colored-text_1">Machine Learning</span>              | TensorFlow, Keras, H20, scikit-learn, R-caret, PyTorch                                                  |
 | <span class="colored-text_1">Other tools</span>                   | Jira, Confluence, Agile Development                                                                     |
-| <span class="colored-text_1">Programming</span>                   | Python, C++, C, R, Bash, Powershell                                                                     |
+| <span class="colored-text_1">Programming</span>                   | Python, C++, C, Golang, R, Bash, Powershell                                                             |
 
 
 ## Personal Projects 

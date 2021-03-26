@@ -8,14 +8,24 @@
 
     .thumbnail {
         float: left;
-        width: 17%;
+        width: 14%;
         opacity: 1;
-        margin-top: 60px;
-        margin-bottom: 50px;
+        margin-top: 50px;
+        margin-bottom: 25px;
         @media (max-width: 976px) {
-            width: 20%;
-            margin-top: 98px;
+            width: 18%;
+            margin-top: 45px;
             margin-bottom: 45px;
+        }
+        @media (max-width: 768px) {
+            width: 30%;
+            margin-top: 55px;
+            margin-bottom: 20px;
+        }
+        @media (max-width: 460px) {
+            width: 34%;
+            margin-top: 90px;
+            margin-bottom: 20px;
         }
     }
     .thumbnail:hover {
@@ -26,7 +36,13 @@
         padding-left: 0px;
         width: 75%;
         @media (max-width: 976px) {
-            width: 70%;
+            width: 65%;
+        }
+        @media (max-width: 768px) {
+            width: 60%;
+        }
+        @media (max-width: 400px) {
+            width: 50%;
         }
     }
     h3 {
