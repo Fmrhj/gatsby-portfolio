@@ -14,7 +14,7 @@ const Footer = () => {
                     <div className='footer-content'>
                         <a><SocialFooter /></a>
                         <a><Link color='inherit' href={`${process.env.GATSBY_SITE_URL}`}>
-                            {process.env.GATSBY_SITE_NAME} </Link> &copy; {new Date().getFullYear()}</a>
+                            {process.env.GATSBY_FOOTER_NAME} </Link> &copy; {new Date().getFullYear()}</a>
                     </div>
                 </div>
             </div>
