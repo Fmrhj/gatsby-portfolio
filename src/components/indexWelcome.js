@@ -23,8 +23,8 @@ const IndexWelcome = () => (
                             <br />
                             I like to design systems, specially interested in Machine Learning, MLOps and Data-Intensive Computing.
                             <br />
-                            I really enjoy learning and apply new concept practically to solve real problems.
-                            Since Im taking notes constantly while learning a new subject, I will be posting some of them from time to time in the <Link to="/blog">blog</Link> section.
+                            I really enjoy learning and apply new concepts practically to solve real problems.
+                            Since I'm constantly taking notes and drawing ideas while learning a new subject, I will be posting some of them from time to time in the <Link to="/blog">blog</Link> section.
                             <br />
                     <div className='social-logo'><LeftArrows /></div>
                 </div>
