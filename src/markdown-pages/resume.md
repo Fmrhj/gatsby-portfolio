@@ -5,7 +5,7 @@ title: "Resume"
 template: "main-template"
 thumbnail: ""
 ---
-<small> :information_source:  *last updated: 03/02/2021*</small>
+<small> :information_source:  *last updated: 25/04/2021*</small>
 
 Data Scientist and Data Engineer.
 
