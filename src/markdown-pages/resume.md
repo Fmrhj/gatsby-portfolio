@@ -62,7 +62,7 @@ Revenue Management SG [yearly meeting](https://agifors.org/rm-2019)
 ## Certifications 
 
 *Selected*
-
+- [Microsoft Certified: Azure Data Scientist Associate](https://www.credly.com/badges/80d35358-f45f-4fa4-92d1-54f3289b488e?source=linked_in_profile) | 04/2021
 - [Essential Google Cloud Infrastructure: Core Services by Google Cloud on Coursera](https://www.coursera.org/account/accomplishments/records/W2ZTKPJ8QG4D) | 04/2020
 - [Essential Google Cloud Infrastructure: Foundation by Google Cloud on Coursera](https://www.coursera.org/account/accomplishments/records/N7W6UZCUCHY6) | 04/2020
 - Google Cloud Fundamentals: Big Data & Machine Learning | Jellyfish, 03/2020
