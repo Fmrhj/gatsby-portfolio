@@ -1,16 +1,16 @@
-import '../../styles/styles.scss'
+import "../../styles/styles.scss"
 
-import { Link, graphql } from 'gatsby';
+import { Link, graphql } from "gatsby"
 
-import Footer from "../components/footer"
-import Header from '../components/header'
+import Footer from "../components/Footer"
+import Header from "../components/Header"
 import { Helmet } from "react-helmet"
-import MetaData from "../components/metaData"
-import React from 'react';
-import { kebabCase } from 'lodash';
+import MetaData from "../components/MetaData"
+import React from "react"
+import { kebabCase } from "lodash"
 
 const TagsPage = ({ data }) => {
-  const allTags = data.allMarkdownRemark.group;
+  const allTags = data.allMarkdownRemark.group
 
   return (
     <body>
@@ -26,7 +26,8 @@ const TagsPage = ({ data }) => {
                 {allTags.map(tag => (
                   <li key={tag.fieldValue}>
                     <Link to={`/tags/${kebabCase(tag.fieldValue)}/`}>
-                      {tag.fieldValue} ({tag.totalCount})</Link>
+                      {tag.fieldValue} ({tag.totalCount})
+                    </Link>
                   </li>
                 ))}
               </ul>
@@ -36,10 +37,10 @@ const TagsPage = ({ data }) => {
       </div>
       <Footer />
     </body>
-  );
-};
+  )
+}
 
-export default TagsPage;
+export default TagsPage
 
 export const pageQuery = graphql`
   query {
@@ -50,4 +51,4 @@ export const pageQuery = graphql`
       }
     }
   }
-`;
+`

@@ -1,20 +1,20 @@
-import '../../styles/styles.scss'
+import "../../styles/styles.scss"
 
-import Footer from "../components/footer"
-import Header from "../components/header_without_logo"
-import IndexWelcome from "../components/indexWelcome"
-import MetaData from "../components/metaData"
+import Footer from "../components/Footer"
+import Header from "../components/HeaderWithoutLogo"
+import IndexWelcome from "../components/IndexWelcome"
+import MetaData from "../components/MetaData"
 import React from "react"
 
 const IndexPage = () => (
-    <body>
-        <div className="wrapper">
-            <MetaData />
-            <Header />
-            <IndexWelcome />
-        </div>
-        <Footer />
-    </body>
+  <body>
+    <div className="wrapper">
+      <MetaData />
+      <Header />
+      <IndexWelcome />
+    </div>
+    <Footer />
+  </body>
 )
 
 export default IndexPage

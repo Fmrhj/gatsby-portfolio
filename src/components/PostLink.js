@@ -1,9 +1,9 @@
-import { Link } from 'gatsby';
-import React from "react";
-import Thumbnail from "./thumbnail";
+import { Link } from "gatsby"
+import React from "react"
+import Thumbnail from "./Thumbnail"
 
 const PostLink = ({ post }) => (
-  < div className="block-blog-posts-container" >
+  <div className="block-blog-posts-container">
     <Link to={post.frontmatter.path}>
       <div className="thumbnail">
         <Thumbnail src={post.frontmatter.thumbnail} />
@@ -15,9 +15,7 @@ const PostLink = ({ post }) => (
         <div className="more">(read more)</div>
       </div>
     </Link>
-  </div >
+  </div>
 )
 
 export default PostLink
-
-

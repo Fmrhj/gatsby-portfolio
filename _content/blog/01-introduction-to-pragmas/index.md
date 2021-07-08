@@ -48,7 +48,7 @@ int main()
 ```
 The output is the following:
 
-```ouput
+```output
 Time elapsed is 2 seconds%
 ```
 
@@ -76,7 +76,7 @@ int main()
 
 The output, as expected is:
 
-```ouput
+```output
 Time elapsed is 10 seconds%
 ```
 
