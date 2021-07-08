@@ -1,10 +1,9 @@
-import '../../styles/styles.scss'
+import "../../styles/styles.scss"
 
-import MetaData from "../components/metaData"
+import MetaData from "../components/MetaData"
 import React from "react"
 
 const NotFoundPage = () => {
-
   return (
     <body>
       <div className="wrapper">

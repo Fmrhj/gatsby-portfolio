@@ -1,11 +1,11 @@
-import '../../styles/styles.scss'
+import "../../styles/styles.scss"
 
-import Footer from "../components/footer"
-import Header from "../components/header"
-import MetaData from "../components/metaData"
-import PostLink from "../components/post-link"
+import Footer from "../components/Footer"
+import Header from "../components/Header"
+import MetaData from "../components/MetaData"
+import PostLink from "../components/PostLink"
 import React from "react"
-import { graphql } from 'gatsby'
+import { graphql } from "gatsby"
 
 const BlogIndexPage = ({
   data: {
@@ -13,10 +13,11 @@ const BlogIndexPage = ({
   },
 }) => {
   const Posts = edges
-    .filter(edge => !!edge.node.frontmatter.date) // You can filter your posts based on some criteria
+    .filter(edge => !!edge.node.frontmatter.date)
+    // You can filter your posts based on some criteria
     .map(edge => <PostLink key={edge.node.id} post={edge.node} />)
 
-  const IndexPage =
+  const IndexPage = (
     <body>
       <div className="wrapper">
         <div className="container">
@@ -29,10 +30,10 @@ const BlogIndexPage = ({
             </div>
           </div>
         </div>
-      </div >
+      </div>
       <Footer />
-    </body >
-
+    </body>
+  )
 
   return IndexPage
 }
@@ -41,16 +42,16 @@ export default BlogIndexPage
 
 export const pageQuery = graphql`
   query {
-        allMarkdownRemark(sort: {order: DESC,
-                      fields: [frontmatter___date] }
-                      filter: {fileAbsolutePath: {glob: "**/**/_content/blog/**/*.md" } }
-                      ) {
-        edges {
+    allMarkdownRemark(
+      sort: { order: DESC, fields: [frontmatter___date] }
+      filter: { fileAbsolutePath: { glob: "**/**/_content/blog/**/*.md" } }
+    ) {
+      edges {
         node {
-        id
+          id
           excerpt(pruneLength: 250)
           frontmatter {
-        date(formatString: "MMMM DD, YYYY")
+            date(formatString: "MMMM DD, YYYY")
             title
             path
             description

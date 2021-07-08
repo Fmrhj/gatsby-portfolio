@@ -1,19 +1,17 @@
 // style
-import '../../styles/styles.scss'
-import 'katex/dist/katex.min.css'
+import "../../styles/styles.scss"
+import "katex/dist/katex.min.css"
 
-import CommentSection from '../components/commentSection'
-import Footer from '../components/footer'
-import Header from '../components/header'
+import CommentSection from "../components/CommentSection"
+import Footer from "../components/Footer"
+import Header from "../components/Header"
 import { Helmet } from "react-helmet"
-import React from 'react'
-import Tags from '../components/tags'
-import { graphql } from 'gatsby'
+import React from "react"
+import Tags from "../components/Tags"
+import { graphql } from "gatsby"
 
 // main template
-export default function Template({
-  data, // this prop will be injected by the GraphQL query we'll write in a bit
-}) {
+const Template = ({ data }) => {
   const { markdownRemark: post } = data // data.markdownRemark holds your post data
   const tags = post.frontmatter.tags
   return (
@@ -22,13 +20,20 @@ export default function Template({
         <Header />
         <div className="container">
           <div className="blog-post-entries">
-            <Helmet title={`${process.env.GATSBY_SITE_NAME} - ${post.frontmatter.title}`} />
+            <Helmet
+              title={`${process.env.GATSBY_SITE_NAME} - ${post.frontmatter.title}`}
+            />
             <div className="blog-post">
               <div className="blog-post-header">
                 <h1>{post.frontmatter.title}</h1>
                 <div className="tags">
-                  <div className="date-time">{post.frontmatter.date} &middot; {post.timeToRead} {'min. read'}</div>
-                  <div className="tag-list">{tags ? (<Tags>{tags}</Tags>) : null}</div>
+                  <div className="date-time">
+                    {post.frontmatter.date} &middot; {post.timeToRead}{" "}
+                    {"min. read"}
+                  </div>
+                  <div className="tag-list">
+                    {tags ? <Tags>{tags}</Tags> : null}
+                  </div>
                 </div>
               </div>
               <div
@@ -39,7 +44,7 @@ export default function Template({
             <CommentSection postInfo={post} />
           </div>
         </div>
-      </div >
+      </div>
       <Footer />
     </body>
   )
@@ -48,17 +53,19 @@ export default function Template({
 // query Markdown pages
 export const query = graphql`
   query($path: String!) {
-          markdownRemark(frontmatter: {path: {eq: $path } }) {
-          html
+    markdownRemark(frontmatter: { path: { eq: $path } }) {
+      html
       frontmatter {
-          date(formatString: "MMMM DD, YYYY")
-          path
-          title
-          description
-          tags
+        date(formatString: "MMMM DD, YYYY")
+        path
+        title
+        description
+        tags
       }
       id
       timeToRead
     }
-}
+  }
 `
+
+export default Template

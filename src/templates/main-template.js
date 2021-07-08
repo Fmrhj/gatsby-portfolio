@@ -1,8 +1,8 @@
 // style
-import '../../styles/styles.scss';
+import "../../styles/styles.scss"
 
-import Footer from "../components/footer"
-import Header from '../components/header'
+import Footer from "../components/Footer"
+import Header from "../components/Header"
 import { Helmet } from "react-helmet"
 import React from "react"
 import { graphql } from "gatsby"
@@ -18,13 +18,14 @@ export default function Template({
         <Header />
         <div className="container">
           <div className="blog-post-container">
-            <Helmet title={`${process.env.GATSBY_SITE_NAME} - ${post.frontmatter.title}`} />
+            <Helmet
+              title={`${process.env.GATSBY_SITE_NAME} - ${post.frontmatter.title}`}
+            />
             <div className="blog-post">
               <h1>{post.frontmatter.title}</h1>
               <div
                 className="blog-post-content"
                 dangerouslySetInnerHTML={{ __html: post.html }}
-
               />
             </div>
           </div>
@@ -47,5 +48,5 @@ export const query = graphql`
         description
       }
     }
-}
+  }
 `
