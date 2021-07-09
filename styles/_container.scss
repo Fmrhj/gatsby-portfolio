@@ -21,7 +21,8 @@
         min-width: 350px;
     }
     @media (max-width: 360px) {
-        width: 280px;
-        min-width: 280px;
+        padding-left: 8px;
+        width: 150px;
+        max-width: 180px;
     }
 }
