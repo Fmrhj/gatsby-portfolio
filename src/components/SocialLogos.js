@@ -52,7 +52,7 @@ class GenericLogo extends Component {
     mail: false,
   }
 
-  static _addMailToRef = inputText => {
+  _addMailToRef = inputText => {
     let hrefText = this.props.mail ? `mailto:${inputText}` : inputText
     return hrefText
   }
@@ -69,4 +69,4 @@ class GenericLogo extends Component {
   }
 }
 
-export default { GitHubLogo, LinkedinLogo, EmailLogo, GenericLogo }
+export { GitHubLogo, LinkedinLogo, EmailLogo, GenericLogo }

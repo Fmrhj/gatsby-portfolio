@@ -128,14 +128,6 @@ module.exports = {
       },
     },
     {
-      resolve: "gatsby-plugin-robots-txt",
-      options: {
-        host: process.env.GATSBY_SITE_URL,
-        sitemap: null,
-        policy: [{ userAgent: "*", allow: "/" }],
-      },
-    },
-    {
       resolve: "gatsby-plugin-disqus",
       options: {
         shortname: process.env.GATSBY_DISQUS_ID,
