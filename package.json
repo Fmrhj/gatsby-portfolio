@@ -52,7 +52,7 @@
         "react-helmet": "^5.2.1",
         "react-helmet-async": "^1.0.5",
         "react-icons": "^3.9.0",
-        "react-native": "^0.63.2",
+        "react-native": ">=0.64.1"
         "rehype-katex": "^4.0.0",
         "remark-math": "^4.0.0",
         "smooth-scrollbar": "^8.5.2",
