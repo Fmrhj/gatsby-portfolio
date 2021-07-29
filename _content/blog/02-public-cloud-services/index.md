@@ -43,7 +43,7 @@ We define a **collecion** layer with different **ingestion** jobs, these feed da
 | Storage                              | [S3](https://aws.amazon.com/s3)                 | [Cloud Storage](https://cloud.google.com/storage/docs/overview)  | [Blob Storage](https://docs.microsoft.com/en-us/azure/storage/blobs/storage-blobs-introduction)|
 | Data Lake                            | [Lake Formation](https://aws.amazon.com/lake-formation)                | [Cloud Storage](https://cloud.google.com/storage/docs/overview)  | [Data Lake Storage Gen2](https://docs.microsoft.com/en-us/azure/databricks/data/data-sources/azure/adls-gen2)|
 | Data Marts                            | [RDS](https://docs.aws.amazon.com/rds/index.html)| [Cloud SQL](https://cloud.google.com/sql/docs/introduction)  | [Azure SQL Server](https://docs.microsoft.com/en-us/azure/azure-sql/azure-sql-iaas-vs-paas-what-is-overview)|
-| Hadoop / MapReduce                    | [EMR](https://docs.aws.amazon.com/emr/index.html)| [Dataflow](https://cloud.google.com/dataflow/docs)  | [Azure HD Insight](https://docs.microsoft.com/en-us/azure/hdinsight/hdinsight-overview)|
+| Hadoop / Spark                   | [EMR](https://docs.aws.amazon.com/emr/index.html)| [Dataproc](https://cloud.google.com/dataproc/docs)  | [Azure HD Insight](https://docs.microsoft.com/en-us/azure/hdinsight/hdinsight-overview)|
 
 ## Resources
 
