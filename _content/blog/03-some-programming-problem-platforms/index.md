@@ -2,7 +2,7 @@
 path: /blog/some-programming-problem-platforms
 title: Some Programming Problem Platforms
 date: 2021-11-02
-description: An overview of comparable cloud services for data engineering.
+description: A collection of programming problems respositories.
 template: blog-template
 tags:
   - programming
