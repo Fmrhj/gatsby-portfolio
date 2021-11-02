@@ -11,7 +11,7 @@ tags:
 thumbnail: /data.jpg
 ---
 
-Data problems never had a straight-forward solution. In general, data must be *moved* from A to B, *transformed*, *stored*, *cleaned*, sometimes *served*, and *presented/visualized*. Now we have the public cloud, which brings even more alternatives to solve data problems and these can be overwhelming. Cloud services are meant to bundle many use cases and target a certain group of specialists by offering specific features. Depending on the nature of the business problem and how frequent data is refreshed there will be a different data solution architecture.
+In general, data engineering tasks involve *moving* from A to B, *transforming*, *storing*, *cleaning*, sometimes *serving*, and *presenting/visualing* these data. Now we have the public cloud, which brings even more alternatives to solve data problems and these can be overwhelming. Cloud services are meant to bundle many use cases and target a certain group of specialists by offering specific features. Depending on the nature of the business problem and how frequent data is refreshed there will be a different data solution architecture.
 
 The building blocks of a cloud data architecture may change for different problems, but many times they could achieve similar purposes. This can be confusing. The public cloud developent teams for the major players, say [AWS](https://aws.amazon.com/), [Azure](https://azure.microsoft.com/en-us) or [GCP](https://cloud.google.com/), try to differentiate their services and to concurr in the big [PaaS](https://en.wikipedia.org/wiki/Platform_as_a_service) cloud solutions market, developing interesting features and extending their products. However, most of them are quite similar or at least comparable.
 
