@@ -127,12 +127,12 @@ module.exports = {
         ],
       },
     },
-    {
+    /*{
       resolve: "gatsby-plugin-disqus",
       options: {
         shortname: process.env.GATSBY_DISQUS_ID,
       },
-    },
+    },*/
     // add further plugins
     "gatsby-plugin-netlify",
     `gatsby-plugin-react-helmet`,

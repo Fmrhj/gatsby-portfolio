@@ -41,7 +41,7 @@ const Template = ({ data }) => {
                 dangerouslySetInnerHTML={{ __html: post.html }}
               />
             </div>
-            <CommentSection postInfo={post} />
+            {/* <CommentSection postInfo={post} />*/}
           </div>
         </div>
       </div>
