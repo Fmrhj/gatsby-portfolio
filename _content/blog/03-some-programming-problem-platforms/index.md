@@ -19,13 +19,13 @@ To date, they have more than 770 mathematical problems.
 
 Note: you can fetch a certain problem with the routing: `https://projecteuler.net/problem={ID}`.
 
-### [](https://adventofcode.com/)Advent of Code
+### Advent of Code
 
 [Advent of Code](https://adventofcode.com/)
 
 This one is actually a yearly competition where participants try to solve daily programming challenges during [advent](https://en.wikipedia.org/wiki/Advent). Each problem has two parts and they include a test data set. Solving each part grants half star to complete the total 25. It is free and sign up is required to be able to participate. Problems date back to 2015.
 
-Note: GET url `htps://adventofcode.com/{YEAR}/day/{DAY}`
+Note: GET url `https://adventofcode.com/{YEAR}/day/{DAY}`
 
 ### USA Computer Olympiad
 
