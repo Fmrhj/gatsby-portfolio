@@ -1,5 +1,5 @@
 ---
-path: /blog/getting-started-with-opencl-and-gpu-computing
+path: /notes/getting-started-with-opencl-and-gpu-computing
 title: Getting started with OpenCL and GPU Computing
 date: 2021-02-03
 description: On parallel computation with OpenCL. A beginner's perspective
@@ -36,7 +36,7 @@ Say we want to process a 2048 $\times$ 2048 pixel image. The whole **problem dom
 void trad_mult(int n, const float *a, const float*b, float *c){
     int i;
     // Loop over all n elements
-    for(int i=0,i<n;i++){
+    for(int i=0; i<n ; i++){
         c[i] = a[i]*b[i];
     }
 }

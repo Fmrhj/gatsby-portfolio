@@ -1,5 +1,5 @@
 ---
-path: /blog/public-cloud-services-data-engineering
+path: /notes/public-cloud-services-data-engineering
 title: Public Cloud Services for Data Engineering
 date: 2021-07-08
 description: An overview of comparable cloud services for data engineering.
@@ -23,7 +23,7 @@ A common cloud design pattern we may find in the could could be the following:
 
 <div align="center">
 
-<img src="https://user-images.githubusercontent.com/15943417/125093097-49bfe980-e0d2-11eb-95fe-6b633e08e8ea.png" alt="Data Cloud Architecture" width="100%"/>
+<img src="https://user-images.githubusercontent.com/15943417/125093097-49bfe980-e0d2-11eb-95fe-6b633e08e8ea.png" alt="Data Cloud Architecture" width="120%"/>
 
 *<small>Generic Cloud Data Architecture.</small>*
 </div>

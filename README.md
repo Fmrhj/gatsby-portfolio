@@ -4,13 +4,14 @@ Simple personal website to present some notes :earth_americas:.
 
 ![](https://media1.tenor.com/images/6eaab0d39bd1afa7be8985eb7ac2d28b/tenor.gif?itemid=4108687)
 
-## Tech Stack 
+## Tech Stack
 
 Frontend development with [GatsbyJs](https://www.gatsbyjs.org/), a [React](https://reactjs.org/)-based, GraphQL powered, static site generator.
 
 The builds are triggered by each git commit in th `master` branch in this repository and deployed to [Netlify CDN](https://www.netlify.com/). 
 
-### gatsby-config 
+### gatsby-config
+
 Contains all the site's metadata, absolute path definition, `npm`plugins and other variables that can be configured. 
 
 ## Styles
@@ -18,8 +19,9 @@ Contains all the site's metadata, absolute path definition, `npm`plugins and oth
 The main configuration controlling the sytle of the website is the `.scss` file where we define the properties for all containers and `div` classes. The file is under `styles/styles.scss`.
 
 ## Pages
+
 For fetching data, I used [Graphql](https://graphql.org/) which is seamlessly integrated within GatsbyJs. Most of the pages are saved in Markdown format and retrieved with GraphQl queries. Gatsby has the `gatsby-transformer-remark` plugin which recoginizes `.md`files and reads their content. The plugin will convert the frontmatter metadata part of your Markdown files as frontmatter and the content part as HTML. These are then rendered with use of a template in `src/templates/blogTemplate.js`
 
-## Blog 
+## Notes
 
-Blogging entries using Markdown files can be created directly at the repository or using [Netlify's CRM](https://www.netlifycms.org/). It creates a pull requests directly into the repository which triggers a new build and updates the website. 
+Notes entries using Markdown files can be created directly at the repository or using [Netlify's CRM](https://www.netlifycms.org/). It creates a pull requests directly into the repository which triggers a new build and updates the website.

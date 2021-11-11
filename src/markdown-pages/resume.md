@@ -90,4 +90,4 @@ Revenue Management SG [yearly meeting](https://agifors.org/rm-2019)
 ## Personal Projects
 
 - **[genetic-algorithm](https://github.com/Fmrhj/genetic-algorithm)**: Implementation of a genetic algorithm optimizer using base Python [numpy](https://numpy.org/)
-- **[personal-blog](https://www.fernandozepeda.io/blog)**
+- **[notes](https://www.fernandozepeda.io/notes)**

@@ -18,7 +18,7 @@ collections:
     slug: "{{slug}}/index" # Filename template, e.g., YYYY-MM-DD-title/index.md
     editor:
       preview: true
-    path: "/blog/{{slug}}"
+    path: "/notes/{{slug}}"
     fields:
       - { label: "Entry Path", name: "path", widget: "string" }
       - { label: "Title", name: "title", widget: "string" }
