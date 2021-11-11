@@ -1,14 +1,14 @@
 ---
 path: "/resume"
 date: "2020-04-17"
-title: "Resume"
+title: " "
 template: "main-template"
 thumbnail: ""
 ---
 
-<small>:information_source: *last updated: 05/11/2021*</small>
 
-Senior Data Scientist and Data Engineer.
+
+Data Scientist and Engineer.
 
 :inbox_tray: <fernando.zepeda@pm.me>
 

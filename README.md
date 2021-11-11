@@ -8,11 +8,11 @@ Simple personal website to present some notes :earth_americas:.
 
 Frontend development with [GatsbyJs](https://www.gatsbyjs.org/), a [React](https://reactjs.org/)-based, GraphQL powered, static site generator.
 
-The builds are triggered by each git commit in th `master` branch in this repository and deployed to [Netlify CDN](https://www.netlify.com/). 
+The builds are triggered by each git commit in th `master` branch in this repository and deployed to [Netlify CDN](https://www.netlify.com/).
 
 ### gatsby-config
 
-Contains all the site's metadata, absolute path definition, `npm`plugins and other variables that can be configured. 
+Contains all the site's metadata, absolute path definition, `npm`plugins and other variables that can be configured.
 
 ## Styles
 
