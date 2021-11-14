@@ -43,7 +43,9 @@ Also interesting problems but more into the competitive programming scene. They 
 
 [Code Golf](https://codegolf.stackexchange.com/questions/tagged/code-golf)
 
-Goes **deeeper** into the computer science perspective of solving a challenge. Interesting to a have a look. Definitely check out their [FAQ](https://codegolf.meta.stackexchange.com/q/1280).
+Goes **deeeper** into the computer science perspective of solving a challenge. Goal is generally to minimize the amount of bytes of a solution program. Definitely check out their [FAQ](https://codegolf.meta.stackexchange.com/q/1280).
+
+Note aside about esoteric languages or [esolangs](https://www.youtube.com/watch?v=cQ7bcCrJMHc), highly used in code golf. Check [esoteric.codes](https://esoteric.codes/) and [try it online](https://tio.run/#) a tool with many online interpreters.
 
 ---
 
