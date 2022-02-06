@@ -25,7 +25,7 @@ const BlogIndexPage = ({
           <MetaData />
           <div className="blog-post-container">
             <div className="block-blog-post-wrapper">
-              <h1>Blog Posts</h1>
+              <h1>Notes</h1>
               {Posts}
             </div>
           </div>

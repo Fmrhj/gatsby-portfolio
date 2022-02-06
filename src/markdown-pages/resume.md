@@ -1,14 +1,14 @@
 ---
 path: "/resume"
 date: "2020-04-17"
-title: "Resume"
+title: " "
 template: "main-template"
 thumbnail: ""
 ---
 
-<small>:information_source: *last updated: 09/07/2021*</small>
 
-Senior Data Scientist and Data Engineer.
+
+Data Scientist and Engineer.
 
 :inbox_tray: <fernando.zepeda@pm.me>
 
@@ -18,6 +18,7 @@ Senior Data Scientist and Data Engineer.
 
 *Selected projects*:
 
+- Big Data Pipeline for an Internet Company. *Tech-stack*: [Exasol](https://www.exasol.com), Kubernetes, Python.
 - Development of an application for price adjustments for a main German utility company. *Tech-stack*: [Azure Cloud Stack](https://azure.microsoft.com/en-us/), Snowflake, Python.  
 - Data pipeline optimization for a big German data provider for television companies. *Tech-stack*: Snowflake, Tableau Server, Python, [Amazon S3](https://aws.amazon.com/s3/?nc2=h_ql_prod_fs_s3).
 
@@ -65,6 +66,7 @@ Revenue Management SG [yearly meeting](https://agifors.org/rm-2019)
 
 *Selected*:
 
+- [HashiCorp Certified: Terraform Associate](https://www.credly.com/badges/4b572995-9eaa-47d7-8c5b-25c8464b8861) | 11/2021
 - [Microsoft Certified: Azure Data Scientist Associate](https://www.credly.com/badges/80d35358-f45f-4fa4-92d1-54f3289b488e?source=linked_in_profile) | 04/2021
 - [Essential Google Cloud Infrastructure: Core Services by Google Cloud on Coursera](https://www.coursera.org/account/accomplishments/records/W2ZTKPJ8QG4D) | 04/2020
 - [Essential Google Cloud Infrastructure: Foundation by Google Cloud on Coursera](https://www.coursera.org/account/accomplishments/records/N7W6UZCUCHY6) | 04/2020
@@ -75,7 +77,7 @@ Revenue Management SG [yearly meeting](https://agifors.org/rm-2019)
 
 | Area                                                              | Technnologies                                                                                           |
 |-------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------|
-| <span class="colored-text_1">Cloud</span>                         | GCP, Azure, AWS, Heroku, DigitalOcean, Netlify (CMS)                                                    |
+| <span class="colored-text_1">Cloud / IaC</span>                   | GCP, Azure, AWS, Terraform |
 | <span class="colored-text_1">Container</span>                     | Docker, Kubernetes, Azure Container Registry, docker-compose                                            |
 | <span class="colored-text_1">Databases and Data Warehouses</span> | SQL Server, Snowflake, MySQL, PosgreSQL, Google BigQuery, Oracle DB, MongoDB, AWS RDS                   |
 | <span class="colored-text_1">DevOps</span>                        | Azure DevOps, GitLab CI, Gerrit, Jenkins, Travis, CI/CD                                                 |
@@ -88,4 +90,4 @@ Revenue Management SG [yearly meeting](https://agifors.org/rm-2019)
 ## Personal Projects
 
 - **[genetic-algorithm](https://github.com/Fmrhj/genetic-algorithm)**: Implementation of a genetic algorithm optimizer using base Python [numpy](https://numpy.org/)
-- **[personal-blog](https://www.fernandozepeda.io/blog)**
+- **[notes](https://www.fernandozepeda.io/notes)**

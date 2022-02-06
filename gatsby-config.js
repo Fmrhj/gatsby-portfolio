@@ -14,12 +14,12 @@ module.exports = {
         },
       },
     },
-    {
+    /*{
       resolve: "gatsby-plugin-google-analytics",
       options: {
         trackingId: process.env.GATSBY_GOOGLE_ANALYTICS_TRACKING_ID || "none",
       },
-    },
+    },*/
     {
       resolve: "gatsby-source-filesystem",
       options: {

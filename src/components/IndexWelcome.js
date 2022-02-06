@@ -25,12 +25,14 @@ const IndexWelcome = () => (
           I am a Data Scientist/Engineer having fun developing cloud native
           solutions. I currently live in Berlin.
           <br />
+          <br />
           I like to design systems, specially interested in Machine Learning,
           MLOps and Data-Intensive Computing.
+          <br />
           <br />I really enjoy learning and apply new concepts practically to
           solve real problems. Since I'm constantly taking notes and drawing
           ideas while learning a new subject, I will be posting some of them
-          from time to time in the <Link to="/blog">blog</Link> section.
+          from time to time in the <Link to="/notes">notes</Link> section.
           <br />
           <div className="social-logo">
             <LeftArrows />

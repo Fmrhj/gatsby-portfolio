@@ -50,8 +50,8 @@ header {
         min-width: 100px;
     }
     @media (max-width: 460px) {
-        width: 290px;
-        min-width: 290px;
+        //width: 290px;
+        min-width: 270px;
         .navigation {
             nav {
                 transition: 0.4s;
@@ -69,11 +69,11 @@ header {
         .inner-header {
             display: flex;
             align-items: left;
-            justify-content: space-between;
-            padding-left: 24px;
+            //justify-content: space-between;
+            padding-left: 10px;
+            padding-right: 10px;
             .logo {
-                a {
-                }
+                font-size: 14px;
             }
         }
     }

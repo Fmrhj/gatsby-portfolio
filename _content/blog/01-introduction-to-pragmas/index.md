@@ -1,5 +1,5 @@
 ---
-path: /blog/introduction-to-pragmas
+path: /notes/introduction-to-pragmas
 title: Introduction to pragmas
 date: 2021-02-14
 description: An introduction to C compiler directives a.k.a pragmas. Examples with OpenMP.
@@ -59,10 +59,10 @@ Let us say, we want to run this function five times. We could put the inner func
 int main()
 {
     time_t begin = time(NULL);
-    int i = 0;
     int number_of_times = 5; 
+    int i;
 
-    for (i=0; i<= number_of_times; i++){
+    for (i=0; i <= number_of_times; i++){
         // wait 2 seconds
         sleep(2);
     }   
@@ -96,7 +96,7 @@ int main()
     
     // we open a parallel region
     #pragma omp parallel for
-    for (i=0; i<number_of_times;i++){
+    for (i=0; i < number_of_times; i++){
         int thread_id = omp_get_thread_num();
         printf("Starting thread number %d\n", thread_id);
         sleep(2);

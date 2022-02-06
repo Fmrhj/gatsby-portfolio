@@ -1,5 +1,5 @@
 ---
-path: /blog/getting-started-with-opencl-and-gpu-computing
+path: /notes/getting-started-with-opencl-and-gpu-computing
 title: Getting started with OpenCL and GPU Computing
 date: 2021-02-03
 description: On parallel computation with OpenCL. A beginner's perspective
@@ -11,7 +11,8 @@ tags:
   - open-source
 thumbnail: /OpenCL_Logo.png
 ---
-I have been experimenting with different ways of computing big data frames for some time now. Normally for these kind of problems, one would think quickly on distributed computing frameworks like [Spark](https://spark.apache.org/), [Flink](https://flink.apache.org/) or others from the Apache ecosystem, [](https://www.h2o.ai/products/h2o/)but I have the impression that one always try to out-scale prematurely something that we could achieve within a single node. Truth is, we can actually profit from parallel computing in our own (single node) hardware if we find the right way of stating the instructions. These are some notes from a beginner's perspective on **OpenCL** and **General-Purpose Computing on Graphical Processing Units (GPGPU)**.
+
+I have been experimenting with different ways of computing big data frames for some time now. Normally for these kind of problems, one would think quickly on distributed computing frameworks like [Spark](https://spark.apache.org/), [Flink](https://flink.apache.org/) or others from the Apache ecosystem, but I have the impression that one tends to out-scale prematurely something that we could achieve within a single node. Truth is, we can actually profit from parallel computing in our own (single node) hardware if we find the right way of stating the instructions. These are some notes from a beginner's perspective on **OpenCL** and **General-Purpose Computing on Graphical Processing Units (GPGPU)**.
 
 ## OpenCL for parallel computing
 
@@ -36,7 +37,7 @@ Say we want to process a 2048 $\times$ 2048 pixel image. The whole **problem dom
 void trad_mult(int n, const float *a, const float*b, float *c){
     int i;
     // Loop over all n elements
-    for(int i=0,i<n;i++){
+    for(int i=0; i<n ; i++){
         c[i] = a[i]*b[i];
     }
 }
