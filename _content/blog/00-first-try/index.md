@@ -11,6 +11,7 @@ tags:
   - open-source
 thumbnail: /OpenCL_Logo.png
 ---
+
 I have been experimenting with different ways of computing big data frames for some time now. Normally for these kind of problems, one would think quickly on distributed computing frameworks like [Spark](https://spark.apache.org/), [Flink](https://flink.apache.org/) or others from the Apache ecosystem, but I have the impression that one tends to out-scale prematurely something that we could achieve within a single node. Truth is, we can actually profit from parallel computing in our own (single node) hardware if we find the right way of stating the instructions. These are some notes from a beginner's perspective on **OpenCL** and **General-Purpose Computing on Graphical Processing Units (GPGPU)**.
 
 ## OpenCL for parallel computing
