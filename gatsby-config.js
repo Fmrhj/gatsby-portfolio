@@ -6,11 +6,12 @@ module.exports = {
         openGraph: {
           // og:<tag>
           type: "website",
-          locale: "en_US",
+          locale: "en_DE",
           title: process.env.GATSBY_SITE_NAME,
           url: process.env.GATSBY_SITE_URL,
           site_name: process.env.GATSBY_SITE_NAME,
           description: process.env.GATSBY_SITE_DESCRIPTION,
+          meta: "some informations about me",
         },
       },
     },
