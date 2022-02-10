@@ -59,6 +59,7 @@
         "telemetry": "^0.1.0"
     },
     "devDependencies": {
+        "@babel/plugin-proposal-class-properties": "^7.16.7",
         "dotenv": "^8.2.0",
         "prettier": "^1.19.1",
         "react-app-env": "^1.2.3"
