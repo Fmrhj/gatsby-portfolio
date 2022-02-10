@@ -56,7 +56,7 @@ module.exports = {
         short_name: process.env.GATSBY_SITE_NAME,
         description: process.env.GATSBY_SITE_DESCRIPTION,
         theme_color: process.env.GATSBY_SITE_THEME_COLOR,
-        background_color: process.env.GATSBY_SITE_THEME_COLOR,
+        background_color: process.env.GATSBY_SITE_BACKGROUND_COLOR,
         start_url: "/",
         display: "standalone",
         orientation: "portrait",
