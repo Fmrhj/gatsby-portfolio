@@ -57,6 +57,7 @@ module.exports = {
         description: process.env.GATSBY_SITE_DESCRIPTION,
         theme_color: process.env.GATSBY_SITE_THEME_COLOR,
         background_color: process.env.GATSBY_SITE_THEME_COLOR,
+        start_url: "/",
         display: "standalone",
         orientation: "portrait",
         icon: "static/favicons/favicon-32x32.png",
