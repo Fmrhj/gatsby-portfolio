@@ -23,7 +23,7 @@ Since it is a data processing framework, Spark would be normally located after a
 - connected to a queue/topic system, like Kakfa or
 - written in disk or to a database for further analytics.
 
-Taking as reference a [Lambda Architecture](https://levelup.gitconnected.com/big-data-lambda-architecture-in-a-nutshell-fd5e04b12acc), it will be part of both the *speed layer* which processes real-time data, and on the other hand, also part of the processing of immutable with batch jobs in the *batch layer*. 
+Taking as reference a [Lambda Architecture](https://levelup.gitconnected.com/big-data-lambda-architecture-in-a-nutshell-fd5e04b12acc), it will be part of both the *speed layer* which processes real-time data, and on the other hand, also part of the processing of immutable with batch jobs in the *batch layer*.
 
 ## PySpark
 
@@ -33,7 +33,6 @@ This is the Python API to interact with a Spark Cluster. Today is the de facto i
 
 ## When not to use Spark
 
-Spark integrates really good with streaming and batch processing. [Spark Streaming](https://databricks.com/glossary/what-is-spark-streaming) extends the Spark Core 
-
+Spark integrates really good with streaming and batch processing. [Spark Streaming](https://databricks.com/glossary/what-is-spark-streaming) extends the Spark Core.
 
 ## Resources
