@@ -6,6 +6,7 @@ import React from "react"
 const activeStyle = {
   color: "#660f57",
   fontWeight: "bold",
+  textDecoration: "none",
 }
 
 const Header = ({ siteTitle }) => {
