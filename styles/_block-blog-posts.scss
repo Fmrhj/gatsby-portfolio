@@ -37,9 +37,9 @@
         opacity: 0.7;
     }
     .content {
-        float: right;
+        float: left;
         padding-left: 0px;
-        width: 75%;
+        width: 100%;
         @media (max-width: 976px) {
             width: 65%;
         }
