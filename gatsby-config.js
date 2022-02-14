@@ -149,5 +149,7 @@ module.exports = {
     `gatsby-plugin-netlify-identity-widget`,
     // Content-manager-system
     `gatsby-plugin-netlify-cms`,
+    `gatsby-plugin-material-ui`,
+    `gatsby-theme-material-ui`,
   ],
 }

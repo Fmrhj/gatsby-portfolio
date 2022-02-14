@@ -1,3 +1,4 @@
+import { Divider } from "@mui/material"
 import { Link } from "gatsby"
 import React from "react"
 import Thumbnail from "./Thumbnail"
@@ -14,6 +15,7 @@ const PostLink = ({ post }) => (
         <small>{post.frontmatter.date}</small>
         <p>{post.frontmatter.description} </p>
         <div className="more">(read more)</div>
+        <Divider />
       </div>
     </Link>
   </div>
