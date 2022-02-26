@@ -50,7 +50,7 @@
         "material-ui": "^0.20.2",
         "netlify-cms-app": "^2.12.19",
         "node-sass": "^4.14.1",
-        "prismjs": "^1.21.0",
+        "prismjs": "^1.27.0",
         "prop-types": "^15.7.2",
         "react": "^17.0.0",
         "react-dom": "^16.12.0",
