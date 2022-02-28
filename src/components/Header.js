@@ -26,9 +26,9 @@ const Header = ({ siteTitle }) => {
               <Link to="/resume" activeStyle={activeStyle}>
                 Resume
               </Link>
-              <Link to="/notes" activeStyle={activeStyle}>
+              /* <Link to="/notes" activeStyle={activeStyle}>
                 Notes
-              </Link>
+              </Link> */
             </nav>
           </div>
         </div>
