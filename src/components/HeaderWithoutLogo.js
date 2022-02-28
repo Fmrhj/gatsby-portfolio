@@ -24,10 +24,10 @@ const Header = ({ siteTitle }) => {
               </Link>
               <Link to="/resume" activeStyle={activeStyle}>
                 Resume
-               /* </Link>
+{/* </Link>
               <Link to="/notes" activeStyle={activeStyle}>
                 Notes
-              </Link> */
+              </Link> */}
             </nav>
           </div>
         </div>
