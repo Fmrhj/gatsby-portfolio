@@ -9,6 +9,10 @@ const activeStyle = {
   textDecoration: "none",
 }
 
+/* <Link to="/notes" activeStyle={activeStyle}>
+    Notes
+</Link> */
+
 // The header has container with a navigation bar
 const Header = ({ siteTitle }) => {
   return (
@@ -26,9 +30,6 @@ const Header = ({ siteTitle }) => {
               <Link to="/resume" activeStyle={activeStyle}>
                 Resume
               </Link>
-              {/* <Link to="/notes" activeStyle={activeStyle}>
-                Notes
-              </Link> */}
             </nav>
           </div>
         </div>
