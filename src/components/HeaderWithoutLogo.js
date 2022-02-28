@@ -24,8 +24,8 @@ const Header = ({ siteTitle }) => {
               </Link>
               <Link to="/resume" activeStyle={activeStyle}>
                 Resume
-{/* </Link>
-              <Link to="/notes" activeStyle={activeStyle}>
+               </Link>
+              {/* <Link to="/notes" activeStyle={activeStyle}>
                 Notes
               </Link> */}
             </nav>
