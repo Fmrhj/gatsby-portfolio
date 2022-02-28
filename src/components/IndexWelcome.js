@@ -38,7 +38,7 @@ const IndexWelcome = () => (
           <br />
           I like to approach real-world problems using system design, Machine Learning, MLOps and Distrbuted Computing.
           <br />
-          <br /> I am taking notes as I am learning. I may post some of them in a notes </ Emoji symbol="📓"> section.
+          <br /> I am taking notes as I am learning. I may post some of them in a notes <Emoji symbol="📓" /> section.
           <br />
           <div className="social-logo">
             <LeftArrows />
