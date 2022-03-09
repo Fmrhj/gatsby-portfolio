@@ -1,12 +1,10 @@
 ---
 path: "/resume"
-date: "2020-04-17"
+date: "2022-04-09"
 title: " "
 template: "main-template"
 thumbnail: ""
 ---
-
-
 
 Data Scientist and Engineer.
 
@@ -14,7 +12,7 @@ Data Scientist and Engineer.
 
 ## Experience
 
-### Senior Consultant Cloud and Data Analytics at [Pexon Consulting](https://pexon-consulting.de/), 2020/07 - present, Berlin
+### Senior Consultant Cloud and Data Analytics at [Pexon Consulting](https://pexon-consulting.de/), 2020/07 - 2022/03, Berlin
 
 *Selected projects*:
 
@@ -66,6 +64,7 @@ Revenue Management SG [yearly meeting](https://agifors.org/rm-2019)
 
 *Selected*:
 
+- [Microsoft Certified: Azure Data Engineer](https://www.credly.com/badges/1a4866ef-1c92-48fe-9af4-c49c28617bf5?source=linked_in_profile) | 03/2022
 - [HashiCorp Certified: Terraform Associate](https://www.credly.com/badges/4b572995-9eaa-47d7-8c5b-25c8464b8861) | 11/2021
 - [Microsoft Certified: Azure Data Scientist Associate](https://www.credly.com/badges/80d35358-f45f-4fa4-92d1-54f3289b488e?source=linked_in_profile) | 04/2021
 - [Essential Google Cloud Infrastructure: Core Services by Google Cloud on Coursera](https://www.coursera.org/account/accomplishments/records/W2ZTKPJ8QG4D) | 04/2020
