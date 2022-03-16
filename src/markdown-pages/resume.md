@@ -12,6 +12,8 @@ Data Scientist and Engineer.
 
 ## Experience
 
+### ML and Data Engineer at [qurix Technology](https://www.qurix.tech), 2022/04 - today, Berlin/Hamburg
+
 ### Senior Consultant Cloud and Data Analytics at [Pexon Consulting](https://pexon-consulting.de/), 2020/07 - 2022/03, Berlin
 
 *Selected projects*:
