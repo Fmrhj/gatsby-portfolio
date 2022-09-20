@@ -6,25 +6,35 @@ template: "main-template"
 thumbnail: ""
 ---
 
-ML and Data Engineer.
+# Fernando Zepeda
 
-📧 <fernando.zepeda@pm.me>
+ML & Data Engineer
+
+<span class="email"><fernando.zepeda@pm.me></div>
 
 ## Experience
 
 ### ML and Data Engineer at [qurix Technology](https://www.qurix.tech), 2022/04 - today, Berlin/Hamburg
 
-### Senior Consultant Cloud and Data Analytics at [Pexon Consulting](https://pexon-consulting.de/), 2020/07 - 2022/03, Berlin
+ML & Data Engineer focused on projects in the Energy sector.
 
 *Selected projects*:
 
-- Big Data Pipeline for an Internet Company. *Tech-stack*: [Exasol](https://www.exasol.com), Kubernetes, Python.
-- Development of an application for price adjustments for a main German utility company. *Tech-stack*: [Azure Cloud Stack](https://azure.microsoft.com/en-us/), Snowflake, Python.  
-- Data pipeline optimization for a big German data provider for television companies. *Tech-stack*: Snowflake, Tableau Server, Python, [Amazon S3](https://aws.amazon.com/s3/?nc2=h_ql_prod_fs_s3).
+- Cloud Infrastructure and Serverless pipelines for different use cases in the generation division. <u>Tech-stack</u>: Azure, Azure Functions, Python, Azure Cosmos DB, .NET
+
+### Senior Consultant Cloud and Data Analytics at [Pexon Consulting](https://pexon-consulting.de/), 2020/07 - 2022/03, Berlin
+
+Consultant for different projects on Data Engineering, Analytics and Cloud Infrastructure.
+
+*Selected projects*:
+
+- Big Data Pipeline for an Internet Company. <u>Tech-stack</u>: [Exasol](https://www.exasol.com), Kubernetes, Python.
+- Development of an application for price adjustments for a main German utility company. <u>Tech-stack</u>: [Azure Cloud Stack](https://azure.microsoft.com/en-us/), Snowflake, Python.  
+- Data pipeline optimization for a big German data provider for television companies. <u>Tech-stack</u>: Snowflake, Tableau Server, Python, [Amazon S3](https://aws.amazon.com/s3/?nc2=h_ql_prod_fs_s3).
 
 ### Data Scientist and Methods Specialist at [Lufthansa Systems](https://www.lhsystems.com/), 2020/06 - 2017/09, Berlin
 
-Working as Data Scientist and Data Engineer for different projects in Flight & Ground Ops, Revenue Management and Pricing
+Working as Data Scientist and Data Engineer for different projects in Flight & Ground Ops, Revenue Management and Pricing.
 
 *Selected projects*:
 
@@ -36,7 +46,7 @@ Integration of a grandsolver for all operation modules to support the integrated
 
 ### Student Assistant and Masterand at [Lufthansa Systems](https://www.lhsystems.com/), 2017/08 - 2016/09, Berlin
 
-Data Science and Rapid Prototyping in Revenue Management & Pricing
+Data Science and Rapid Prototyping in Revenue Management & Pricing.
 
 - Optimal price calculation for single-flights with Reinforcement Learning
 - Passenger demand estimation with machine learning algorithms and dynamic pricing for direct flights
@@ -50,10 +60,10 @@ Database management and QA software testing.
 ## Education
 
 - <span class="colored-text_1"> Industrial Engineering (M.Sc.)</span> - [Technical University of Berlin](https://www.tu-berlin.de/menue/home/)  
-Master thesis: "An airline stochastic dynamic pricing model"
+**Master thesis**: "An airline stochastic dynamic pricing model"
 
 - <span class="colored-text_1"> Industrial Engineering (Dipl.)</span> - [Universidad Técnica Federico Santa María](https://www.usm.cl/)  
-Thesis: "Predicting bankrutpy of Chilean enterprises with artificial neural networks"
+**Diplom Thesis**: "Predicting bankrutpy of Chilean enterprises with artificial neural networks"
 
 ## Talks and Conferences
 
@@ -78,9 +88,9 @@ Revenue Management SG [yearly meeting](https://agifors.org/rm-2019)
 
 | Area                                                              | Technnologies                                                                                           |
 |-------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------|
-| <span class="colored-text_1">Cloud / IaC</span>                   | GCP, Azure, AWS, Terraform |
-| <span class="colored-text_1">Cloud Deployments: Container</span>  | Docker, Kubernetes, Azure Container Registry, docker-compose                         |
-| <span class="colored-text_1">Cloud Deployments: FaaS</span>       | Azure Functions (Durable), AWS Lambda, Open FaaS                                          |
+| <span class="colored-text_1">Cloud & Infrastructure as Code</span>                   | GCP, Azure, AWS, Terraform |
+| <span class="colored-text_1">Cloud Deployments: Container as a Service</span>  | Docker, Kubernetes, Azure Container Registry, docker-compose                         |
+| <span class="colored-text_1">Cloud Deployments: Functions as a Service</span>       | Azure Functions (Durable), AWS Lambda, Open FaaS                                          |
 | <span class="colored-text_1">Databases</span>                     | SQL Server, MySQL, PosgreSQL, Oracle DB, MongoDB, AWS RDS                 |
 | <span class="colored-text_1">Data Warehouses</span>               | Snowflake, Google BigQuery, Azure Synapse, Exasol                   |
 | <span class="colored-text_1">DevOps</span>                        | Azure DevOps, GitLab CI, Gerrit, Jenkins, Github Actions                                                |

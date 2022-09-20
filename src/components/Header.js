@@ -1,33 +1,22 @@
-import "../../styles/styles.scss"
-
 import { Link } from "gatsby"
 import React from "react"
+import * as style from "../../styles/activePink"
 
-const activeStyle = {
-  color: "#521f6f",
-  fontWeight: "bold",
-  textDecoration: "none",
-}
 
-/* <Link to="/notes" activeStyle={activeStyle}>
-    Notes
-</Link> */
-
-// The header has container with a navigation bar
-const Header = ({ siteTitle }) => {
+const Header = () => {
   return (
     <header>
       <div className="container">
         <div className="inner-header">
           <div className="logo">
-            <Link to="/">Fernando Zepeda</Link>
+            <Link to="/">.</Link>
           </div>
           <div className="navigation">
             <nav>
-              <Link to="/" activeStyle={activeStyle}>
+              <Link to="/" activeStyle={style.activePink}>
                 About
               </Link>
-              <Link to="/resume" activeStyle={activeStyle}>
+              <Link to="/resume" activeStyle={style.activePink}>
                 Resume
               </Link>
             </nav>

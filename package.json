@@ -47,10 +47,10 @@
     },
     "repository": {
         "type": "git",
-        "url": ""
+        "url": "https://github.com/Fmrhj"
     },
     "bugs": {
-        "url": ""
+        "url": "https://github.com/Fmrhj"
     },
     "importSort": {
         ".js, .jsx, .es6, .es": {

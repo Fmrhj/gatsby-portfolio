@@ -3,19 +3,37 @@
     padding-bottom: 20px;
     .blog-post {
         .blog-post-content {
+            h1 {
+                color: $black;
+                font-family: sans-serif; 
+            }
             color: $black;
             h3 {
                 color: $comboBlue;
                 a:link {
-                    color: $comboPurple;
+                    color: $pink;
                     text-decoration: none;
+                }
+                a:visited {
+                    color: $comboBlue;
                 }
                 a:hover {
                     color: $black;
                 }
             }
+            .email {
+                text-decoration: underline;
+                font-family: monospace;
+                a:link {
+                    color: $pink;
+                    text-decoration: none;
+                }
+                a:visited {
+                    color: $pink;
+                }
+            }
             a:link {
-                color: $comboPurple;
+                color: $comboBlue;
                 text-decoration: none;
                 font-family: sans-serif;
             }
@@ -29,8 +47,8 @@
                 color: $black;
             }
             .colored-text_1 {
+                font-family:system-ui;
                 color: $comboBlue;
-                font-weight: bold;
                 a:link:hover {
                     color: $black;
                 }
@@ -41,6 +59,9 @@
             .colored-text_3 {
                 color: $comboDarkGrey;
                 font-weight: bold;
+            }
+            .colored_text_pink {
+                color: $pink
             }
         }
     }
