@@ -15,12 +15,22 @@ module.exports = {
         },
       },
     },
-    /*{
+    {
       resolve: "gatsby-plugin-google-analytics",
       options: {
         trackingId: process.env.GATSBY_GOOGLE_ANALYTICS_TRACKING_ID || "none",
       },
-    },*/
+    },
+    {
+      resolve: "gatsby-plugin-cookiebot",
+      options: {
+        cookiebotId: "3da15151-bceb-4d2b-9ca9-380cd564af35", // Required. Site's Cookiebot ID.
+        manualMode: true, // Optional. Turns on Cookiebot's manual mode. Defaults to false.
+        blockGtm: false, //  Optional. Skip blocking of GTM. Defaults to true if manualMode is set to true.
+        includeInDevelopment: true, // Optional. Enables plugin in development. Will cause gatsby-plugin-google-tagmanager to thrown an error when pushing to dataLayer. Defaults to false.
+        pluginDebug: true, // Optional. Debug mode for plugin development. Defaults to false.
+      },
+    },
     {
       resolve: "gatsby-source-filesystem",
       options: {
