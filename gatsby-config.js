@@ -16,19 +16,38 @@ module.exports = {
       },
     },
     {
-      resolve: "gatsby-plugin-google-analytics",
+      resolve: `gatsby-plugin-gdpr-cookies`,
       options: {
-        trackingId: process.env.GATSBY_GOOGLE_ANALYTICS_TRACKING_ID || "none",
-      },
-    },
-    {
-      resolve: "gatsby-plugin-cookiebot",
-      options: {
-        cookiebotId: "3da15151-bceb-4d2b-9ca9-380cd564af35", // Required. Site's Cookiebot ID.
-        manualMode: true, // Optional. Turns on Cookiebot's manual mode. Defaults to false.
-        blockGtm: false, //  Optional. Skip blocking of GTM. Defaults to true if manualMode is set to true.
-        includeInDevelopment: true, // Optional. Enables plugin in development. Will cause gatsby-plugin-google-tagmanager to thrown an error when pushing to dataLayer. Defaults to false.
-        pluginDebug: true, // Optional. Debug mode for plugin development. Defaults to false.
+        googleAnalytics: {
+          trackingId: process.env.GATSBY_GOOGLE_ANALYTICS_TRACKING_ID || "none", // leave empty if you want to disable the tracker
+          cookieName: 'gatsby-gdpr-google-analytics', // default
+          anonymize: true, // default
+          allowAdFeatures: false // default
+        },
+        googleTagManager: {
+          //trackingId: 'YOUR_GOOGLE_TAG_MANAGER_TRACKING_ID', // leave empty if you want to disable the tracker
+          cookieName: 'gatsby-gdpr-google-tagmanager', // default
+          dataLayerName: 'dataLayer', // default
+        },
+        facebookPixel: {
+          //pixelId: 'YOUR_FACEBOOK_PIXEL_ID', // leave empty if you want to disable the tracker
+          cookieName: 'gatsby-gdpr-facebook-pixel', // default
+        },
+        tikTokPixel: {
+          //pixelId: 'YOUR_TIKTOK_PIXEL_ID', // leave empty if you want to disable the tracker
+          cookieName: 'gatsby-gdpr-tiktok-pixel', // default
+        },
+        hotjar: {
+          //hjid: 'YOUR_HOTJAR_ID',
+          //hjsv: 'YOUR_HOTJAR_SNIPPET_VERSION',
+          cookieName: 'gatsby-gdpr-hotjar', // default
+        },
+        linkedin: {
+          //trackingId: 'YOUR_LINKEDIN_TRACKING_ID', // leave empty if you want to disable the tracker
+          cookieName: 'gatsby-gdpr-linked-in', // default
+        },
+        // defines the environments where the tracking should be available  - default is ["production"]
+        environments: ['production', 'development']
       },
     },
     {

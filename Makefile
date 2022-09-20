@@ -7,3 +7,6 @@ create:
 
 develop:
 	gatsby develop
+
+install:
+	npm install
