@@ -8,13 +8,13 @@ thumbnail: ""
 
 # Fernando Zepeda
 
-ML & Data Engineer
+ML & Data Engineer.
 
 <span class="email"><fernando.zepeda@pm.me></div>
 
 ## Experience
 
-### ML and Data Engineer at [qurix Technology](https://www.qurix.tech), 2022/04 - today, Berlin/Hamburg
+### ML and Data Engineer at [qurix Technology](https://www.qurix.tech), 2022/04 - today, Berlin/Hamburg/Karlhsruhe
 
 ML & Data Engineer focused on projects in the Energy sector.
 
@@ -60,10 +60,10 @@ Database management and QA software testing.
 ## Education
 
 - <span class="colored-text_1"> Industrial Engineering (M.Sc.)</span> - [Technical University of Berlin](https://www.tu-berlin.de/menue/home/)  
-**Master thesis**: "An airline stochastic dynamic pricing model"
+> **Master thesis**: "An airline stochastic dynamic pricing model"
 
 - <span class="colored-text_1"> Industrial Engineering (Dipl.)</span> - [Universidad Técnica Federico Santa María](https://www.usm.cl/)  
-**Diplom Thesis**: "Predicting bankrutpy of Chilean enterprises with artificial neural networks"
+> **Diplom Thesis**: "Predicting bankrutpy of Chilean enterprises with artificial neural networks"
 
 ## Talks and Conferences
 
@@ -84,7 +84,7 @@ Revenue Management SG [yearly meeting](https://agifors.org/rm-2019)
 - Google Cloud Fundamentals: Big Data & Machine Learning | Jellyfish, 03/2020
 - [Intro to TensorFlow by Google Cloud on Coursera](https://www.coursera.org/account/accomplishments/records/B7SLNSP8BY9U) | 04/2020
 
-## Frameworks & Tools
+## Skill by Framework & Tools
 
 | Area                                                              | Technnologies                                                                                           |
 |-------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------|
