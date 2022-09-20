@@ -140,15 +140,11 @@ module.exports = {
       },
     },*/
     // add further plugins
-    "gatsby-plugin-netlify",
     `gatsby-plugin-react-helmet`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     `gatsby-plugin-offline`,
     `gatsby-plugin-sass`,
-    `gatsby-plugin-netlify-identity-widget`,
-    // Content-manager-system
-    `gatsby-plugin-netlify-cms`,
     `gatsby-plugin-material-ui`,
     `gatsby-theme-material-ui`,
   ],

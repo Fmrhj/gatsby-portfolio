@@ -6,9 +6,9 @@ template: "main-template"
 thumbnail: ""
 ---
 
-Data Scientist and Engineer.
+ML and Data Engineer.
 
-:inbox_tray: <fernando.zepeda@pm.me>
+📧 <fernando.zepeda@pm.me>
 
 ## Experience
 
@@ -79,16 +79,17 @@ Revenue Management SG [yearly meeting](https://agifors.org/rm-2019)
 | Area                                                              | Technnologies                                                                                           |
 |-------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------|
 | <span class="colored-text_1">Cloud / IaC</span>                   | GCP, Azure, AWS, Terraform |
-| <span class="colored-text_1">Container</span>                     | Docker, Kubernetes, Azure Container Registry, docker-compose                                            |
-| <span class="colored-text_1">Databases and Data Warehouses</span> | SQL Server, Snowflake, MySQL, PosgreSQL, Google BigQuery, Oracle DB, MongoDB, AWS RDS                   |
-| <span class="colored-text_1">DevOps</span>                        | Azure DevOps, GitLab CI, Gerrit, Jenkins, Travis, CI/CD                                                 |
-| <span class="colored-text_1">Data Engineering</span>              | Apache Kafka, Hive, Apache Spark, Azure Databricks, Google Dataflow, Airflow, Azure Data Factory, Spark |
+| <span class="colored-text_1">Cloud Deployments: Container</span>  | Docker, Kubernetes, Azure Container Registry, docker-compose                         |
+| <span class="colored-text_1">Cloud Deployments: FaaS</span>       | Azure Functions (Durable), AWS Lambda, Open FaaS                                          |
+| <span class="colored-text_1">Databases</span>                     | SQL Server, MySQL, PosgreSQL, Oracle DB, MongoDB, AWS RDS                 |
+| <span class="colored-text_1">Data Warehouses</span>               | Snowflake, Google BigQuery, Azure Synapse, Exasol                   |
+| <span class="colored-text_1">DevOps</span>                        | Azure DevOps, GitLab CI, Gerrit, Jenkins, Github Actions                                                |
+| <span class="colored-text_1">Data Engineering</span>              | Apache Kafka, -Hive, -Spark, -Airflow, Google Dataflow, Azure Databricks, -Data Factory |
 | <span class="colored-text_1">Frontend programming</span>          | ReactJS, Typescript, Gatsby JS                                                                          |
-| <span class="colored-text_1">Machine Learning</span>              | TensorFlow, Keras, H20, scikit-learn, R-caret, PyTorch                                                  |
+| <span class="colored-text_1">Machine Learning</span>              | PyTorch, TensorFlow, Keras, scikit-learn, R-caret                                                  |
+| <span class="colored-text_1">Programming</span>                   | Python, Javascript, R, Bash, Powershell, Rust                                                             |
 | <span class="colored-text_1">Other tools</span>                   | Jira, Confluence, Agile Development                                                                     |
-| <span class="colored-text_1">Programming</span>                   | Python, C++, C, Golang, R, Bash, Powershell                                                             |
 
 ## Personal Projects
 
 - **[genetic-algorithm](https://github.com/Fmrhj/genetic-algorithm)**: Implementation of a genetic algorithm optimizer using base Python [numpy](https://numpy.org/)
-- **[notes](https://www.fernandozepeda.io/notes)**

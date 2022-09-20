@@ -2,7 +2,6 @@
 import "../../styles/styles.scss"
 import "katex/dist/katex.min.css"
 
-import CommentSection from "../components/CommentSection"
 import Footer from "../components/Footer"
 import Header from "../components/Header"
 import { Helmet } from "react-helmet"
@@ -41,7 +40,6 @@ const Template = ({ data }) => {
                 dangerouslySetInnerHTML={{ __html: post.html }}
               />
             </div>
-            {/* <CommentSection postInfo={post} />*/}
           </div>
         </div>
       </div>

@@ -40,9 +40,8 @@ const IndexWelcome = () => (
           <br />
           <br /> I am taking notes as I am learning. I may post some of them in a notes <Emoji symbol="📓" /> section.
           <br />
-          <div className="social-logo">
-            <LeftArrows />
           </div>
+          <div className="social-logo">
         </div>
       </div>
     </div>
