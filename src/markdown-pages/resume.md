@@ -14,7 +14,7 @@ ML & Data Engineer.
 
 ## Experience
 
-### ML and Data Engineer at [qurix Technology](https://www.qurix.tech), 2022/04 - today, Berlin/Hamburg/Karlhsruhe
+### ML and Data Engineer at [qurix Technology](https://www.qurix.tech), 2022/04 - today, Berlin/Hamburg/Karlsruhe
 
 ML & Data Engineer focused on projects in the Energy sector.
 
