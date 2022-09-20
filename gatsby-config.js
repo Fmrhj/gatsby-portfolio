@@ -143,6 +143,7 @@ module.exports = {
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-image`,
     `gatsby-plugin-offline`,
+    `gatsby-plugin-image`,
     `gatsby-plugin-sass`,
     `gatsby-plugin-material-ui`,
     `gatsby-theme-material-ui`,
