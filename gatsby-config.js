@@ -142,6 +142,7 @@ module.exports = {
     // add further plugins
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-image`,
+    `gatsby-plugin-netlify`,
     `gatsby-plugin-offline`,
     `gatsby-plugin-image`,
     `gatsby-plugin-sass`,
