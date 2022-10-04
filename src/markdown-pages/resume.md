@@ -68,9 +68,9 @@ Database management and QA software testing.
 ## Talks and Conferences
 
 - Airline Group of the International Federation of Operational Research Societies (<span class="colored-text_1">AGIFORS 2019</span>) - Panama 2019  
-Revenue Management SG [yearly meeting](https://agifors.org/rm-2019)
+Revenue Management SG [yearly meeting ⬀](https://agifors.org/rm-2019)
 
-- Speaker at the International Conference on Operations Research (<span class="colored-text_1">OR 2017</span>) - Berlin 2017 [Presentation ↗](https://www.dropbox.com/s/h7vtkc215zh3r43/OR_2017.pdf?dl=0) | [Program ↗](https://www.euro-online.org/conf/admin/tmp/program-gor2017.pdf)
+- Speaker at the International Conference on Operations Research (<span class="colored-text_1">OR 2017</span>) - Berlin 2017 [Presentation ⬀](https://www.dropbox.com/s/h7vtkc215zh3r43/OR_2017.pdf?dl=0) | [Program ⬀](https://www.euro-online.org/conf/admin/tmp/program-gor2017.pdf)
 
 ## Certifications
 
