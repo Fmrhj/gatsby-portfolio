@@ -76,13 +76,13 @@ Revenue Management SG [yearly meeting](https://agifors.org/rm-2019)
 
 *Selected*:
 
-- [Microsoft Certified: Azure Data Engineer ↗](https://www.credly.com/badges/1a4866ef-1c92-48fe-9af4-c49c28617bf5?source=linked_in_profile) | 03/2022
-- [HashiCorp Certified: Terraform Associate ↗](https://www.credly.com/badges/4b572995-9eaa-47d7-8c5b-25c8464b8861) | 11/2021
-- [Microsoft Certified: Azure Data Scientist Associate ↗](https://www.credly.com/badges/80d35358-f45f-4fa4-92d1-54f3289b488e?source=linked_in_profile) | 04/2021
-- [Essential Google Cloud Infrastructure: Core Services by Google Cloud on Coursera ↗](https://www.coursera.org/account/accomplishments/records/W2ZTKPJ8QG4D) | 04/2020
-- [Essential Google Cloud Infrastructure: Foundation by Google Cloud on Coursera ↗](https://www.coursera.org/account/accomplishments/records/N7W6UZCUCHY6) | 04/2020
+- [Microsoft Certified: Azure Data Engineer ⬀](https://www.credly.com/badges/1a4866ef-1c92-48fe-9af4-c49c28617bf5?source=linked_in_profile) | 03/2022
+- [HashiCorp Certified: Terraform Associate ⬀](https://www.credly.com/badges/4b572995-9eaa-47d7-8c5b-25c8464b8861) | 11/2021
+- [Microsoft Certified: Azure Data Scientist Associate ⬀](https://www.credly.com/badges/80d35358-f45f-4fa4-92d1-54f3289b488e?source=linked_in_profile) | 04/2021
+- [Essential Google Cloud Infrastructure: Core Services by Google Cloud on Coursera ⬀](https://www.coursera.org/account/accomplishments/records/W2ZTKPJ8QG4D) | 04/2020
+- [Essential Google Cloud Infrastructure: Foundation by Google Cloud on Coursera ⬀](https://www.coursera.org/account/accomplishments/records/N7W6UZCUCHY6) | 04/2020
 - Google Cloud Fundamentals: Big Data & Machine Learning | Jellyfish, 03/2020
-- [Intro to TensorFlow by Google Cloud on Coursera ↗](https://www.coursera.org/account/accomplishments/records/B7SLNSP8BY9U) | 04/2020
+- [Intro to TensorFlow by Google Cloud on Coursera ⬀](https://www.coursera.org/account/accomplishments/records/B7SLNSP8BY9U) | 04/2020
 
 ## Skill by Framework & Tools
 

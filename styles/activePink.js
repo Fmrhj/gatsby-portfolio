@@ -5,7 +5,9 @@ export const activePink = {
 }
 
 export const activeHome = {
-    color: "#f78da7",
     textDecorationThickness: "1px",
-    textDecorationLine: "blink"
+    width: "20px",
+    heigth: "20px",
+    lineHeight:"100px",
+    border: "1px solid #f78da7"
 }
