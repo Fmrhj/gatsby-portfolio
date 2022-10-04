@@ -4,13 +4,11 @@
     .blog-post {
         .blog-post-content {
             min-height: 100%;
-            flex: 1 0 auto;
-
+            color: $black;
             h1 {
                 color: $black;
                 font-family: sans-serif; 
             }
-            color: $black;
             h3 {
                 color: $comboBlue;
                 a:link {

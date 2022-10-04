@@ -24,6 +24,19 @@ const IndexWelcome = () => (
           <br />
           <br /> I am taking notes during my learning. I may share some of them in a notes <Emoji symbol="📓" /> section.
           <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
         </div>
         <div className="social-logo">
         </div>
