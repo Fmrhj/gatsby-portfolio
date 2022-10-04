@@ -10,7 +10,7 @@ thumbnail: ""
 
 ML & Data Engineer.
 
-<span class="email"><fernando.zepeda@pm.me></div>
+➪ <span class="email"><fernando.zepeda@pm.me></div>
 
 ## Experience
 
@@ -102,4 +102,4 @@ Revenue Management SG [yearly meeting](https://agifors.org/rm-2019)
 
 ## Personal Projects
 
-- **[genetic-algorithm ↗](https://github.com/Fmrhj/genetic-algorithm)**: Implementation of a genetic algorithm optimizer using base Python [numpy](https://numpy.org/)
+- **[➩ genetic-algorithm](https://github.com/Fmrhj/genetic-algorithm)**: Implementation of a genetic algorithm optimizer using base Python [numpy](https://numpy.org/)
