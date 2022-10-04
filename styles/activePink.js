@@ -6,7 +6,6 @@ export const activePink = {
 
 export const activeHome = {
     color: "#f78da7",
-    fontWeight: "bold",
     textDecorationThickness: "1px",
     textDecorationLine: "blink"
 }
