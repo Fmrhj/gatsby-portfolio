@@ -22,7 +22,7 @@ html {
 }
 
 body {
-  position: relative;
+  position: flex;
   min-height: calc(100vh - 0px);
   font-weight: 400;
   background: $white;
