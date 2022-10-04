@@ -18,11 +18,12 @@ $comboDarkGrey: #5b7290;
 
 //General definitions
 html {
-  position: relative;
-  height: 100%;
-}
-body {
   font-family: $font;
+}
+
+body {
+  position: relative;
+  min-height: calc(100vh - 0px);
   font-weight: 400;
   background: $white;
   line-height: 1.5;
@@ -30,11 +31,11 @@ body {
   padding: 0;
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
 }
 
 .wrapper {
   flex-grow: 1;
+  height: auto;
 }
 
 h1 {

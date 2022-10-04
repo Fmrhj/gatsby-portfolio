@@ -3,11 +3,12 @@
     padding-bottom: 20px;
     .blog-post {
         .blog-post-content {
+            min-height: 100%;
+            color: $black;
             h1 {
                 color: $black;
                 font-family: sans-serif; 
             }
-            color: $black;
             h3 {
                 color: $comboBlue;
                 a:link {

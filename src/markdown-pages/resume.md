@@ -10,7 +10,7 @@ thumbnail: ""
 
 ML & Data Engineer.
 
-<span class="email"><fernando.zepeda@pm.me></div>
+➪ <span class="email"><fernando.zepeda@pm.me></div>
 
 ## Experience
 
@@ -68,21 +68,21 @@ Database management and QA software testing.
 ## Talks and Conferences
 
 - Airline Group of the International Federation of Operational Research Societies (<span class="colored-text_1">AGIFORS 2019</span>) - Panama 2019  
-Revenue Management SG [yearly meeting](https://agifors.org/rm-2019)
+Revenue Management SG [yearly meeting ⬀](https://agifors.org/rm-2019)
 
-- Speaker at the International Conference on Operations Research (<span class="colored-text_1">OR 2017</span>) - Berlin 2017 [Presentation](https://www.dropbox.com/s/h7vtkc215zh3r43/OR_2017.pdf?dl=0) | [Program](https://www.euro-online.org/conf/admin/tmp/program-gor2017.pdf)
+- Speaker at the International Conference on Operations Research (<span class="colored-text_1">OR 2017</span>) - Berlin 2017 [Presentation ⬀](https://www.dropbox.com/s/h7vtkc215zh3r43/OR_2017.pdf?dl=0) | [Program ⬀](https://www.euro-online.org/conf/admin/tmp/program-gor2017.pdf)
 
 ## Certifications
 
 *Selected*:
 
-- [Microsoft Certified: Azure Data Engineer](https://www.credly.com/badges/1a4866ef-1c92-48fe-9af4-c49c28617bf5?source=linked_in_profile) | 03/2022
-- [HashiCorp Certified: Terraform Associate](https://www.credly.com/badges/4b572995-9eaa-47d7-8c5b-25c8464b8861) | 11/2021
-- [Microsoft Certified: Azure Data Scientist Associate](https://www.credly.com/badges/80d35358-f45f-4fa4-92d1-54f3289b488e?source=linked_in_profile) | 04/2021
-- [Essential Google Cloud Infrastructure: Core Services by Google Cloud on Coursera](https://www.coursera.org/account/accomplishments/records/W2ZTKPJ8QG4D) | 04/2020
-- [Essential Google Cloud Infrastructure: Foundation by Google Cloud on Coursera](https://www.coursera.org/account/accomplishments/records/N7W6UZCUCHY6) | 04/2020
+- [Microsoft Certified: Azure Data Engineer ⬀](https://www.credly.com/badges/1a4866ef-1c92-48fe-9af4-c49c28617bf5?source=linked_in_profile) | 03/2022
+- [HashiCorp Certified: Terraform Associate ⬀](https://www.credly.com/badges/4b572995-9eaa-47d7-8c5b-25c8464b8861) | 11/2021
+- [Microsoft Certified: Azure Data Scientist Associate ⬀](https://www.credly.com/badges/80d35358-f45f-4fa4-92d1-54f3289b488e?source=linked_in_profile) | 04/2021
+- [Essential Google Cloud Infrastructure: Core Services by Google Cloud on Coursera ⬀](https://www.coursera.org/account/accomplishments/records/W2ZTKPJ8QG4D) | 04/2020
+- [Essential Google Cloud Infrastructure: Foundation by Google Cloud on Coursera ⬀](https://www.coursera.org/account/accomplishments/records/N7W6UZCUCHY6) | 04/2020
 - Google Cloud Fundamentals: Big Data & Machine Learning | Jellyfish, 03/2020
-- [Intro to TensorFlow by Google Cloud on Coursera](https://www.coursera.org/account/accomplishments/records/B7SLNSP8BY9U) | 04/2020
+- [Intro to TensorFlow by Google Cloud on Coursera ⬀](https://www.coursera.org/account/accomplishments/records/B7SLNSP8BY9U) | 04/2020
 
 ## Skill by Framework & Tools
 
@@ -102,4 +102,4 @@ Revenue Management SG [yearly meeting](https://agifors.org/rm-2019)
 
 ## Personal Projects
 
-- **[genetic-algorithm](https://github.com/Fmrhj/genetic-algorithm)**: Implementation of a genetic algorithm optimizer using base Python [numpy](https://numpy.org/)
+- **[➩ genetic-algorithm](https://github.com/Fmrhj/genetic-algorithm)**: Implementation of a genetic algorithm optimizer using base Python [numpy](https://numpy.org/)
