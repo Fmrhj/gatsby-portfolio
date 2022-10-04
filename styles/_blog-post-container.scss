@@ -3,6 +3,9 @@
     padding-bottom: 20px;
     .blog-post {
         .blog-post-content {
+            height: auto;
+            min-height: 100%;
+
             h1 {
                 color: $black;
                 font-family: sans-serif; 
