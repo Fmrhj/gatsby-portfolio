@@ -12,7 +12,9 @@ const Emoji = (props) => (
 
 // The header has container with a navigation bar
 const IndexWelcome = () => (
-  <div className="container">
+  <div>
+  <section class="black">
+    <div className="container">
     <div className="index-block">
       <div container>
         <div className="blog-post-content">
@@ -23,6 +25,7 @@ const IndexWelcome = () => (
           I like to develop solutions to real-world problems with system design, Machine Learning, MLOps and Distrbuted Computing.
           <br />
           <br /> I am taking notes during my learning. I may share some of them in a notes <Emoji symbol="📓" /> section.
+          
           <br />
           <br />
           <br />
@@ -42,6 +45,8 @@ const IndexWelcome = () => (
         </div>
       </div>
     </div>
+  </div>
+  </section>
   </div>
 )
 
