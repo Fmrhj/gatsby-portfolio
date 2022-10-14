@@ -46,39 +46,29 @@ section {
 
 
 }
-.black {
-  background: linear-gradient(110deg, $comboPurple 80%, $comboPurpleLight 20%);
+.comboPurple {
+  background: $comboPurple;
+  //background: linear-gradient(110deg, $comboPurple 80%, $comboPurpleLight 20%);
 }
 
-.curve {
-  position: absolute;
-  height: 250px;
+.pink {
+  background: $pink;
+}
+
+.containerCurve {
   width: 100%;
-  bottom: 0;
-  text-align: center;
+  height: 50px;
+  background: linear-gradient(180deg, $comboPurple 60%, white);
+  border-bottom-right-radius: 90%;  
 }
 
-.curve::before {
-  content: '';
-  display: block;
-  position: absolute;
-  border-radius: 100% 50%;
-  width: 55%;
-  height: 100%;
-  transform: translate(85%, 60%);
-  background-color: hsl(216, 21%, 16%);
+.containerCurveInverse {
+  width: 100%;
+  height: 10px;
+  background: radial-gradient(60% 90% at top, $white 30%, $comboPurple 60%);
 }
-
-.curve::after {
-  content: '';
-  display: block;
-  position: absolute;
-  border-radius: 100% 50%;
-  width: 55%;
-  height: 100%;
-  background-color: #3c31dd;
-  transform: translate(-4%, 40%);
-  z-index: -1;
+svg {
+  width:100%;
 }
 
 .wrapper {
