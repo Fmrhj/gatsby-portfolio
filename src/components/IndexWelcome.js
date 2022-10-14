@@ -12,6 +12,7 @@ const Emoji = (props) => (
 
 // The header has container with a navigation bar
 const IndexWelcome = () => (
+<<<<<<< HEAD
   <div className="container">
     <div className="index-block">
       <div container>
@@ -39,8 +40,29 @@ const IndexWelcome = () => (
           <br />
         </div>
         <div className="social-logo">
+=======
+  <div>
+    <section class="comboPurple">
+      <div className="container">
+        <div className="index-block">
+          <div container>
+            <div className="blog-post-content">
+              <h1>Welcome!</h1>
+              <p>I am a curious Engineer having fun developing cloud native solutions. I currently live in Berlin.</p>
+              <p>I like to develop solutions to real-world problems with system design, Machine Learning, MLOps and Distrbuted Computing.</p>
+              <p>I am taking notes during my learning. I may share some of them in a notes <Emoji symbol="📓" /> section.</p>
+              <br />
+              <br />
+              <br />
+            </div>
+            <div className="social-logo">
+            </div>
+          </div>
+>>>>>>> c22398271703d4074a72736763f9bbb29cc56504
         </div>
       </div>
+    </section>
+    <div class="containerCurve">
     </div>
   </div>
 )
