@@ -9,9 +9,6 @@ thumbnail: ""
 # Fernando Zepeda
 
 ML & Data Engineer.
-
-➪ <span class="email"><fernando.zepeda@pm.me></div>
-
 ## Experience
 
 ### ML and Data Engineer at [qurix Technology](https://www.qurix.tech), 2022/04 - today, Berlin/Hamburg/Karlsruhe

@@ -6,6 +6,7 @@ import { FaLinkedinIn } from "react-icons/fa"
 import { FiMessageSquare } from "react-icons/fi"
 import { GenericLogo } from "./SocialLogos"
 import { GoMarkGithub } from "react-icons/go"
+import { Link } from "gatsby"
 
 class GitHubLogo extends Component {
   render() {
@@ -30,12 +31,9 @@ class LinkedinLogo extends Component {
 class EmailLogo extends Component {
   render() {
     return (
-      <a
-        href={`mailto:${process.env.GATSBY_EMAIL}`}
-        className="social-logo-footer"
-      >
+      <Link to="/contact" className="social-logo-footer">
         <FiMessageSquare />
-      </a>
+      </Link>
     )
   }
 }

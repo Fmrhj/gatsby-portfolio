@@ -19,6 +19,9 @@ const Header = () => {
               <Link to="/resume" activeStyle={style.activePink}>
                 Resume
               </Link>
+              <Link to="/contact" activeStyle={style.activePink}>
+                Contact
+              </Link>
             </nav>
           </div>
         </div>
