@@ -15,7 +15,7 @@ const Emoji = props => (
   </span>
 )
 
-// The header has container with a navigation bar
+
 const Footer = () => {
   return (
     <footer class="footer">

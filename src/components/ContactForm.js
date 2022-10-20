@@ -35,8 +35,8 @@ const Emoji = (props) => (
 
 const subjects = [
     {
-        value: 'Projects',
-        label: 'Projects',
+        value: 'Projects / Collaborations',
+        label: 'Projects / Collaborations',
     },
     {
         value: 'Exchange',
@@ -51,7 +51,14 @@ const subjects = [
 class EmailForm extends React.Component {
     constructor(props) {
         super(props);
-        this.state = { IsValidEmail: false, Email: '', EmailSent: false, Sender: '', Message: '' };
+        this.state = {
+            IsValidEmail: false,
+            Email: '',
+            EmailSent: false,
+            Sender: '',
+            Message: '',
+            Subject: ''
+        };
         this.handleEmailChange = this.handleEmailChange.bind(this);
         this.handleSubmit = this.handleSubmit.bind(this);
         this.handleSubjectChange = this.handleSubjectChange.bind(this);
@@ -59,7 +66,8 @@ class EmailForm extends React.Component {
     }
 
     handleSubjectChange(event) {
-
+        let subject = event.target.value;
+        this.setState({Subject: subject});
     }
 
     handleSenderChange(event) {
@@ -79,11 +87,11 @@ class EmailForm extends React.Component {
     }
 
     handleEmailChange(event) {
+        this.setState({ IsValidEmail: false });
         let email = event.target.value;
         if (this._isValidEmail(email)) {
             console.log("Email is valid")
-            this.setState({ Email: email });
-            this.setState({ IsValidEmail: true })
+            this.setState({ Email: email, IsValidEmail: true });
         }
     }
 
@@ -94,50 +102,57 @@ class EmailForm extends React.Component {
     handleSubmit(event) {
         event.preventDefault();
         this.setState({ EmailSent: true });
+        console.log("Email: " + this.state.Email);
+        console.log("Sender: " + this.state.Sender);
+        console.log("Subject: " + this.state.Subject);
+        console.log("Message: " + this.state.Message);
     }
 
     render() {
         return (
             <ThemeProvider theme={theme}>
                 <form >
-                    <Grid container direction={"column"} spacing={2}>
+                    <Grid container direction={"column"} spacing={2} style={{ color: 'white', padding: '10px'}}>
                         <Grid item>
-
-                            <TextField label="Full Name / Company" fullWidth autocomplete="none" onChange={(e) => this.handleSenderChange(e)} />
+                            <TextField label="Full Name / Company" required fullWidth autocomplete="none" onChange={(e) => this.handleSenderChange(e)} />
                         </Grid>
                         <Grid item>
-                            <TextField label="Email" fullWidth onChange={(e) => this.handleEmailChange(e)} />
+                            <TextField label="Email" required fullWidth onChange={(e) => this.handleEmailChange(e)} autocomplete="none" helperText={!this.state.IsValidEmail? 'Please enter a valid email': 'Email is valid'}/>
                         </Grid>
                         <Grid item>
-                            <TextField label="Subject" fullWidth select onChange={(e) => this.handleSubjectChange(e)} >
-                        {subjects.map((option) => (
-                            <MenuItem key={option.value} value={option.value}>
-                                {option.label}
-                            </MenuItem>
-                        ))}
-                    </TextField></Grid >
-                    <Grid item>
-                    <TextField label="Message" fullWidth multiline rows={5} autocomplete="none" onChange={(e) => this.handleMessageChange(e)} /></Grid>
-                
-                <Grid item>
+                            <TextField label="Subject" required fullWidth select onChange={(e) => this.handleSubjectChange(e)} >
+                                {subjects.map((option) => (
+                                    <MenuItem key={option.value} value={option.value}>
+                                        {option.label}
+                                    </MenuItem>
+                                ))}
+                            </TextField></Grid >
+                        <Grid item>
+                            <TextField label="Message" required fullWidth multiline rows={5} autocomplete="none" onChange={(e) => this.handleMessageChange(e)}/></Grid>
 
-                {this.state.Sender != '' && this.state.IsValidEmail && !this.state.EmailSent === true ?
-                    <Button variant="contained" color="primary" onClick={this.handleSubmit}>
-                        Submit
-                    </Button>
-                    : <Button variant="contained" color="primary" disabled>
-                        Submit
-                    </Button>}
-                {this.state.EmailSent === true ?
-                    <Alert severity="success" variant='filled'>
-                        <AlertTitle>Email Sent</AlertTitle>
-                        Thank your for your message. In short, you will receive an confirmation.
-                        Your email will be responded as soon as possible.
-                    </Alert> : <div></div>
-                }
-                </Grid>
-                </Grid>
-            </form>
+                        <Grid item>
+
+                            {this.state.Sender != '' && this.state.IsValidEmail && !this.state.EmailSent === true ?
+                                <Button variant="contained" color="primary" onClick={this.handleSubmit}>
+                                    Submit
+                                </Button>
+                                : <Button variant="contained" color="primary" disabled>
+                                    Submit
+                                </Button>}
+                        </Grid>
+
+                        <Grid item>
+                            {this.state.EmailSent === true ?
+                                <Alert severity="success" variant='filled'>
+                                    <AlertTitle>Email Sent</AlertTitle>
+                                    Thank your for your message. In short, you will receive a confirmation.
+                                    Your email will be responded as soon as possible.
+                                </Alert> : <div></div>
+                            }
+                        </Grid>
+
+                    </Grid>
+                </form>
             </ThemeProvider >
         );
     }
@@ -151,10 +166,10 @@ const ContactForm = () => (
                 <div className="index-block">
                     <div container>
                         <div className="blog-post-content">
-                            <h1><Emoji symbol="✉️" /> Leave me a message</h1>
-                            <p>Write me for sharing ideas, to book an appointment <Emoji symbol="🗓" />, for interesing collaborations <Emoji symbol="📦" /> or projects <Emoji symbol="🔨" />.</p>
+                            <h1><Emoji symbol="✉️" /> Leave a message</h1>
+                            <p>Write me for sharing ideas, booking an appointment <Emoji symbol="🗓" />, interesing collaborations <Emoji symbol="📦" /> or projects <Emoji symbol="🔨" />.</p>
                             <p>I will get back to you as soon as possible</p>
-                            <br/>
+                            <br />
                             <EmailForm />
                         </div>
                         <div className="social-logo">

@@ -19,8 +19,8 @@ const IndexWelcome = () => (
           <div container>
             <div className="blog-post-content">
               <h1>Welcome!</h1>
-              <p>I am a curious Engineer having fun developing cloud native solutions. I currently live in Berlin.</p>
-              <p>I like to develop solutions to real-world problems with system design, Machine Learning, MLOps and Distrbuted Computing.</p>
+              <p>I am an Engineer having fun developing cloud native solutions. I currently live in <mark class="purple">Berlin</mark>.</p>
+              <p>I like to find solutions to real-world problems applying pragmatic system design, <mark class="purple">Machine Learning (ML)</mark>, MLOps and Distributed Computing.</p>
               <p>I am taking notes during my learning. I may share some of them in a notes <Emoji symbol="📓" /> section.</p>
               <br />
               <br />

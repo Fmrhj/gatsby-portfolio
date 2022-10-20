@@ -42,11 +42,15 @@ section {
   h1 {
     color: $white;
     font-family: "Roboto Mono", "Andale Mono", Menlo, Courier New, Courier,
-  monospace;
+      monospace;
   }
-
-
 }
+
+mark.purple {
+  color: $comboPurple;
+  background: $white;
+}
+
 .comboPurple {
   background: $comboPurple;
   border: $comboPurple;
@@ -61,31 +65,21 @@ section {
   width: 100%;
   height: 40px;
   background: linear-gradient(180deg, $comboPurple 60%, white);
-  border-bottom-right-radius: 90%;  
+  border-bottom-right-radius: 90%;
   border: $comboPurple;
 }
 
 .containerCurveInverse {
   width: 100%;
   height: 40px;
-  background: linear-gradient(180deg,  white, $comboPurple 60%);
-  border-bottom-right-radius: 90%;  
+  background: linear-gradient(180deg, white, $comboPurple 60%);
+  border-bottom-right-radius: 90%;
   border: $comboPurple;
 }
 
 .wrapper {
   flex-grow: 1;
   height: auto;
-}
-
-h1 {
-  color: $black;
-  font-family: "Roboto Mono", "Andale Mono", Menlo, Courier New, Courier,
-    monospace;
-}
-
-h2 {
-  color: $black;
 }
 
 // main div container for different margins

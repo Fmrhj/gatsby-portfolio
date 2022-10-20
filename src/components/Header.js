@@ -9,18 +9,14 @@ const Header = () => {
       <div className="container">
         <div className="inner-header">
           <div className="logo">
-            
           </div>
           <div className="navigation">
             <nav>
-              <Link to="/" activeStyle={style.activePink}>
+              <Link to="/" activeStyle={style.activePink} >
                 About
               </Link>
               <Link to="/resume" activeStyle={style.activePink}>
                 Resume
-              </Link>
-              <Link to="/contact" activeStyle={style.activePink}>
-                Contact
               </Link>
             </nav>
           </div>
