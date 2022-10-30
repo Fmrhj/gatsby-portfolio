@@ -159,7 +159,7 @@ class EmailForm extends React.Component {
                             <TextField label="Message" required fullWidth multiline rows={5} onChange={(e) => this.handleMessageChange(e)} />
                         </Grid>
                         <Grid item>
-                            {this.state.Sender != "" && this.state.IsValidEmail && !this.state.EmailSent === true ?
+                            {this.state.SenderName != "" && this.state.IsValidEmail && !this.state.EmailSent === true ?
                                 <Button variant="contained" color="primary" onClick={this.handleSubmit}>
                                     Submit
                                 </Button>
