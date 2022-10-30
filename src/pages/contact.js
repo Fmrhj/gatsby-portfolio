@@ -7,14 +7,14 @@ import MetaData from "../components/MetaData"
 import React from "react"
 
 const ContactPage = () => (
-  <body>
+  <div>
     <div className="wrapper">
       <MetaData />
       <Header />
       <ContactForm />
     </div>
     <Footer />
-  </body>
+  </div>
 )
 
 export default ContactPage

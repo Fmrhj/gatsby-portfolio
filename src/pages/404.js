@@ -5,7 +5,6 @@ import React from "react"
 
 const NotFoundPage = () => {
   return (
-    <body>
       <div className="wrapper">
         <MetaData />
         <div className="container">
@@ -15,7 +14,6 @@ const NotFoundPage = () => {
           </div>
         </div>
       </div>
-    </body>
   )
 }
 

@@ -4,9 +4,8 @@ module.exports = {
       resolve: "gatsby-plugin-next-seo",
       options: {
         openGraph: {
-          // og:<tag>
           type: "website",
-          locale: "en_DE",
+          locale: "en_EN",
           title: process.env.GATSBY_SITE_NAME,
           url: process.env.GATSBY_SITE_URL,
           site_name: process.env.GATSBY_SITE_NAME,
@@ -112,7 +111,7 @@ module.exports = {
             options: {
               active: true,
               class: "emoji-icon",
-              escapeCharacter: "", // (default: '')
+              escapeCharacter: "",
               size: 64,
               styles: {
                 display: "inline",

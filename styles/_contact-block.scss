@@ -1,22 +1,22 @@
 .contactList {
-    background: $white;
-    padding: 140px 0px;
-    padding-top: 150px;
-    align-items: center;
-    background-color: $white;
-    position: relative;
-    // use flex boxes
-    display: flex;
-    .contact-text {
-        padding: 0 45px;
-        a:link {
-            color: $black;
-        }
-        a:visited {
-            color: $black;
-        }
-        p {
-            padding-bottom: 3cm;
-        }
+  background: $white;
+  padding: 140px 0px;
+  padding-top: 150px;
+  align-items: center;
+  background-color: $white;
+  position: relative;
+  // use flex boxes
+  display: flex;
+  .contact-text {
+    padding: 0 45px;
+    a:link {
+      color: $black;
     }
+    a:visited {
+      color: $black;
+    }
+    p {
+      padding-bottom: 3cm;
+    }
+  }
 }

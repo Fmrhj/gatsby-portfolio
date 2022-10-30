@@ -18,9 +18,9 @@ const Emoji = props => (
 
 const Footer = () => {
   return (
-    <footer class="footer">
+    <footer className="footer">
       <div className="site-footer">
-        <div class="container">
+        <div className="container">
           <div className="footer-content">
             <a>
               <SocialFooter />

@@ -1,69 +1,69 @@
 .blog-post-container {
-    padding-top: 150px;
-    padding-bottom: 20px;
-    .blog-post {
-        .blog-post-content {
-            min-height: 100%;
-            color: $black;
-            h1 {
-                color: $black;
-                font-family: sans-serif; 
-            }
-            h3 {
-                color: $comboBlue;
-                a:link {
-                    color: $pink;
-                    text-decoration: none;
-                }
-                a:visited {
-                    color: $pink;
-                }
-                a:hover {
-                    color: $black;
-                }
-            }
-            .email {
-                text-decoration: underline;
-                font-family: monospace;
-                a:link {
-                    color: $pink;
-                    text-decoration: none;
-                }
-                a:visited {
-                    color: $pink;
-                }
-            }
-            a:link {
-                color: $comboBlue;
-                text-decoration: none;
-                font-family: sans-serif;
-            }
-            a:link:hover {
-                color: $black;
-            }
-            a:visited {
-                color: $comboDarkGrey;
-            }
-            a:hover {
-                color: $black;
-            }
-            .colored-text_1 {
-                font-family:system-ui;
-                color: $comboBlue;
-                a:link:hover {
-                    color: $black;
-                }
-            }
-            .colored-text_2 {
-                color: $comboDarkGrey;
-            }
-            .colored-text_3 {
-                color: $comboDarkGrey;
-                font-weight: bold;
-            }
-            .colored_text_pink {
-                color: $pink
-            }
+  padding-top: 150px;
+  padding-bottom: 20px;
+  .blog-post {
+    .blog-post-content {
+      min-height: 100%;
+      color: $black;
+      h1 {
+        color: $black;
+        font-family: sans-serif;
+      }
+      h3 {
+        color: $comboBlue;
+        a:link {
+          color: $pink;
+          text-decoration: none;
         }
+        a:visited {
+          color: $pink;
+        }
+        a:hover {
+          color: $black;
+        }
+      }
+      .email {
+        text-decoration: underline;
+        font-family: monospace;
+        a:link {
+          color: $pink;
+          text-decoration: none;
+        }
+        a:visited {
+          color: $pink;
+        }
+      }
+      a:link {
+        color: $comboBlue;
+        text-decoration: none;
+        font-family: sans-serif;
+      }
+      a:link:hover {
+        color: $black;
+      }
+      a:visited {
+        color: $comboDarkGrey;
+      }
+      a:hover {
+        color: $black;
+      }
+      .colored-text_1 {
+        font-family: system-ui;
+        color: $comboBlue;
+        a:link:hover {
+          color: $black;
+        }
+      }
+      .colored-text_2 {
+        color: $comboDarkGrey;
+      }
+      .colored-text_3 {
+        color: $comboDarkGrey;
+        font-weight: bold;
+      }
+      .colored_text_pink {
+        color: $pink;
+      }
     }
+  }
 }

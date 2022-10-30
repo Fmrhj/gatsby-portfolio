@@ -1,10 +1,10 @@
 .not-found-block {
-    top: 50%;
-    display: block;
-    align-items: center;
-    position: absolute;
-    transform: translate(0, -80%);
-    h1 {
-        color: $black;
-    }
+  top: 50%;
+  display: block;
+  align-items: center;
+  position: absolute;
+  transform: translate(0, -80%);
+  h1 {
+    color: $black;
+  }
 }

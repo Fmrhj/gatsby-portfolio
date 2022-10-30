@@ -41,14 +41,17 @@ section {
   background-color: $comboPurple;
   h1 {
     color: $white;
-    font-family: "Roboto Mono", "Andale Mono", Menlo, Courier New, Courier,
-      monospace;
   }
 }
 
 mark.purple {
   color: $comboPurple;
   background: $white;
+}
+
+mark.purple:hover {
+  background: $comboPurple;
+  color: $white;
 }
 
 .comboPurple {

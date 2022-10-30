@@ -40,7 +40,7 @@ Working as Data Scientist and Data Engineer for different projects in Flight & G
 Integration of a grandsolver for all operation modules to support the integrated operations control center in Zurich
 - Ops Predictive Analytics:  
  Prediction of stranded passengers for hotel demand in Frankfurt and Munich hubs
-- Modelling and rapid prototyping dynamic bundling and pricing of flight ancillaries with machine learning classifiers
+- Modelling and rapid prototyping dynamic bundling and pricing of flight ancillaries with machine learning classNameifiers
 
 ### Student Assistant and Masterand at [Lufthansa Systems](https://www.lhsystems.com/), 2017/08 - 2016/09, Berlin
 
@@ -57,18 +57,18 @@ Database management and QA software testing.
 
 ## Education
 
-- <span class="colored-text_1"> Industrial Engineering (M.Sc.)</span> - [Technical University of Berlin](https://www.tu-berlin.de/menue/home/)  
+- <span className="colored-text_1"> Industrial Engineering (M.Sc.)</span> - [Technical University of Berlin](https://www.tu-berlin.de/menue/home/)  
 > **Master thesis**: "An airline stochastic dynamic pricing model"
 
-- <span class="colored-text_1"> Industrial Engineering (Dipl.)</span> - [Universidad Técnica Federico Santa María](https://www.usm.cl/)  
+- <span className="colored-text_1"> Industrial Engineering (Dipl.)</span> - [Universidad Técnica Federico Santa María](https://www.usm.cl/)  
 > **Diplom Thesis**: "Predicting bankrutpy of Chilean enterprises with artificial neural networks"
 
 ## Talks and Conferences
 
-- Airline Group of the International Federation of Operational Research Societies (<span class="colored-text_1">AGIFORS 2019</span>) - Panama 2019  
+- Airline Group of the International Federation of Operational Research Societies (<span className="colored-text_1">AGIFORS 2019</span>) - Panama 2019  
 Revenue Management SG [yearly meeting ⬀](https://agifors.org/rm-2019)
 
-- Speaker at the International Conference on Operations Research (<span class="colored-text_1">OR 2017</span>) - Berlin 2017 [Presentation ⬀](https://www.dropbox.com/s/h7vtkc215zh3r43/OR_2017.pdf?dl=0) | [Program ⬀](https://www.euro-online.org/conf/admin/tmp/program-gor2017.pdf)
+- Speaker at the International Conference on Operations Research (<span className="colored-text_1">OR 2017</span>) - Berlin 2017 [Presentation ⬀](https://www.dropbox.com/s/h7vtkc215zh3r43/OR_2017.pdf?dl=0) | [Program ⬀](https://www.euro-online.org/conf/admin/tmp/program-gor2017.pdf)
 
 ## Certifications
 
@@ -86,17 +86,17 @@ Revenue Management SG [yearly meeting ⬀](https://agifors.org/rm-2019)
 
 | Area                                                              | Technnologies                                                                                           |
 |-------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------|
-| <span class="colored-text_1">Cloud & Infrastructure as Code</span>                   | GCP, Azure, AWS, Terraform |
-| <span class="colored-text_1">Cloud Deployments: Container as a Service</span>  | Docker, Kubernetes, Azure Container Registry, docker-compose                         |
-| <span class="colored-text_1">Cloud Deployments: Functions as a Service</span>       | Azure Functions (Durable), AWS Lambda, Open FaaS                                          |
-| <span class="colored-text_1">Databases</span>                     | SQL Server, MySQL, PosgreSQL, Oracle DB, MongoDB, AWS RDS                 |
-| <span class="colored-text_1">Data Warehouses</span>               | Snowflake, Google BigQuery, Azure Synapse, Exasol                   |
-| <span class="colored-text_1">DevOps</span>                        | Azure DevOps, GitLab CI, Gerrit, Jenkins, Github Actions                                                |
-| <span class="colored-text_1">Data Engineering</span>              | Apache Kafka, -Hive, -Spark, -Airflow, Google Dataflow, Azure Databricks, -Data Factory |
-| <span class="colored-text_1">Frontend programming</span>          | ReactJS, Typescript, Gatsby JS                                                                          |
-| <span class="colored-text_1">Machine Learning</span>              | PyTorch, TensorFlow, Keras, scikit-learn, R-caret                                                  |
-| <span class="colored-text_1">Programming</span>                   | Python, Javascript, R, Bash, Powershell, Rust                                                             |
-| <span class="colored-text_1">Other tools</span>                   | Jira, Confluence, Agile Development                                                                     |
+| <span className="colored-text_1">Cloud & Infrastructure as Code</span>                   | GCP, Azure, AWS, Terraform |
+| <span className="colored-text_1">Cloud Deployments: Container as a Service</span>  | Docker, Kubernetes, Azure Container Registry, docker-compose                         |
+| <span className="colored-text_1">Cloud Deployments: Functions as a Service</span>       | Azure Functions (Durable), AWS Lambda, Open FaaS                                          |
+| <span className="colored-text_1">Databases</span>                     | SQL Server, MySQL, PosgreSQL, Oracle DB, MongoDB, AWS RDS                 |
+| <span className="colored-text_1">Data Warehouses</span>               | Snowflake, Google BigQuery, Azure Synapse, Exasol                   |
+| <span className="colored-text_1">DevOps</span>                        | Azure DevOps, GitLab CI, Gerrit, Jenkins, Github Actions                                                |
+| <span className="colored-text_1">Data Engineering</span>              | Apache Kafka, -Hive, -Spark, -Airflow, Google Dataflow, Azure Databricks, -Data Factory |
+| <span className="colored-text_1">Frontend programming</span>          | ReactJS, Typescript, Gatsby JS                                                                          |
+| <span className="colored-text_1">Machine Learning</span>              | PyTorch, TensorFlow, Keras, scikit-learn, R-caret                                                  |
+| <span className="colored-text_1">Programming</span>                   | Python, Javascript, R, Bash, Powershell, Rust                                                             |
+| <span className="colored-text_1">Other tools</span>                   | Jira, Confluence, Agile Development                                                                     |
 
 ## Personal Projects
 

@@ -1,91 +1,91 @@
 .block-blog-post-wrapper {
-    width: 100%;
-    display: "inline-block";
+  width: 100%;
+  display: "inline-block";
 }
 
 .block-blog-posts-container {
-    margin-top: 50px;
+  margin-top: 50px;
 
-    .thumbnail {
-        float: left;
-        width: 14%;
-        opacity: 1;
-        margin-top: 50px;
-        margin-bottom: 25px;
-        @media (max-width: 976px) {
-            width: 18%;
-            margin-top: 45px;
-            margin-bottom: 45px;
-        }
-        @media (max-width: 768px) {
-            width: 30%;
-            margin-top: 55px;
-            margin-bottom: 20px;
-        }
-        @media (max-width: 460px) {
-            width: 34%;
-            margin-top: 90px;
-            margin-bottom: 20px;
-        }
-        @media (max-width: 360px) {
-            width: 28%;
-            margin-top: 120px;
-            margin-bottom: 20px;
-        }
+  .thumbnail {
+    float: left;
+    width: 14%;
+    opacity: 1;
+    margin-top: 50px;
+    margin-bottom: 25px;
+    @media (max-width: 976px) {
+      width: 18%;
+      margin-top: 45px;
+      margin-bottom: 45px;
     }
-    .thumbnail:hover {
-        opacity: 0.7;
+    @media (max-width: 768px) {
+      width: 30%;
+      margin-top: 55px;
+      margin-bottom: 20px;
     }
-    .content {
-        float: left;
-        padding-left: 5px;
-        width: 90%;
-        @media (max-width: 976px) {
-            width: 75%;
-        }
-        @media (max-width: 768px) {
-            width: 76%;
-        }
-        @media (max-width: 400px) {
-            width: 75%;
-        }
-        @media (max-width: 360px) {
-            padding-left: 10px;
-            width: 75%;
-        }
+    @media (max-width: 460px) {
+      width: 34%;
+      margin-top: 90px;
+      margin-bottom: 20px;
     }
-    h3 {
-        margin-top: 10px;
-        color: $black;
-        margin-bottom: 10px;
+    @media (max-width: 360px) {
+      width: 28%;
+      margin-top: 120px;
+      margin-bottom: 20px;
     }
-    h3:hover{
-        text-decoration: underline;
-        text-underline-offset: 8px;
+  }
+  .thumbnail:hover {
+    opacity: 0.7;
+  }
+  .content {
+    float: left;
+    padding-left: 5px;
+    width: 90%;
+    @media (max-width: 976px) {
+      width: 75%;
     }
-    h3:hover::before {
-        transform: scaleX(1);
-    }      
-    small {
-        margin: auto 0px;
-        font-size: 0.8rem;
-        color: $comboDarkGrey;
+    @media (max-width: 768px) {
+      width: 76%;
     }
-    p {
-        font-size: 0.9rem;
-        margin-bottom: 5px;
-        color: $black;
+    @media (max-width: 400px) {
+      width: 75%;
     }
-    .more {
-        text-decoration: underline;
-        font-family: "Lucida Console", Courier, monospace;
-        color: $comboDarkGrey;
-        text-decoration: none;
-        margin-bottom: 50px;
-        font-size: 0.9rem;
+    @media (max-width: 360px) {
+      padding-left: 10px;
+      width: 75%;
     }
-    .more:hover {
-        text-decoration: underline;
-        color: $comboDarkGrey;
-    }
+  }
+  h3 {
+    margin-top: 10px;
+    color: $black;
+    margin-bottom: 10px;
+  }
+  h3:hover {
+    text-decoration: underline;
+    text-underline-offset: 8px;
+  }
+  h3:hover::before {
+    transform: scaleX(1);
+  }
+  small {
+    margin: auto 0px;
+    font-size: 0.8rem;
+    color: $comboDarkGrey;
+  }
+  p {
+    font-size: 0.9rem;
+    margin-bottom: 5px;
+    color: $black;
+  }
+  .more {
+    text-decoration: underline;
+    font-family: "Lucida Console", Courier, monospace;
+    color: $comboDarkGrey;
+    text-decoration: none;
+    margin-bottom: 50px;
+    font-size: 0.9rem;
+  }
+  .more:hover {
+    text-decoration: underline;
+    color: $comboDarkGrey;
+  }
 }
