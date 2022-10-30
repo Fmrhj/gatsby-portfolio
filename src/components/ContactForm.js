@@ -112,7 +112,7 @@ class EmailForm extends React.Component {
             url: `${process.env.GATSBY_CONTACT_SERVICE_URL}`,
             data: JSON.stringify({
                 "sender": `${process.env.GATSBY_CONTACT_SERVICE_SENDER}`,
-                "senderName": this.state.SenderName,
+                "recipient_email": this.state.SenderName,
                 "recipient": this.state.Email,
                 "subject": this.state.Subject,
                 "message": this.state.Message
