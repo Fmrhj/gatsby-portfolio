@@ -44,10 +44,6 @@ const subjects = [
     {
         value: "Others",
         label: "Others"
-    },
-    {
-        value: "",
-        label: ""
     }
 ];
 
@@ -130,7 +126,7 @@ class EmailForm extends React.Component {
         return (
             <ThemeProvider theme={theme}>
                 <FormControl fullWidth >
-                    <Grid container direction={"column"} spacing={2.5} style={{ color: "white", padding: "10px" }}>
+                    <Grid container direction={"column"} spacing={3.5} style={{ color: "white", padding: "10px" }}>
                         <Grid item>
                             <TextField label="Full Name / Company" fullWidth required onChange={(e) => this.handleSenderChange(e)} />
                         </Grid>
@@ -140,10 +136,11 @@ class EmailForm extends React.Component {
                     </Grid>
                 </FormControl>
                 <FormControl fullWidth>
-                    <Grid container direction={"column"} spacing={2.5} style={{ color: "white", padding: "10px" }}>
+                    <Grid container direction={"column"} spacing={3.5} style={{ color: "white", padding: "10px" }}>
                         <Grid item>
-                            <InputLabel id="demo-simple-select-label">Subject</InputLabel>
+                            <InputLabel required shrink id="demo-simple-select-label">Subject</InputLabel>
                             <Select
+                                helperText="Please select a subject"
                                 labelId="demo-simple-select-label"
                                 id="demo-simple-select"
                                 fullWidth
@@ -157,7 +154,7 @@ class EmailForm extends React.Component {
                             </Select>
                         </Grid >
                         <Grid item>
-                            <TextField label="Message" required fullWidth multiline rows={5} onChange={(e) => this.handleMessageChange(e)} /></Grid>
+                            <TextField label="Message" required fullWidth multiline rows={5} onChange={(e) => this.handleMessageChange(e)} />
                         </Grid>
                         <Grid item>
                             {this.state.Sender != "" && this.state.IsValidEmail && !this.state.EmailSent === true ?
@@ -177,6 +174,7 @@ class EmailForm extends React.Component {
                                 </Alert> : <div></div>
                             }
                         </Grid>
+                    </Grid>
                 </FormControl>
             </ThemeProvider >
         );
