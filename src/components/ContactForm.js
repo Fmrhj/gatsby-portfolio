@@ -57,6 +57,7 @@ class EmailForm extends React.Component {
             Email: "",
             EmailSent: false,
             Sender: "",
+            SenderName: "",
             Message: "",
             Subject: ""
         };
@@ -64,6 +65,7 @@ class EmailForm extends React.Component {
         this.handleSubmit = this.handleSubmit.bind(this);
         this.handleSubjectChange = this.handleSubjectChange.bind(this);
         this.isValidEmail = this._isValidEmail.bind(this);
+        this.handleSenderNameChange = this.handleSenderNameChange(this);
     }
 
     handleSubjectChange(event) {
@@ -71,10 +73,10 @@ class EmailForm extends React.Component {
         this.setState({ Subject: subject });
     }
 
-    handleSenderChange(event) {
-        let sender = event.target.value;
-        if (sender.length > 2) {
-            this.setState({ Sender: sender });
+    handleSenderNameChange(event) {
+        let senderName = event.target.value;
+        if (senderName.length > 2) {
+            this.setState({ SenderName: senderName });
         }
     }
 
@@ -110,6 +112,7 @@ class EmailForm extends React.Component {
             url: `${process.env.GATSBY_CONTACT_SERVICE_URL}`,
             data: JSON.stringify({
                 "sender": `${process.env.GATSBY_CONTACT_SERVICE_SENDER}`,
+                "senderName": this.state.SenderName,
                 "recipient": this.state.Email,
                 "subject": this.state.Subject,
                 "message": this.state.Message
@@ -128,7 +131,7 @@ class EmailForm extends React.Component {
                 <FormControl fullWidth >
                     <Grid container direction={"column"} spacing={3.5} style={{ color: "white", padding: "10px" }}>
                         <Grid item>
-                            <TextField label="Full Name / Company" fullWidth required onChange={(e) => this.handleSenderChange(e)} />
+                            <TextField label="Full Name / Company" fullWidth required onChange={(e) => this.handleSenderNameChange(e)} />
                         </Grid>
                         <Grid item>
                             <TextField label="Email" fullWidth required onChange={(e) => this.handleEmailChange(e)} helperText={!this.state.IsValidEmail ? "Please enter a valid email" : "Email is valid"} />
