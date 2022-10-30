@@ -1,6 +1,6 @@
 import React from "react"
 import {
-    ThemeProvider, TextField, Button, AlertTitle, Alert, MenuItem, Grid, Select, FormControl, Box, Chip
+    ThemeProvider, TextField, Button, AlertTitle, Alert, MenuItem, Grid, Select, FormControl, InputLabel
 } from "@mui/material";
 import { createTheme } from "@mui/material/styles";
 import axios from "axios"
@@ -111,9 +111,9 @@ class EmailForm extends React.Component {
 
         axios({
             method: "post",
-            url: "https://8zjwdtrk4h.execute-api.eu-central-1.amazonaws.com/default/emailService",
+            url: `${process.env.GATSBY_CONTACT_SERVICE_URL}`,
             data: JSON.stringify({
-                "sender": "info@fernandozepeda.io",
+                "sender": `${process.env.GATSBY_CONTACT_SERVICE_SENDER}`,
                 "recipient": this.state.Email,
                 "subject": this.state.Subject,
                 "message": this.state.Message
@@ -130,38 +130,36 @@ class EmailForm extends React.Component {
         return (
             <ThemeProvider theme={theme}>
                 <FormControl fullWidth >
-                    <Grid container direction={"column"} spacing={2} style={{ color: "white", padding: "10px" }}>
+                    <Grid container direction={"column"} spacing={2.5} style={{ color: "white", padding: "10px" }}>
                         <Grid item>
-                            <TextField label="Full Name / Company" required fullWidth onChange={(e) => this.handleSenderChange(e)} />
+                            <TextField label="Full Name / Company" fullWidth required onChange={(e) => this.handleSenderChange(e)} />
                         </Grid>
                         <Grid item>
-                            <TextField label="Email" required fullWidth onChange={(e) => this.handleEmailChange(e)} helperText={!this.state.IsValidEmail ? "Please enter a valid email" : "Email is valid"} />
+                            <TextField label="Email" fullWidth required onChange={(e) => this.handleEmailChange(e)} helperText={!this.state.IsValidEmail ? "Please enter a valid email" : "Email is valid"} />
                         </Grid>
+                    </Grid>
+                </FormControl>
+                <FormControl fullWidth>
+                    <Grid container direction={"column"} spacing={2.5} style={{ color: "white", padding: "10px" }}>
                         <Grid item>
+                            <InputLabel id="demo-simple-select-label">Subject</InputLabel>
                             <Select
+                                labelId="demo-simple-select-label"
+                                id="demo-simple-select"
                                 fullWidth
-                                required
-                                value={this.state.Subject}
-                                renderValue={(selected) => (
-                                    <Box sx={{ display: 'flex', flexWrap: 'wrap', gap: 0.5 }}>
-                                      {selected.map((value) => (
-                                        <Chip key={value} label={value} />
-                                      ))}
-                                    </Box>
-                                  )}
+                                variant="outlined"
                                 label="Subject"
-                                onChange={(e) => this.handleSubjectChange(e)} >
-                                {subjects.map((option) => (
+                                onChange={(e) => this.handleSubjectChange(e)}>{subjects.map((option) => (
                                     <MenuItem key={option.value} value={option.value}>
                                         {option.value}
                                     </MenuItem>
                                 ))}
-                            </Select></Grid >
+                            </Select>
+                        </Grid >
                         <Grid item>
                             <TextField label="Message" required fullWidth multiline rows={5} onChange={(e) => this.handleMessageChange(e)} /></Grid>
-
+                        </Grid>
                         <Grid item>
-
                             {this.state.Sender != "" && this.state.IsValidEmail && !this.state.EmailSent === true ?
                                 <Button variant="contained" color="primary" onClick={this.handleSubmit}>
                                     Submit
@@ -170,7 +168,6 @@ class EmailForm extends React.Component {
                                     Submit
                                 </Button>}
                         </Grid>
-
                         <Grid item>
                             {this.state.EmailSent === true ?
                                 <Alert severity="success" variant="filled">
@@ -180,8 +177,6 @@ class EmailForm extends React.Component {
                                 </Alert> : <div></div>
                             }
                         </Grid>
-
-                    </Grid>
                 </FormControl>
             </ThemeProvider >
         );
