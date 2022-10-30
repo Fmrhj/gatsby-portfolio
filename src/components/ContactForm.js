@@ -65,7 +65,7 @@ class EmailForm extends React.Component {
         this.handleSubmit = this.handleSubmit.bind(this);
         this.handleSubjectChange = this.handleSubjectChange.bind(this);
         this.isValidEmail = this._isValidEmail.bind(this);
-        this.handleSenderNameChange = this.handleSenderNameChange(this);
+        this.handleSenderNameChange = this.handleSenderNameChange.bind(this);
     }
 
     handleSubjectChange(event) {
@@ -81,7 +81,6 @@ class EmailForm extends React.Component {
     }
 
     handleMessageChange(event) {
-
         let message = event.target.value;
 
         if (message != "") {
