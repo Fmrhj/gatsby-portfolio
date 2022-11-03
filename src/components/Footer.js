@@ -1,8 +1,8 @@
 import "../../styles/styles.scss"
 
-import Link from "@material-ui/core/Link"
 import React from "react"
 import SocialFooter from "./SocialFooter"
+import { Link } from "gatsby"
 
 const Emoji = props => (
   <span
@@ -23,14 +23,19 @@ const Footer = () => {
         <div className="container">
           <div className="footer-content">
             <a>
+              <br />
               <SocialFooter />
             </a>
-            <a>
-              <Link color="inherit" href={`${process.env.GATSBY_SITE_URL}`}>
-                {process.env.GATSBY_FOOTER_NAME}{" "}
-              </Link>
-              with {<Emoji symbol="❤️" />} &copy; {new Date().getFullYear()}
-            </a>
+            <div>
+              <Link color="inherit" to="/imprint">Imprint</Link>
+              <br />
+              <a>
+                <Link color="inherit" to={`${process.env.GATSBY_SITE_URL}`}>
+                  {process.env.GATSBY_FOOTER_NAME}{" "}
+                </Link>
+                with {<Emoji symbol="❤️" />} &copy; {new Date().getFullYear()}
+              </a>
+            </div>
           </div>
         </div>
       </div>

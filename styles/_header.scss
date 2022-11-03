@@ -64,19 +64,22 @@ header {
     display: flex;
   }
   @media (max-width: 460px) {
-    width: 100%;
-    min-width: 270px;
+    .inner-header {
+      display: flex;
+      justify-content: space-between;
+    }
 
     .navigation {
+      width: 100%;
       justify-content: space-between;
       display: flex;
+      align-items: center;
       nav {
         transition: 0.4s;
         a {
           float: none;
           width: auto;
-          //display: block;
-          padding: 3px 0;
+          padding: 10px 20px 0px;
           &:last-child {
             margin-right: 5px;
           }

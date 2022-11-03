@@ -171,7 +171,7 @@ class EmailForm extends React.Component {
                             {this.state.EmailSent === true ?
                                 <Alert severity="success" variant="filled">
                                     <AlertTitle>Email Sent</AlertTitle>
-                                    Thank your for your message. In short, you will receive a confirmation.
+                                    Thank you for your message. You will receive a confirmation shortly.
                                     Your email will be responded as soon as possible.
                                 </Alert> : <div></div>
                             }
@@ -192,17 +192,10 @@ const ContactForm = () => (
                     <div container>
                         <div className="blog-post-content">
                             <h1>Leave your message</h1>
-                            <p>Write me for sharing ideas, booking an appointment <Emoji symbol="🗓" />, interesing collaborations <Emoji symbol="📦" /> or projects <Emoji symbol="🔨" />.</p>
+                            <p>Write me for exchanging, to book an appointment <Emoji symbol="🗓" />, collaborations <Emoji symbol="📦" /> or projects <Emoji symbol="🔨" />.</p>
                             <p>I will get back to you as soon as possible</p>
                             <br />
                             <EmailForm />
-                            <br />
-                            <br />
-                            <br />
-                            <br />
-                            <br />
-                            <br />
-                            <br />
                         </div>
                         <div className="social-logo">
                         </div>
