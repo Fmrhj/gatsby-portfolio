@@ -15,20 +15,25 @@
     bottom: 10;
     left: 0;
     width: 100%;
-    font-size: 12px;
+    font-size: 10px;
 
     .footer-content {
       display: flex;
       margin: 10 10 10 10;
       flex-wrap: wrap;
       justify-content: space-between;
-      align-items: left;
+      align-items: right;
       a {
         text-decoration: none;
+        color: white;
       }
       a:hover {
         color: $comboDarkGrey;
       }
+      imprint {
+        color: black;
+      }
     }
+    
   }
 }

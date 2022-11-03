@@ -23,18 +23,18 @@ const Footer = () => {
         <div className="container">
           <div className="footer-content">
             <a>
-              <br />
               <SocialFooter />
-            </a>
-            <div>
-              <Link color="inherit" to="/imprint">Imprint</Link>
               <br />
-              <a>
-                <Link color="inherit" to={`${process.env.GATSBY_SITE_URL}`}>
-                  {process.env.GATSBY_FOOTER_NAME}{" "}
-                </Link>
-                with {<Emoji symbol="❤️" />} &copy; {new Date().getFullYear()}
-              </a>
+            </a>
+            <div className="rightBottom">
+              <Link to={`${process.env.GATSBY_SITE_URL}`}>
+                {process.env.GATSBY_FOOTER_NAME}{" "}
+              </Link>
+              with {<Emoji symbol="❤️" />} &copy; {new Date().getFullYear()}
+              <br />
+              <div className="imprint">
+                <Link color="inherit" activeStyle={{ color: "white" }} to="/imprint">Imprint</Link>
+              </div>
             </div>
           </div>
         </div>
