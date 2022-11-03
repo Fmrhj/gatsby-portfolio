@@ -33,7 +33,7 @@ const Footer = () => {
               with {<Emoji symbol="❤️" />} &copy; {new Date().getFullYear()}
               <br />
               <div className="imprint">
-                <Link color="inherit" activeStyle={{ color: "white" }} to="/imprint">Imprint</Link>
+                <Link color="inherit" to="/imprint">Imprint</Link>
               </div>
             </div>
           </div>
