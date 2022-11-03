@@ -197,7 +197,10 @@ const ContactForm = () => (
                             <br />
                             <EmailForm />
                         </div>
-                        <div className="social-logo">
+                        <div className="space">
+                            <br/>
+                            <br/>
+                            <br/>
                         </div>
                     </div>
                 </div>
