@@ -195,6 +195,8 @@ const ContactForm = () => (
                             <p>Write me for exchanging, to book an appointment <Emoji symbol="🗓" />, collaborations <Emoji symbol="📦" /> or projects <Emoji symbol="🔨" />.</p>
                             <p>I will get back to you as soon as possible</p>
                             <br />
+                            <br />
+                            <br />
                             <EmailForm />
                         </div>
                         <div className="social-logo">

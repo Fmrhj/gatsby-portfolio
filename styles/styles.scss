@@ -41,6 +41,10 @@ section {
   background-color: $comboPurple;
   h1 {
     color: $white;
+    transition: 0.3s ease-in-out;
+  }
+  h1:hover{
+    transform: translate(3em, 0);
   }
 }
 
