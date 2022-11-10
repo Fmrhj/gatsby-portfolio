@@ -33,7 +33,6 @@ const IndexWelcome = () => (
     </section>
     <section className="dark"></section>
     <section className="dark"></section>
-    <section className="dark"></section>
     <div class="spacer layer"></div>
   </div>
 )

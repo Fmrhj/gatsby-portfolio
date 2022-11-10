@@ -2,7 +2,7 @@
 import "../../styles/styles.scss"
 
 import Footer from "../components/Footer"
-import Header from "../components/Header"
+import HeaderLight from "../components/HeaderLight"
 import { Helmet } from "react-helmet"
 import React from "react"
 import { graphql } from "gatsby"
@@ -13,9 +13,8 @@ export default function Template({
 }) {
   const { markdownRemark: post } = data // data.markdownRemark holds your post data
   return (
-    <body>
       <div className="wrapper">
-        <Header />
+        <HeaderLight />
         <div className="container">
           <div className="blog-post-container">
             <Helmet
@@ -30,10 +29,9 @@ export default function Template({
             </div>
           </div>
         </div>
-      </div>
       <div className="spacer layerMain"></div>
       <Footer />
-    </body>
+      </div>
   )
 }
 
