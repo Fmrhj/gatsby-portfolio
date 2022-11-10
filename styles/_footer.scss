@@ -2,15 +2,16 @@
   width: 100%;
   height: auto;
   bottom: 0;
-  padding-top: 50px;
-  margin-top: 35px;
+  padding-bottom: 2vh;
+  margin-top: 0vh;
+  padding-top: 2vh;
   flex-shrink: 0;
+  background-color: $darkBackground;
 
   .site-footer {
-    background: #090a0b;
-    padding: 0rem;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    background: $darkBackground;
+    padding-top: 0vh;
+    padding-bottom: 1vh;
     color: #fff;
     bottom: 10;
     left: 0;
