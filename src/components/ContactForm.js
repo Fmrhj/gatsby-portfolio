@@ -1,26 +1,16 @@
 import React from "react"
 import {
-    ThemeProvider, TextField, Button, AlertTitle, Alert, MenuItem, Grid, Select, FormControl, InputLabel
+    TextField, Button, AlertTitle, Alert, MenuItem, Grid, Select, FormControl, InputLabel
 } from "@mui/material";
-import { createTheme } from "@mui/material/styles";
 import axios from "axios"
-
-const theme = createTheme({
-    status: {
-        danger: "#e53e3e",
-    },
+import { ThemeProvider, createTheme } from '@mui/material/styles';
+import CssBaseline from '@mui/material/CssBaseline'
+;
+const darkTheme = createTheme({
     palette: {
-        type: "light",
-        primary: {
-            main: "#fff",
-            darker: "#64748B",
-        },
-        neutral: {
-            main: "#0971f1",
-            contrastText: "#053e85",
-        },
+      mode: 'dark',
     },
-});
+  });
 
 const Emoji = (props) => (
     <span
@@ -126,7 +116,8 @@ class EmailForm extends React.Component {
 
     render() {
         return (
-            <ThemeProvider theme={theme}>
+            <ThemeProvider theme={darkTheme}>
+                <CssBaseline />
                 <FormControl fullWidth >
                     <Grid container direction={"column"} spacing={3.5} style={{ color: "white", padding: "10px" }}>
                         <Grid item>
@@ -186,7 +177,7 @@ class EmailForm extends React.Component {
 // The header has container with a navigation bar
 const ContactForm = () => (
     <div>
-        <section className="comboPurple">
+        <section className="dark">
             <div className="container">
                 <div className="index-block">
                     <div container>
@@ -194,6 +185,8 @@ const ContactForm = () => (
                             <h1>Leave your message</h1>
                             <p>Write me for exchanging, to book an appointment <Emoji symbol="🗓" />, collaborations <Emoji symbol="📦" /> or projects <Emoji symbol="🔨" />.</p>
                             <p>I will get back to you as soon as possible</p>
+                            <br />
+                            <br />
                             <br />
                             <EmailForm />
                         </div>
@@ -205,7 +198,8 @@ const ContactForm = () => (
                     </div>
                 </div>
             </div>
-        </section><div className="containerCurve"></div>
+        </section>
+        <section className="spacer layer"></section>
     </div>
 )
 
