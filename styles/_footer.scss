@@ -16,7 +16,6 @@
     bottom: 10;
     left: 0;
     width: 100%;
-    font-size: 12px;
 
     .footer-content {
       display: flex;
@@ -31,10 +30,9 @@
       a:hover {
         color: $comboDarkGrey;
       }
-      imprint {
+      .imprint {
         color: black;
       }
     }
-    
   }
 }
