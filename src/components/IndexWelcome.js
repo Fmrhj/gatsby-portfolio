@@ -16,7 +16,7 @@ const IndexWelcome = () => (
     <section className="dark">
       <div className="container">
         <div className="index-block">
-          <h1>Welcome!</h1>
+          <div className="text-shadows"><h1>Welcome!</h1></div>
           <div container>
 
               <p>I am an Engineer having fun developing cloud native solutions. I currently live in <mark className="purple">Berlin</mark>.</p>

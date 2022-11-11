@@ -32,6 +32,8 @@ body {
   min-height: calc(100vh - 0px);
 }
 
+@import "shadows";
+
 section {
   position: relative;
   display: flex;
@@ -43,8 +45,21 @@ section {
     color: $white;
     transition: 0.3s ease-in-out;
   }
-  h1:hover{
-    transform: translate(3em, 0);
+  .text-shadows {
+    text-shadow: 3px 3px 0 var(--color-secondary), 6px 6px 0 var(--color-tertiary),
+      9px 9px var(--color-quaternary), 12px 12px 0 var(--color-quinary);
+    font-family: sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: calc(0.2em + 1vw);
+    text-align: left;
+    margin: 0;
+    color: var(--color-primary);
+    //color: transparent;
+    //background-color: white;
+    //background-clip: text;
+    animation: shadows 1.2s ease-in infinite, move 1.2s ease-in infinite;
+    letter-spacing: 0.4rem;
   }
 }
 
@@ -54,7 +69,7 @@ mark.purple {
 }
 
 mark.purple:hover {
-  background: $comboPurple;
+  background: $pink;
   color: $white;
 }
 
