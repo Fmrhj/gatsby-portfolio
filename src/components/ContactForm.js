@@ -5,12 +5,12 @@ import {
 import axios from "axios"
 import { ThemeProvider, createTheme } from '@mui/material/styles';
 import CssBaseline from '@mui/material/CssBaseline'
-;
+    ;
 const darkTheme = createTheme({
     palette: {
-      mode: 'dark',
+        mode: 'dark',
     },
-  });
+});
 
 const Emoji = (props) => (
     <span
@@ -182,7 +182,7 @@ const ContactForm = () => (
                 <div className="index-block">
                     <div container>
                         <div className="blog-post-content">
-                            <div className="text-shadows"><h1>Leave your message</h1></div>
+                            <h1>Leave your message</h1>
                             <p>Write me for exchanging, to book an appointment <Emoji symbol="🗓" />, collaborations <Emoji symbol="📦" /> or projects <Emoji symbol="🔨" />.</p>
                             <p>I will get back to you as soon as possible</p>
                             <br />
@@ -191,9 +191,9 @@ const ContactForm = () => (
                             <EmailForm />
                         </div>
                         <div className="space">
-                            <br/>
-                            <br/>
-                            <br/>
+                            <br />
+                            <br />
+                            <br />
                         </div>
                     </div>
                 </div>
