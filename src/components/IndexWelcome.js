@@ -18,14 +18,12 @@ const IndexWelcome = () => (
         <div className="index-block">
           <h1>Welcome!</h1>
           <div container>
-
             <p>I am an Engineer having fun developing cloud native solutions. I currently live in <mark className="purple">Berlin</mark>.</p>
             <p>I like to find solutions to real-world problems applying pragmatic system design, <mark className="purple">Machine Learning (ML)</mark>, MLOps and Distributed Computing.</p>
             <p>I am taking notes during my learning. I may share some of them in a notes <Emoji symbol="📓" /> section.</p>
             <br />
             <br />
             <br />
-
             <br />
           </div>
         </div>

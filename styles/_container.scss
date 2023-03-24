@@ -17,16 +17,15 @@
   @media (max-width: 768px) {
     width: 468px;
     min-width: 468px;
-    font-size: 16px;
   }
   @media (max-width: 468px) {
     width: 350px;
     min-width: 350px;
-    font-size: 16px;
+    font-size: larger;
   }
   @media (max-width: 376px) {
     padding-left: 8px;
     max-width: 120px;
-    font-size: 12px;
+    font-size: larger;
   }
 }
