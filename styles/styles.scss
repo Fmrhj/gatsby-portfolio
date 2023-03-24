@@ -17,6 +17,8 @@ $comboGrey: #b1bdcd;
 $comboDarkGrey: #5b7290;
 $darkBackground:#001220; 
 
+@import "shadows";
+
 //General definitions
 html {
   font-family: $font;
@@ -24,15 +26,14 @@ html {
 
 body {
   position: relative;
-  font-weight: 400;
-  line-height: 1.5;
-  margin: 0;
+  font-weight: 300;
+  font-size: large;
+  line-height: 1.8;
+  margin: 0.65;
   flex-direction: column;
   display: flex;
   min-height: calc(100vh - 0px);
 }
-
-@import "shadows";
 
 section {
   position: relative;
@@ -51,12 +52,12 @@ section {
     font-family: sans-serif;
     font-weight: 400;
     text-transform: uppercase;
-    font-size: calc(0.2em + 1vw);
+    //font-size: calc(0.2em + 1vw);
     text-align: left;
     margin: 0;
     color: var(--color-primary);
     //color: transparent;
-    //background-color: white;
+    background-color: white;
     //background-clip: text;
     animation: shadows 1.2s ease-in infinite, move 1.2s ease-in infinite;
     letter-spacing: 0.4rem;
