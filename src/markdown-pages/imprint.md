@@ -1,6 +1,6 @@
 ---
 path: "/imprint"
-date: "2022-11-03"
+date: "2022-12-09"
 title: "Impressum"
 template: "main-template"
 thumbnail: ""
@@ -23,8 +23,6 @@ Grüntaler Str. 59a
 
 ### Kontakt
 
-
-> Telefon: +49 174 3052810
 
 > E-Mail: [info@fernandozepeda.io](mailto:info@fernandozepeda.io)
 
@@ -101,7 +99,6 @@ Grüntaler Str. 59a,
 13359 Berlin
 Deutschland
 
-Telefon: 01743052810
 ```
 
 > E-Mail: [info@fernandozepeda.io](info@fernandozepeda.io)
