@@ -82,7 +82,7 @@ Revenue Management SG [yearly meeting ⬀](https://agifors.org/rm-2019)
 - Google Cloud Fundamentals: Big Data & Machine Learning | Jellyfish, 03/2020
 - [Intro to TensorFlow by Google Cloud on Coursera ⬀](https://www.coursera.org/account/accomplishments/records/B7SLNSP8BY9U) | 04/2020
 
-## Skill by Framework & Tools
+## Skills, Frameworks & Tools
 
 | Skill                                                              | Technnologies                                                                                           |
 |-------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------|
