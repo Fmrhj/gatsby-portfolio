@@ -90,6 +90,26 @@ mark.purple:hover {
   background: $pink;
 }
 
+.profile-pic-container {
+  min-width: 100%;  
+  text-align: center;
+  align-items: center;
+}
+
+.profile-pic {  
+  background-color: $pink;
+  border-radius: 50%;
+  border: 4px solid #dbdbdb;
+  transition: all .3s;
+  overflow: hidden;
+  padding: auto;
+  width: 20%;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  opacity: 1;
+}
+
 .spacer {
   aspect-ratio: 900/300;
   width: 100%;

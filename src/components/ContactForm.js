@@ -187,8 +187,8 @@ const ContactForm = () => (
                             <p>I will get back to you as soon as possible</p>
                             <br />
                             <br />
-                            <EmailForm />
                         </div>
+                        <EmailForm />
                         <div className="space">
                             <br />
                             <br />
