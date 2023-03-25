@@ -84,7 +84,7 @@ Revenue Management SG [yearly meeting ⬀](https://agifors.org/rm-2019)
 
 ## Skill by Framework & Tools
 
-| Area                                                              | Technnologies                                                                                           |
+| Skill                                                              | Technnologies                                                                                           |
 |-------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------|
 | <span className="colored-text_1">Cloud & Infrastructure as Code</span>                   | GCP, Azure, AWS, Terraform |
 | <span className="colored-text_1">Cloud Deployments: Container as a Service</span>  | Docker, Kubernetes, Azure Container Registry, docker-compose                         |
@@ -100,4 +100,7 @@ Revenue Management SG [yearly meeting ⬀](https://agifors.org/rm-2019)
 
 ## Personal Projects
 
-- **[➩ genetic-algorithm](https://github.com/Fmrhj/genetic-algorithm)**: Implementation of a genetic algorithm optimizer using base Python [numpy](https://numpy.org/)
+|   |   |
+|---|---|
+|**[genetic-algorithm](https://github.com/Fmrhj/genetic-algorithm)**: Implementation of a genetic algorithm optimizer using base Python [numpy](https://numpy.org/)| <iframe src="https://ghbtns.com/github-btn.html?user=Fmrhj&repo=genetic-algorithm&type=star&count=true&size=large" width="150" height="30" frameborder="0" scrolling="0" title="Github-Stars"></iframe>
+|**[notes-azure-data-engineering](https://github.com/Fmrhj/notes-azure-data-engineering)**: Notes on Data Engineering for the Azure DP203 Exam | <iframe src="https://ghbtns.com/github-btn.html?user=Fmrhj&repo=notes-azure-data-engineering&type=star&count=true&size=large" width="150" height="30" frameborder="0" scrolling="0" title="Github-Stars"></iframe>  

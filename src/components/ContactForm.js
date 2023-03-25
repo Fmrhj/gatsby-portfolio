@@ -182,7 +182,7 @@ const ContactForm = () => (
                 <div className="index-block">
                     <div container>
                         <div className="blog-post-content">
-                            <h1>Leave your message</h1>
+                            <h1>Leave me a message</h1>
                             <p>Write me for exchanging, to book an appointment <Emoji symbol="🗓" />, collaborations <Emoji symbol="📦" /> or projects <Emoji symbol="🔨" />.</p>
                             <p>I will get back to you as soon as possible</p>
                             <br />

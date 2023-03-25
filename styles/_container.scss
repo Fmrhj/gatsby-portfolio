@@ -6,15 +6,21 @@
   margin: 0 auto;
   color: $white;
   
-  @media (max-width: 1280px) {
+  @media (max-width: 1580px) {
     width: 800px;
     min-width: 800px;
     font-size: larger;
   }
+  
+  @media (max-width: 1280px) {
+    width: 800px;
+    min-width: 800px;
+    font-size: large;
+  }
   @media (max-width: 976px) {
     width: 520px;
     min-width: 520px;
-    font-size: larger;
+    font-size: large;
   }
   @media (max-width: 768px) {
     width: 468px;
@@ -24,11 +30,11 @@
   @media (max-width: 468px) {
     width: 350px;
     min-width: 350px;
-    font-size: large;
+    font-size: medium;
   }
   @media (max-width: 376px) {
     padding-left: 8px;
     max-width: 120px;
-    font-size: large;
+    font-size: medium;
   }
 }
