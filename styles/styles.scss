@@ -15,7 +15,7 @@ $comboBlue: #002147;
 $comboWhite: #e7ebf0;
 $comboGrey: #b1bdcd;
 $comboDarkGrey: #5b7290;
-$darkBackground:#001220; 
+$darkBackground: #001220;
 
 @import "shadows";
 
@@ -41,14 +41,15 @@ section {
   flex-direction: column;
   padding: 3vh 1vw;
   min-height: 10vh;
-  
+
   h1 {
     color: $white;
     transition: 0.3s ease-in-out;
   }
   .text-shadows {
-    text-shadow: 3px 3px 0 var(--color-secondary), 6px 6px 0 var(--color-tertiary),
-      9px 9px var(--color-quaternary), 12px 12px 0 var(--color-quinary);
+    text-shadow: 3px 3px 0 var(--color-secondary),
+      6px 6px 0 var(--color-tertiary), 9px 9px var(--color-quaternary),
+      12px 12px 0 var(--color-quinary);
     font-family: sans-serif;
     font-weight: 400;
     text-transform: uppercase;
@@ -78,7 +79,7 @@ mark.purple:hover {
 }
 
 .comboPurple {
-  background: $comboPurple; 
+  background: $comboPurple;
 }
 
 .white {
@@ -90,16 +91,16 @@ mark.purple:hover {
 }
 
 .profile-pic-container {
-  min-width: 100%;  
+  min-width: 100%;
   text-align: center;
   align-items: center;
 }
 
-.profile-pic {  
+.profile-pic {
   background-color: $pink;
   border-radius: 50%;
   border: 4px solid #dbdbdb;
-  transition: all .3s;
+  transition: all 0.3s;
   overflow: hidden;
   padding: auto;
   max-width: 100%;
@@ -128,7 +129,7 @@ mark.purple:hover {
 }
 
 .layerMain {
-  background-image: url("../static/svg/layer_main.svg"); 
+  background-image: url("../static/svg/layer_main.svg");
 }
 
 .wrapper {

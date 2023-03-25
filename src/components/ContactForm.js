@@ -184,12 +184,11 @@ const ContactForm = () => (
                         <div className="blog-post-content">
                             <h1>Leave me a message</h1>
                             <p>Please feel free to leave me a message if you'd like to engage in a technical exchange, book an appointment, discuss potential collaborations, or start a new project. I'll do my best to respond to you as soon as possible.</p>
-                            <p>Thank you for reaching out, and I look forward to connecting with you!</p>
                             <br />
                         </div>
                         <EmailForm />
+                        <p>Thank you for reaching out, and I look forward to connecting with you!</p>
                         <div className="space">
-                            <br />
                         </div>
                     </div>
                 </div>
