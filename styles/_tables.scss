@@ -1,29 +1,13 @@
-table a:link {
-  color: #666;
-  font-weight: bold;
-  text-decoration: none;
-}
-table a:visited {
-  color: #999999;
-  font-weight: bold;
-  text-decoration: none;
-}
-table a:active,
-table a:hover {
-  color: #bd5a35;
-  text-decoration: underline;
-}
 table {
-  color: #666;
+  color: $black;
   text-shadow: 1px 1px 0px #fff;
-  background: #eaebec;
-  margin: 20px;
+  background: $comboBlue;
+  margin: 0px;
   border: #ccc 1px solid;
 
   -moz-border-radius: 3px;
   -webkit-border-radius: 3px;
   border-radius: 3px;
-
   //-moz-box-shadow: 0 1px 2px #d1d1d1;
   -webkit-box-shadow: 0 1px 2px #d1d1d1;
   box-shadow: 0 1px 2px #d1d1d1;
@@ -33,7 +17,7 @@ table th {
   border-top: 1px solid #fafafa;
   border-bottom: 1px solid #e0e0e0;
 
-  background: #ededed;
+  background: $white;
 }
 table th:first-child {
   text-align: left;
@@ -50,7 +34,7 @@ table tr:first-child th:last-child {
   border-top-right-radius: 3px;
 }
 table tr {
-  text-align: center;
+  text-align: left;
   padding-left: 20px;
 }
 table td:first-child {
@@ -100,4 +84,5 @@ table tr:last-child td:last-child {
 }
 table tr:hover td {
   background: #f2f2f2;
+  color: $black;
 }
