@@ -15,7 +15,7 @@ const Emoji = (props) => (
   </span>);
 
 const CustomChip = (props) => (
-  <Chip label={props.label} variant="filled" style={{ backgroundColor: "#f78da7" , color: "black", fontSize: "medium"}} />
+  <Chip label={props.label} variant="filled" style={{ backgroundColor: "#f78da7", color: "black", fontSize: "medium" }} />
 );
 
 const MarkPurple = (props) => (
@@ -43,9 +43,9 @@ const IndexWelcome = () => (
           </div>
           <h1>Welcome <Emoji symbol="👋🏽" /></h1>
           <div container>
-            <p>I am Fernando, an Engineer having fun building cloud native solutions and products. I am currently based in <CustomChip label="Berlin" />.</p>
-            <p>My work focuses on finding practical solutions to real-world problems using scalable system design, <MarkPurple label="Data Engineering" />, <MarkPurple label="Machine Learning" /> and <MarkPurple label="Machine Learning Operations" />.</p>
-            <p>I am taking notes during my learning. I may share some of them in a notes <Emoji symbol="📓" /> section.</p>
+            <p>Hi, I'm Fernando, an engineer based in <CustomChip label="Berlin" /> who loves building cloud-native solutions.</p>
+            <p>My work revolves around solving real-world problems using scalable system design, <MarkPurple label="Data Engineering" />, and <MarkPurple label="Machine Learning" />, with a particular focus on <MarkPurple label="Machine Learning Operations (ML Ops)" />.</p>
+            <p>To keep track of my learning, I maintain a notes section where I jot down my thoughts and insights. I may also share some of my notes <Emoji symbol="📓" /> what may help others in their learning journeys.</p>
           </div>
         </div>
       </div>
