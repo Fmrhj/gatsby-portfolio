@@ -183,16 +183,12 @@ const ContactForm = () => (
                     <div container>
                         <div className="blog-post-content">
                             <h1>Leave me a message</h1>
-                            <p>Write me for exchanging, to book an appointment <Emoji symbol="🗓" />, collaborations <Emoji symbol="📦" /> or projects <Emoji symbol="🔨" />.</p>
-                            <p>I will get back to you as soon as possible</p>
+                            <p>Please feel free to leave me a message if you'd like to engage in a technical exchange, book an appointment, discuss potential collaborations, or start a new project. I'll do my best to respond to you as soon as possible.</p>
                             <br />
-                            <br />
-                            <EmailForm />
                         </div>
+                        <EmailForm />
+                        <p>Thank you for reaching out, and I look forward to connecting with you!</p>
                         <div className="space">
-                            <br />
-                            <br />
-                            <br />
                         </div>
                     </div>
                 </div>

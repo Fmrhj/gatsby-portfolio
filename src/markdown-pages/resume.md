@@ -18,7 +18,7 @@ ML & Data Engineer focused on projects in the Energy sector.
 
 *Selected projects*:
 
-- Cloud Infrastructure and Serverless pipelines for different use cases in the generation division. <u>Tech-stack</u>: Azure, Azure Functions, Python, Azure Cosmos DB, .NET
+- Cloud Infrastructure and Serverless data pipelines and applications for different use cases in the generation division. <u>Tech-stack</u>: Azure, Azure Functions, Event Grid, Python, Azure Cosmos DB, NET, Infrastructure as Code, Microservices Architecture.
 
 ### Senior Consultant Cloud and Data Analytics at [Pexon Consulting](https://pexon-consulting.de/), 2020/07 - 2022/03, Berlin
 
@@ -82,7 +82,7 @@ Revenue Management SG [yearly meeting ⬀](https://agifors.org/rm-2019)
 - Google Cloud Fundamentals: Big Data & Machine Learning | Jellyfish, 03/2020
 - [Intro to TensorFlow by Google Cloud on Coursera ⬀](https://www.coursera.org/account/accomplishments/records/B7SLNSP8BY9U) | 04/2020
 
-## Skill by Framework & Tools
+## Skills, Frameworks & Tools
 
 | Skill                                                              | Technnologies                                                                                           |
 |-------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------|
