@@ -1,7 +1,7 @@
 import React from "react"
 import { StaticImage } from 'gatsby-plugin-image';
 import {
-  Chip, Avatar
+  Chip
 } from "@mui/material";
 
 const Emoji = (props) => (
@@ -15,8 +15,12 @@ const Emoji = (props) => (
   </span>);
 
 const CustomChip = (props) => (
-  <Chip label={props.label} variant="filled" color="secondary" />
+  <Chip label={props.label} variant="filled" style={{ backgroundColor: "#f78da7" , color: "black", fontSize: "medium"}} />
 );
+
+const MarkPurple = (props) => (
+  <mark className="purple">{props.label}</mark>
+)
 
 // The header has container with a navigation bar
 const IndexWelcome = () => (
@@ -30,8 +34,8 @@ const IndexWelcome = () => (
                 src="../images/pm.png"
                 alt="profile-pic"
                 placeholder="blurred"
-                width={150}
-                height={150}
+                width={250}
+                height={250}
               />
             </div>
             <div>
@@ -39,19 +43,13 @@ const IndexWelcome = () => (
           </div>
           <h1>Welcome <Emoji symbol="👋🏽" /></h1>
           <div container>
-            <p>I am Fernando, an Engineer having fun building cloud native solutions. I am currently based in <CustomChip label="Berlin" />.</p>
-            <p>My work focuses on finding solutions to real-world problems using scalable system design design, Data Engineering, Machine Learning and Machine Learning Operations (ML Ops)</p>
+            <p>I am Fernando, an Engineer having fun building cloud native solutions and products. I am currently based in <CustomChip label="Berlin" />.</p>
+            <p>My work focuses on finding practical solutions to real-world problems using scalable system design, <MarkPurple label="Data Engineering" />, <MarkPurple label="Machine Learning" /> and <MarkPurple label="Machine Learning Operations" />.</p>
             <p>I am taking notes during my learning. I may share some of them in a notes <Emoji symbol="📓" /> section.</p>
-            <br />
-            <br />
-            <br />
-            <br />
           </div>
         </div>
       </div>
     </section>
-    <section className="dark"></section>
-    <section className="dark"></section>
     <div class="spacer layer"></div>
   </div>
 )
