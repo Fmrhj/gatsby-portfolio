@@ -1,13 +1,10 @@
-//Font variable
 $font: TTHoves-Regular, Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans",
   "Helvetica Neue", sans-serif;
 
-//Color variables
 $white: #fff;
 $black: #000;
 $off-white: #f2f4f5;
 
-//color-combo 210
 $comboPurple: #663366;
 $comboPurpleLight: #f78da7;
 $pink: #f78da7;
@@ -17,7 +14,6 @@ $comboGrey: #b1bdcd;
 $comboDarkGrey: #5b7290;
 $darkBackground: #001220;
 
-//General definitions
 html {
   font-family: $font;
 }
@@ -88,29 +84,14 @@ mark.purple:hover {
   background: $pink;
 }
 
-@import "profile-pic";
-
-.spacer {
-  aspect-ratio: 900/300;
-  width: 100%;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  margin-bottom: 0vh;
-}
-
-.layer {
-  background-image: url("../static/svg/layer.svg");
-}
-
-.layerMain {
-  background-image: url("../static/svg/layer_main.svg");
-}
-
 .wrapper {
   flex-grow: 1;
   height: auto;
 }
+
+@import "profile-pic";
+
+@import "spacer.scss";
 
 // main div container for different margins
 @import "container";
