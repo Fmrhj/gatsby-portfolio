@@ -53,7 +53,6 @@ const IndexWelcome = () => (
             <br />
             <br />
           </div>
-          
         </div>
       </div>
     </section>
