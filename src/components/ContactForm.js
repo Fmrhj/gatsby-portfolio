@@ -188,8 +188,6 @@ const ContactForm = () => (
                         </div>
                         <EmailForm />
                         <p>Thank you for reaching out, and I look forward to connecting with you!</p>
-                        <div className="space">
-                        </div>
                     </div>
                 </div>
             </div>
