@@ -93,16 +93,15 @@ mark.purple:hover {
 
 @import "spacer-div.scss";
 
-// main div container for different margins
 @import "container";
 
-//Header
+// Header
 @import "header";
 
-//HeaderLight
+// HeaderLight
 @import "header-light";
 
-//Footer
+// Footer
 @import "footer";
 
 // Contact block
@@ -111,13 +110,13 @@ mark.purple:hover {
 // social logo icons
 @import "social-links";
 
-//blog posts lists
+// blog posts lists
 @import "posts";
 
-//blog-container
+// blog-container
 @import "blog-post-container";
 
-//blog-post-entries
+// blog-post-entries
 @import "blog-post-entries";
 
 // 404
