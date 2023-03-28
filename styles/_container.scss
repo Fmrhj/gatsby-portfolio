@@ -5,13 +5,19 @@
   padding-left: 10px;
   margin: 0 auto;
   color: $white;
-  
+
+  @media (max-width: 3580px) {
+    width: 900px;
+    min-width: 900px;
+    font-size: larger;
+  }
+
   @media (max-width: 1580px) {
     width: 800px;
     min-width: 800px;
     font-size: larger;
   }
-  
+
   @media (max-width: 1280px) {
     width: 800px;
     min-width: 800px;

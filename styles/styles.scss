@@ -17,8 +17,6 @@ $comboGrey: #b1bdcd;
 $comboDarkGrey: #5b7290;
 $darkBackground: #001220;
 
-@import "shadows";
-
 //General definitions
 html {
   font-family: $font;
@@ -90,35 +88,7 @@ mark.purple:hover {
   background: $pink;
 }
 
-.profile-pic-container {
-  min-width: 100%;
-  text-align: center;
-  align-items: center;
-  position: relative;
-}
-
-.profile-pic {
-  background-color: $pink;
-  border-radius: 50%;
-  overflow: hidden;
-  mask-image: radial-gradient(white, black);
-  border: 4px solid #dbdbdb;
-  transition: all 0.3s;
-  padding: auto;
-  max-width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-  opacity: 1;
-  @media (max-width: 1500px) {
-    width: 25%;
-  }
-  @media (max-width: 950px) {
-    width: 35%;
-  }
-  @media (max-width: 468px) {
-    width: 55%;
-  }
-}
+@import "profile-pic";
 
 .spacer {
   aspect-ratio: 900/300;
