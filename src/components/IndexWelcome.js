@@ -44,8 +44,8 @@ const IndexWelcome = () => (
           <h1>Welcome <Emoji symbol="👋🏽" /></h1>
           <div container>
             <p>Hi, I'm Fernando, an engineer based in <CustomChip label="Berlin" /> who loves building cloud-native solutions.</p>
-            <p>My work revolves around solving real-world problems using scalable system design, <MarkPurple label="Data Engineering" />, and <MarkPurple label="Machine Learning" />, with a particular focus on <MarkPurple label="Machine Learning Operations (ML Ops)" />.</p>
-            <p>To keep track of my learning, I maintain a notes section where I jot down my thoughts and insights. I may also share some of my notes <Emoji symbol="📓" /> what may help others in their learning journeys.</p>
+            <p>My work revolves around solving real-world problems building scalable systems applying <MarkPurple label="Data Engineering" />, and <MarkPurple label="Machine Learning" />, with a particular focus on <MarkPurple label="Machine Learning Operations (ML Ops)" />.</p>
+            <p>To keep track of my learning, I am maintining notes where I bring down thoughts and insights. I want soon also to share some of these notes <Emoji symbol="📓" /> what may have some value for some of you.</p>
             <br/>
             <br/>
             <br />
