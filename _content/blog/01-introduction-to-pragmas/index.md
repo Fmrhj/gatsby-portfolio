@@ -49,7 +49,7 @@ int main()
 
 The output is the following:
 
-```output
+```text
 Time elapsed is 2 seconds%
 ```
 
@@ -77,7 +77,7 @@ int main()
 
 The output, as expected is:
 
-```output
+```text
 Time elapsed is 10 seconds%
 ```
 
@@ -112,7 +112,7 @@ int main()
 
 And the output is:
 
-```output
+```text
 Starting thread number 0
 Starting thread number 3
 Starting thread number 2
