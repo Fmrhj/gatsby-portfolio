@@ -88,12 +88,6 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-plugin-react-helmet-canonical-urls`,
-      options: {
-        siteUrl: process.env.GATSBY_SITE_URL,
-      },
-    },
-    {
       resolve: "gatsby-transformer-remark",
       options: {
         plugins: [
@@ -171,7 +165,6 @@ module.exports = {
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-image`,
     `gatsby-plugin-netlify`,
-    `gatsby-plugin-offline`,
     `gatsby-plugin-image`,
     `gatsby-plugin-sass`,
     `gatsby-plugin-material-ui`,
