@@ -3,6 +3,9 @@ require("dotenv").config({
 })
 
 module.exports = {
+  flags: {
+    DEV_SSR: true
+  },
   plugins: [
     {
       resolve: "gatsby-plugin-next-seo",
