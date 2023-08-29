@@ -10,6 +10,8 @@ thumbnail: ""
 
 ML & Data Engineer.
 
+[![latest release](https://img.shields.io/github/v/tag/Fmrhj/cv?label=download%20pdf%20cv)](https://github.com/Fmrhj/cv/releases/latest/download/Zepeda_resume.pdf)
+
 ## Experience
 
 ### ML and Data Engineer at [qurix Technology](https://www.qurix.tech), 2022/04 - today, Berlin/Hamburg/Karlsruhe
