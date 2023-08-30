@@ -62,7 +62,7 @@ Database management and QA software testing.
 - <span className="colored-text_1"> Industrial Engineering (M.Sc.)</span> - [Technical University of Berlin](https://www.tu-berlin.de/menue/home/)  
 > **Master thesis**: "An airline stochastic dynamic pricing model"
 
-- <span className="colored-text_1"> Industrial Engineering (Dipl.)</span> - [Universidad Técnica Federico Santa María](https://www.usm.cl/)  
+- <span className="colored-text_1"> Industrial Engineering (Ing. Civil)</span> - [Universidad Técnica Federico Santa María](https://www.usm.cl/)  
 > **Diplom Thesis**: "Predicting bankrutpy of Chilean enterprises with artificial neural networks"
 
 ## Talks and Conferences
