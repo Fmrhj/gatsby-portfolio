@@ -21,7 +21,7 @@ ML & Data Engineer focused on projects in the Energy sector.
 *Selected projects*:
 
 - Designing and implementing Cloud Infrastructure and Serverless data pipelines and applications tailored to diverse use cases within the generation division. <u>Tech-stack</u>: Azure, Azure Functions, Event Grid, Python, Azure Cosmos DB, .NET, Infrastructure as Code, Microservices Architecture.
-- Driving Data Migration and leveraging Event-driven Architecture using Kafka for a prominent manufacturing client. <u>Tech-stack</u>: Kafka (Confluent), Python, Github Actions, Docker, Grafana, Prometheus.
+- Data Migration and implementing an event-driven architecture using Kafka for a prominent manufacturing client. <u>Tech-stack</u>: Kafka (Confluent), Python, Github Actions, Docker, Grafana, Prometheus.
 
 ### Senior Consultant Cloud and Data Analytics at [Pexon Consulting](https://pexon-consulting.de/), 2020/07 - 2022/03, Berlin
 
