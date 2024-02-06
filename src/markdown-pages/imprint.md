@@ -17,8 +17,8 @@ thumbnail: ""
 
 ```text
 Fernando Zepeda
-Grüntaler Str. 59a
-13359 Berlin
+Sanderstr. 27
+12047 Berlin
 ```
 
 ### Kontakt
