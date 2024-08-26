@@ -2,7 +2,7 @@ import React from "react";
 import { StaticImage } from 'gatsby-plugin-image';
 import { Chip } from "@mui/material";
 
-// Emoji component with accessibility improvements
+
 const Emoji = ({ symbol, label }) => (
   <span
     className="emoji"
@@ -14,7 +14,6 @@ const Emoji = ({ symbol, label }) => (
   </span>
 );
 
-// CustomChip component with accessible label
 const CustomChip = ({ label }) => (
   <Chip
     className="chip"
