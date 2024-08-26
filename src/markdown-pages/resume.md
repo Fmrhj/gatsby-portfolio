@@ -39,7 +39,7 @@ Consultant for different projects on Data Engineering, Analytics and Cloud Infra
 - Development of an application for price adjustments for a main German utility company. <u>Tech-stack</u>: [Azure Cloud Stack](https://azure.microsoft.com/en-us/), Snowflake, Python.  
 - Data pipeline optimization for a big German data provider for television companies. <u>Tech-stack</u>: Snowflake, Tableau Server, Python, [Amazon S3](https://aws.amazon.com/s3/?nc2=h_ql_prod_fs_s3).
 
-### Data Scientist and Methods Specialist at [Lufthansa Systems](https://www.lhsystems.com/), 2020/06 - 2017/09, Berlin
+### Data Scientist and Methods Specialist at [Lufthansa Systems](https://www.lhsystems.com/), 2017/09 - 2020/06, Berlin
 
 Working as Data Scientist and Data Engineer for different projects in Flight & Ground Ops, Revenue Management and Pricing.
 
@@ -51,7 +51,7 @@ Integration of a grandsolver for all operation modules to support the integrated
  Prediction of stranded passengers for hotel demand in Frankfurt and Munich hubs
 - Modelling and rapid prototyping dynamic bundling and pricing of flight ancillaries with machine learning classNameifiers
 
-### Student Assistant and Masterand at [Lufthansa Systems](https://www.lhsystems.com/), 2017/08 - 2016/09, Berlin
+### Student Assistant and Masterand at [Lufthansa Systems](https://www.lhsystems.com/), 2016/09 - 2017/08, Berlin
 
 Data Science and Rapid Prototyping in Revenue Management & Pricing.
 
