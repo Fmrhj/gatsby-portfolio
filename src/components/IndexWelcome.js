@@ -19,12 +19,10 @@ const CustomChip = ({label}) => (
 );
 
 
-// MarkPurple component for highlighting key terms
 const MarkPurple = ({ label }) => (
   <mark className="purple">{label}</mark>
 );
 
-// Main component with straightforward text
 const IndexWelcome = () => (
   <div>
     <section className="dark">
