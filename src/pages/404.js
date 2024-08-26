@@ -1,20 +1,14 @@
-import "../../styles/styles.scss"
+import React from "react";
+import { Link } from "gatsby";
 
-import MetaData from "../components/MetaData"
-import React from "react"
+const NotFoundPage = () => (
+  <div className="not-found-block">
+    <h1>404</h1>
+    <p>Oops! The page you're looking for can't be found.</p>
+    <Link to="/">
+      <button className="home-button">Go Back Home</button>
+    </Link>
+  </div>
+);
 
-const NotFoundPage = () => {
-  return (
-      <div className="wrapper">
-        <MetaData />
-        <div className="container">
-          <div className="not-found-block">
-            <h1>404 | Page not found</h1>
-            <h2>Oops, something went wrong...</h2>
-          </div>
-        </div>
-      </div>
-  )
-}
-
-export default NotFoundPage
+export default NotFoundPage;

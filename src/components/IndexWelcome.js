@@ -1,63 +1,58 @@
-import React from "react"
-import { StaticImage } from 'gatsby-plugin-image';
-import {
-  Chip
-} from "@mui/material";
+import React from "react";
+import { Chip } from "@mui/material";
 
-const Emoji = (props) => (
+// Emoji component with improved accessibility
+const Emoji = ({ symbol, label }) => (
   <span
     className="emoji"
     role="img"
-    aria-label={props.label ? props.label : ""}
-    aria-hidden={props.label ? "false" : "true"}
+    aria-label={label ? label : ""}
+    aria-hidden={label ? "false" : "true"}
   >
-    {props.symbol}
-  </span>);
-
-const CustomChip = (props) => (
-  <Chip label={props.label} variant="filled" style={{ backgroundColor: "#f78da7", color: "black", fontSize: "medium" }} />
+    {symbol}
+  </span>
 );
 
-const MarkPurple = (props) => (
-  <mark className="purple">{props.label}</mark>
-)
+// CustomChip component with descriptive text for better accessibility
+const CustomChip = ({ label }) => (
+  <Chip
+    label={label}
+    variant="filled"
+    style={{ backgroundColor: "#f78da7", color: "black", fontSize: "medium" }}
+    aria-label={`Location: ${label}`}
+  />
+);
 
-// The header has container with a navigation bar
+// MarkPurple component to emphasize key terms
+const MarkPurple = ({ label }) => (
+  <mark className="purple">{label}</mark>
+);
+
+// Main component with improved text and structure
 const IndexWelcome = () => (
   <div>
     <section className="dark">
       <div className="container">
         <div className="index-block">
-          <div className="profile-pic-container">
-            <div className="profile-pic">
-              <StaticImage
-                src="../images/pm.png"
-                alt="profile-pic"
-                placeholder="blurred"
-                width={250}
-                height={250}
-              />
-            </div>
-            <div>
-            </div>
-          </div>
-          <h1>Welcome <Emoji symbol="👋🏽" /></h1>
-          <div container>
-            <p>Hi, I'm Fernando, an engineer based in <CustomChip label="Berlin" /> building data solutions.</p>
-            <p>My work revolves around solving real-world problems building scalable systems powered by *tons* of data. </p>
-            <p>Key topics: <MarkPurple label="Data Engineering" />, <MarkPurple label="Machine Learning" /> with a particular focus on <MarkPurple label="Machine Learning Operations (ML Ops)" />.</p>
-            <br/>
-            <br/>
-            <br />
-            <br />
-            <br />
-            <br />
+          <h1>
+            Welcome <Emoji symbol="👋🏽" label="waving hand" />
+          </h1>
+          <div>
+            <p>
+              Hi, I'm Fernando, an engineer based in <CustomChip label="Berlin" />. I specialize in creating data-driven solutions that address real-world challenges.
+            </p>
+            <p>
+              My work involves building scalable systems that manage and process large volumes of data efficiently.
+            </p>
+            <p>
+              Key areas of expertise include <MarkPurple label="Data Engineering" />, <MarkPurple label="Machine Learning" />, with a strong focus on <MarkPurple label="Machine Learning Operations (ML Ops)" />.
+            </p>
           </div>
         </div>
       </div>
     </section>
-    <div class="spacer layer"></div>
+    <div className="spacer layer"></div>
   </div>
-)
+);
 
-export default IndexWelcome
+export default IndexWelcome;
