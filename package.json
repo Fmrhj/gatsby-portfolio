@@ -7,7 +7,7 @@
     "dependencies": {
         "@material-ui/core": "^4.12.4",
         "@mui/icons-material": "^5.10.9",
-        "gatsby": "^4.25.7",
+        "gatsby": "^5.13.7",
         "gatsby-plugin-cookiebot": "^1.0.3",
         "gatsby-plugin-google-tagmanager": "^4.23.0",
         "gatsby-plugin-image": "^2.23.0",
