@@ -41,18 +41,10 @@ const IndexWelcome = () => (
           </div>
           <h1>Welcome <Emoji symbol="👋🏽" label="Waving hand" /></h1>
           <div>
-            <p>
-              Hi, I’m Fernando Zepeda, a data engineer based in <CustomChip label="Berlin" />. 
-              I build data solutions that solve real problems.
-            </p>
-            <p>
-              I create systems that handle and process large amounts of data efficiently.
-              My work focuses on data engineering and machine learning.
-            </p>
-            <p>
-              My main areas are <MarkPurple label="Data Engineering" /> and <MarkPurple label="Machine Learning" />,
-              with a special focus on <MarkPurple label="Machine Learning Operations (ML Ops)" />.
-            </p>
+          <p> Hi, I’m Fernando Zepeda, a software engineer based in <CustomChip label="Berlin" />. 
+          I specialize in crafting data solutions that address real-world challenges. </p>
+          <p> I develop systems designed to handle and process large volumes of data. My work centers on data engineering and machine learning, with main emphasis on creating solutions that deliver substantial, scalable impact for people and organizations.</p>
+          <p> My primary expertise lies in <MarkPurple label="Data Engineering" /> and <MarkPurple label="Machine Learning" />, with a particular focus on <MarkPurple label="Operalization of Machine Learning" />. </p>
           </div>
         </div>
       </div>
