@@ -36,7 +36,6 @@ body {
 // Headings
 h1, h2, h3, h4, h5, h6 {
   font-family: $font-heading;
-  color: $white;
 }
 
 // Section Styles
@@ -47,7 +46,6 @@ section {
   padding: 3vh 1vw;
   min-height: 10vh;
   background-color: $darkBackground;
-  color: $off-white;
 
   h1 {
     color: $white;
