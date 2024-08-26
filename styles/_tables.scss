@@ -1,3 +1,4 @@
+// Table Styles
 $table-border-radius: 5px;
 
 table {
@@ -5,7 +6,7 @@ table {
   border-collapse: separate;
   border-spacing: 0;
   background-color: $comboBlue;
-  color: $white;
+  color: $off-white;
   margin: 0;
   border: none;
   border-radius: $table-border-radius;
@@ -20,51 +21,51 @@ table {
   }
 
   th {
-    background-color: $comboPurple;
-    color: $off-white;
+    background-color: $comboPurple; // Dark background for header
+    color: $off-white; // Light text color for contrast
     text-transform: uppercase;
     letter-spacing: 0.05em;
-    border-bottom: 2px solid $pink;
+    border-bottom: 2px solid $pink; // Accent color for border
   }
 
   td {
-    background-color: $off-white;
-    color: $comboDarkGrey;
-    border-bottom: 1px solid $comboPurple;
+    background-color: $off-white; // Light background for data cells
+    color: $comboDarkGrey; // Darker text color for readability
+    border-bottom: 1px solid $comboPurple; // Border color for separation
     transition: background-color 0.3s ease, color 0.3s ease;
 
     &:first-child {
-      border-left: none;
+      border-left: none; // Remove left border for first column
     }
   }
 
   tr {
     &:nth-child(even) td {
-      background-color: lighten($off-white, 5%);
+      background-color: lighten($off-white, 5%); // Slightly lighter background for even rows
     }
 
     &:hover td {
-      background-color: $pink;
-      color: $black;
+      background-color: $pink; // Accent color on hover
+      color: $black; // Text color on hover
       cursor: pointer;
     }
   }
 
   tr:last-child {
     td:first-child {
-      border-bottom-left-radius: $table-border-radius;
+      border-bottom-left-radius: $table-border-radius; // Rounded bottom-left corner
     }
 
     td:last-child {
-      border-bottom-right-radius: $table-border-radius;
+      border-bottom-right-radius: $table-border-radius; // Rounded bottom-right corner
     }
   }
 
   th:first-child {
-    border-top-left-radius: $table-border-radius;
+    border-top-left-radius: $table-border-radius; // Rounded top-left corner
   }
 
   th:last-child {
-    border-top-right-radius: $table-border-radius;
+    border-top-right-radius: $table-border-radius; // Rounded top-right corner
   }
 }
