@@ -5,6 +5,7 @@ $font-body: "Source Sans Pro", sans-serif;
 $white: #fff;
 $black: #000;
 $off-white: #f2f4f5;
+$light-grey: #dcdcdc;
 
 $comboPurple: #663366;
 $pink: #f78da7;
@@ -29,13 +30,12 @@ body {
   flex-direction: column;
   min-height: 100vh;
   background-color: $darkBackground;
-  color: $white;
+  color: $off-white; // Changed to off-white for better contrast
 }
 
 // Headings
 h1, h2, h3, h4, h5, h6 {
   font-family: $font-heading;
-  color: $white;
 }
 
 // Section Styles
@@ -46,7 +46,6 @@ section {
   padding: 3vh 1vw;
   min-height: 10vh;
   background-color: $darkBackground;
-  color: $white;
 
   h1 {
     color: $white;
@@ -69,7 +68,7 @@ section {
 // Mark Styles for Emphasis
 mark.purple {
   color: $comboPurple;
-  background: $white;
+  background: $off-white;
   padding: 0.1em 0.2em;
   border-radius: 0.2em;
   transition: background-color 0.3s, color 0.3s;
@@ -78,6 +77,21 @@ mark.purple {
     background: $pink;
     color: $black;
   }
+}
+
+/* CustomChip styling */
+.chip {
+  border-radius: 50%; /* Makes the chip circular */
+  width: 100px; /* Adjust the width */
+  height: 100px; /* Adjust the height */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.875rem; /* Adjust font size if needed */
+  padding: 0; /* Remove default padding */
+  background-color: #f78da7; /* Background color */
+  color: black; /* Text color */
+  border: none; /* Remove any default borders */
 }
 
 // Utility Classes
@@ -90,7 +104,7 @@ mark.purple {
 }
 
 .white {
-  background: $white;
+  background: $off-white;
   color: $black;
 }
 
@@ -106,7 +120,7 @@ mark.purple {
 
 // Importing Other SCSS Files
 @import "profile-pic";
-@import "spacer-div.scss";
+@import "spacer-div";
 @import "container";
 @import "header";
 @import "header-light";

@@ -10,7 +10,9 @@ thumbnail: ""
 
 Software Engineer.
 
-[comment]: <> ([![latest release](https://img.shields.io/github/v/tag/Fmrhj/cv?label=download%20pdf%20cv)](https://github.com/Fmrhj/cv/releases/latest/download/Zepeda_resume.pdf))
+<!--
+[![latest release](https://img.shields.io/github/v/tag/Fmrhj/cv?label=download%20pdf%20cv)](https://github.com/Fmrhj/cv/releases/latest/download/Zepeda_resume.pdf)
+-->
 
 ## Experience
 

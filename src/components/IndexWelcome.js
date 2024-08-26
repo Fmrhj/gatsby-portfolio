@@ -1,7 +1,8 @@
 import React from "react";
+import { StaticImage } from 'gatsby-plugin-image';
 import { Chip } from "@mui/material";
 
-// Emoji component with improved accessibility
+
 const Emoji = ({ symbol, label }) => (
   <span
     className="emoji"
@@ -13,40 +14,37 @@ const Emoji = ({ symbol, label }) => (
   </span>
 );
 
-// CustomChip component with descriptive text for better accessibility
-const CustomChip = ({ label }) => (
-  <Chip
-    label={label}
-    variant="filled"
-    style={{ backgroundColor: "#f78da7", color: "black", fontSize: "medium" }}
-    aria-label={`Location: ${label}`}
-  />
+const CustomChip = ({label}) => (
+  <Chip className="chip" label={label} variant="filled" style={{ backgroundColor: "#f78da7", color: "black", fontSize: "medium" }} />
 );
 
-// MarkPurple component to emphasize key terms
+
 const MarkPurple = ({ label }) => (
   <mark className="purple">{label}</mark>
 );
 
-// Main component with improved text and structure
 const IndexWelcome = () => (
   <div>
     <section className="dark">
       <div className="container">
         <div className="index-block">
-          <h1>
-            Welcome <Emoji symbol="👋🏽" label="waving hand" />
-          </h1>
+          <div className="profile-pic-container">
+            <div className="profile-pic">
+              <StaticImage
+                src="../images/pm.png"
+                alt="Fernando Zepeda's profile picture"
+                placeholder="blurred"
+                width={250}
+                height={250}
+              />
+            </div>
+          </div>
+          <h1>Welcome <Emoji symbol="👋🏽" label="Waving hand" /></h1>
           <div>
-            <p>
-              Hi, I'm Fernando, an engineer based in <CustomChip label="Berlin" />. I specialize in creating data-driven solutions that address real-world challenges.
-            </p>
-            <p>
-              My work involves building scalable systems that manage and process large volumes of data efficiently.
-            </p>
-            <p>
-              Key areas of expertise include <MarkPurple label="Data Engineering" />, <MarkPurple label="Machine Learning" />, with a strong focus on <MarkPurple label="Machine Learning Operations (ML Ops)" />.
-            </p>
+          <p> Hi, I’m Fernando Zepeda, a software engineer based in <CustomChip label="Berlin" />. 
+          I specialize in crafting data solutions that address real-world challenges. </p>
+          <p> I develop systems designed to handle and process large volumes of data. My work centers on data engineering and machine learning, with main emphasis on creating solutions that deliver substantial, scalable impact for people and organizations.</p>
+          <p> My primary expertise lies in <MarkPurple label="Data Engineering" /> and <MarkPurple label="Machine Learning" />, with a particular focus on <MarkPurple label="Operalization of Machine Learning" />. </p>
           </div>
         </div>
       </div>
