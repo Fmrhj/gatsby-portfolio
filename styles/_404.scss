@@ -1,10 +1,55 @@
 .not-found-block {
   top: 50%;
-  display: block;
+  left: 50%;
+  display: flex;
+  flex-direction: column;
   align-items: center;
   position: absolute;
-  transform: translate(0, -80%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: $comboPurple;
+
   h1 {
+    font-size: 6rem;
+    color: $comboPurple;
+    margin: 0;
+    animation: float 2s ease-in-out infinite;
+  }
+
+  p {
+    font-family: $font-body;
+    font-size: 1.5rem;
+    color: $comboDarkGrey;
+    margin-top: 1rem;
+  }
+
+  .home-button {
+    margin-top: 2rem;
+    padding: 0.75rem 2rem;
+    background-color: $pink;
     color: $black;
+    border: none;
+    border-radius: 0.5rem;
+    font-size: 1.25rem;
+    font-family: $font-heading;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
+
+    &:hover {
+      background-color: $comboPurple;
+      color: $white;
+      transform: scale(1.05);
+    }
+  }
+}
+
+// Float animation for the 404 number
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
   }
 }

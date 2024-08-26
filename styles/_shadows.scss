@@ -8,64 +8,50 @@
 
 @keyframes shadows {
   0% {
-    text-shadow: none;
+    text-shadow: 0 0 0 var(--color-secondary);
   }
-  10% {
-    text-shadow: 3px 3px 0 var(--color-secondary);
-  }
-  20% {
-    text-shadow: 3px 3px 0 var(--color-secondary),
-      6px 6px 0 var(--color-tertiary);
-  }
-  30% {
-    text-shadow: 3px 3px 0 var(--color-secondary),
-      6px 6px 0 var(--color-tertiary), 9px 9px var(--color-quaternary);
-  }
-  40% {
-    text-shadow: 3px 3px 0 var(--color-secondary),
-      6px 6px 0 var(--color-tertiary), 9px 9px var(--color-quaternary),
-      12px 12px 0 var(--color-quinary);
+  25% {
+    text-shadow: 2px 2px 4px var(--color-secondary),
+      4px 4px 8px var(--color-tertiary);
   }
   50% {
-    text-shadow: 3px 3px 0 var(--color-secondary),
-      6px 6px 0 var(--color-tertiary), 9px 9px var(--color-quaternary),
-      12px 12px 0 var(--color-quinary);
+    text-shadow: 4px 4px 8px var(--color-tertiary),
+      6px 6px 12px var(--color-quaternary),
+      8px 8px 16px var(--color-quinary);
   }
-  60% {
-    text-shadow: 3px 3px 0 var(--color-secondary),
-      6px 6px 0 var(--color-tertiary), 9px 9px var(--color-quaternary),
-      12px 12px 0 var(--color-quinary);
-  }
-  70% {
-    text-shadow: 3px 3px 0 var(--color-secondary),
-      6px 6px 0 var(--color-tertiary), 9px 9px var(--color-quaternary);
-  }
-  80% {
-    text-shadow: 3px 3px 0 var(--color-secondary),
-      6px 6px 0 var(--color-tertiary);
-  }
-  90% {
-    text-shadow: 3px 3px 0 var(--color-secondary);
+  75% {
+    text-shadow: 6px 6px 12px var(--color-quaternary),
+      8px 8px 16px var(--color-quinary),
+      10px 10px 20px var(--color-primary);
   }
   100% {
-    text-shadow: none;
+    text-shadow: 0 0 0 var(--color-secondary);
   }
 }
 
 @keyframes move {
-  0% {
-    transform: translate(0px, 0px);
+  0%, 100% {
+    transform: translate(0, 0);
   }
-  40% {
-    transform: translate(-12px, -12px);
+  25% {
+    transform: translate(-5px, -5px);
   }
   50% {
-    transform: translate(-12px, -12px);
+    transform: translate(-10px, -10px);
   }
-  60% {
-    transform: translate(-12px, -12px);
+  75% {
+    transform: translate(-5px, -5px);
   }
-  100% {
-    transform: translate(0px, 0px);
-  }
+}
+
+.text-shadows {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 2rem;
+  letter-spacing: 0.1em;
+  color: var(--color-primary);
+  animation: shadows 5s ease-in-out infinite, move 2.5s ease-in-out infinite;
+  text-align: center;
+  text-transform: uppercase;
+  display: inline-block;
 }
