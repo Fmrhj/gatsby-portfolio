@@ -1,6 +1,6 @@
 ---
 path: "/resume"
-date: "2024-02-06"
+date: "2024-08-26"
 title: ""
 template: "main-template"
 thumbnail: ""
@@ -8,13 +8,19 @@ thumbnail: ""
 
 # Fernando Zepeda
 
-ML & Data Engineer.
+Software Engineer.
 
 [![latest release](https://img.shields.io/github/v/tag/Fmrhj/cv?label=download%20pdf%20cv)](https://github.com/Fmrhj/cv/releases/latest/download/Zepeda_resume.pdf)
 
 ## Experience
 
-### ML and Data Engineer at [qurix Technology](https://www.qurix.tech), 2022/04 - today, Berlin/Hamburg/Karlsruhe
+### Backend and Data Engineer at [Volkswagen A.G](https://www.volkswagen-group.com/en), 2024/02 - today, Hannover
+
+- Data Engineer working on data analytics projects.
+- Focused on writing backend for data applications and deploying services in different cloud providers like Azure and AWS. 
+
+
+### ML and Data Engineer at [qurix Technology](https://www.qurix.tech), 2022/04 - 2024/02, Berlin/Hamburg/Karlsruhe
 
 ML & Data Engineer focused on projects in the Energy sector.
 
@@ -51,12 +57,6 @@ Data Science and Rapid Prototyping in Revenue Management & Pricing.
 
 - Optimal price calculation for single-flights with Reinforcement Learning
 - Passenger demand estimation with machine learning algorithms and dynamic pricing for direct flights
-
-### Student Assistant at [Wintershall](https://wintershalldea.com/en), 09/2015 - 04/2014, Berlin
-
-Database management and QA software testing.
-
-- Managed internal databases and BI tools
 
 ## Education
 
