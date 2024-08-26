@@ -1,7 +1,8 @@
 import React from "react";
+import { StaticImage } from 'gatsby-plugin-image';
 import { Chip } from "@mui/material";
 
-// Emoji component with improved accessibility
+// Emoji component with accessibility improvements
 const Emoji = ({ symbol, label }) => (
   <span
     className="emoji"
@@ -13,39 +14,51 @@ const Emoji = ({ symbol, label }) => (
   </span>
 );
 
-// CustomChip component with descriptive text for better accessibility
+// CustomChip component with accessible label
 const CustomChip = ({ label }) => (
   <Chip
+    className="chip"
     label={label}
     variant="filled"
-    style={{ backgroundColor: "#f78da7", color: "black", fontSize: "medium" }}
     aria-label={`Location: ${label}`}
   />
 );
 
-// MarkPurple component to emphasize key terms
+// MarkPurple component for highlighting key terms
 const MarkPurple = ({ label }) => (
   <mark className="purple">{label}</mark>
 );
 
-// Main component with improved text and structure
+// Main component with straightforward text
 const IndexWelcome = () => (
   <div>
     <section className="dark">
       <div className="container">
         <div className="index-block">
-          <h1>
-            Welcome <Emoji symbol="👋🏽" label="waving hand" />
-          </h1>
+          <div className="profile-pic-container">
+            <div className="profile-pic">
+              <StaticImage
+                src="../images/pm.png"
+                alt="Fernando Zepeda's profile picture"
+                placeholder="blurred"
+                width={250}
+                height={250}
+              />
+            </div>
+          </div>
+          <h1>Welcome <Emoji symbol="👋🏽" label="Waving hand" /></h1>
           <div>
             <p>
-              Hi, I'm Fernando, an engineer based in <CustomChip label="Berlin" />. I specialize in creating data-driven solutions that address real-world challenges.
+              Hi, I’m Fernando Zepeda, a data engineer based in <CustomChip label="Berlin" />. 
+              I build data solutions that solve real problems.
             </p>
             <p>
-              My work involves building scalable systems that manage and process large volumes of data efficiently.
+              I create systems that handle and process large amounts of data efficiently.
+              My work focuses on data engineering and machine learning.
             </p>
             <p>
-              Key areas of expertise include <MarkPurple label="Data Engineering" />, <MarkPurple label="Machine Learning" />, with a strong focus on <MarkPurple label="Machine Learning Operations (ML Ops)" />.
+              My main areas are <MarkPurple label="Data Engineering" /> and <MarkPurple label="Machine Learning" />,
+              with a special focus on <MarkPurple label="Machine Learning Operations (ML Ops)" />.
             </p>
           </div>
         </div>
