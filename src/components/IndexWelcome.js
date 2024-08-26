@@ -14,14 +14,10 @@ const Emoji = ({ symbol, label }) => (
   </span>
 );
 
-const CustomChip = ({ label }) => (
-  <Chip
-    className="chip"
-    label={label}
-    variant="filled"
-    aria-label={`Location: ${label}`}
-  />
+const CustomChip = ({label}) => (
+  <Chip className="chip" label={label} variant="filled" style={{ backgroundColor: "#f78da7", color: "black", fontSize: "medium" }} />
 );
+
 
 // MarkPurple component for highlighting key terms
 const MarkPurple = ({ label }) => (
