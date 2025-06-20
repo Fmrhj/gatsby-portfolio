@@ -14,12 +14,12 @@ Software Engineer.
 
 ## Experience
 
-### Backend and Data Engineer at [Volkswagen A.G](https://www.volkswagen-group.com/en) | Apr 2024 - Present | Hannover
+### Backend and Data Engineer at [Volkswagen A.G](https://www.volkswagen-group.com/en) | Mar 2024 - Present | Hannover
 
 - Working on analytics projects for commercial vehicles as a Data Engineer.
 - Mainly focusing on backend development for data applications and deploying services across various cloud platforms like Azure and AWS.
 
-### ML and Data Engineer at [Qurix Technology](https://www.qurix.tech) | Apr 2022 - Mar 2024 | Berlin/Hamburg/Karlsruhe
+### ML and Data Engineer at [Qurix Technology](https://www.qurix.tech) | Apr 2022 - Feb 2024 | Berlin/Hamburg/Karlsruhe
 
 As an ML & Data Engineer, I worked on multiple projects in the Energy sector.
 
